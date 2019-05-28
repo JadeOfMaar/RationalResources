@@ -6,8 +6,8 @@ This mod enables planet makers to easily assign custom and appropriate distribut
 
 ## Templates
 The following templates and resource types have been made available. Unique entries are templates exclusive to a stock planet, designed either to make that planet resemble an IRL celestial body or because it is an extreme oddity.
-* Eve, a hydrocarbon world, is not known (to me anyway) to exist at the inner edge of the habitable zone.
-* Minmus, an entirely ice world cannot exist in the habitable zone of a star. It possess Nitrogen and no metals or radioactives.
+* Eve, a hybrid class methane + metal world, is not known (to me anyway) to be possible.
+* Minmus, an entirely ice world cannot exist in the habitable zone of a star. It is made to possess Nitrogen and no metals.
 * Mun, as the real Moon, is made to possess a large fraction of Oxygen and MetalOre.
 * Duna, akin to Mars, is given a strong presence of Oxygen (in the ground only, there is no explicit metal oxide resource), and metals.
 
@@ -30,5 +30,5 @@ In the spirit of realism, this mod drastically reduces the presence of the stock
 **Surface and Atmosphere resources**
 * Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, LqdHydrogen, MetalOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
 
-** Ocean resources**
+**Ocean resources**
 * LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
