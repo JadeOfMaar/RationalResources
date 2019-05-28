@@ -32,3 +32,11 @@ In the spirit of realism, this mod drastically reduces the presence of the stock
 
 **Ocean resources**
 * LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
+
+## Compatibility
+This mod purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FINAL` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
+
+**Whitelisted resources**
+* Antimatter, ArgonGas, LqdHe3, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
+* Karbonite, Karborundum.
+* __Not__ Dirt (used only by USI MKS. Its absence should be but a minor hurdle to MKS players).
