@@ -78,7 +78,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		Dispersal = 3
 	}
 }
-BIOME_RESOURCE:NEEDS[Launchpad|CommunityResourcePack]
+BIOME_RESOURCE
 {
 	ResourceName = MetalOre
 	ResourceType = 0
@@ -190,22 +190,22 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		Dispersal = 3
 	}
 }
-// BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
-// {
-	// ResourceName = Water
-	// ResourceType = 0
-	// PlanetName = None
-	// BiomeName = None
-	// Tag = Nuke
-	// Distribution
-	// {
-		// PresenceChance = 0
-		// MinAbundance = 0
-		// MaxAbundance = 0
-		// Variance = 20
-		// Dispersal = 3
-	// }
-// }
+BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Water
+	ResourceType = 0
+	PlanetName = None
+	BiomeName = None
+	Tag = Nuke
+	Distribution
+	{
+		PresenceChance = 0
+		MinAbundance = 0
+		MaxAbundance = 0
+		Variance = 20
+		Dispersal = 3
+	}
+}
 BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 {
 	ResourceName = Zeonium

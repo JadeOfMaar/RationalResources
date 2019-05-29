@@ -73,7 +73,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		// Dispersal = 3
 	// }
 // }
-PLANETARY_RESOURCE:NEEDS[Launchpad|CommunityResourcePack]
+PLANETARY_RESOURCE
 {
 	ResourceName = MetalOre
 	ResourceType = 0
