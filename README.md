@@ -9,7 +9,7 @@ The following templates have been made available. **Unique** entries are templat
 * Eve, a hybrid class methane + metal world, is not known (to me anyway) to be possible.
 * Minmus, an entirely ice world cannot exist in the habitable zone of a star. It is made to possess Nitrogen and no metals.
 * Mun, as the real Moon, is made to possess a large fraction of Oxygen and MetalOre.
-* Duna, akin to Mars, is given a strong presence of Oxygen (in the ground only, there is no explicit metal oxide resource), and metals.
+* Duna, akin to Mars, is given a strong presence of CarbonDioxide (in the ground only, there is no explicit metal oxide resource), and metals.
 
 
 | Surface | Ocean | Atmosphere | Unique |
