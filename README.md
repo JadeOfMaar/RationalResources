@@ -1,3 +1,4 @@
+![RRlogo](https://raw.githubusercontent.com/JadeOfMaar/RealisticResources/master/RRlogo.png)
 # Realistic Resources
 Realistic Resources is inspired by [Realistic Atmospheres](https://github.com/OhioBob/Realistic-Atmospheres) made by [OhioBob](https://github.com/OhioBob/), and is designed to operate on the KSP Community Resource Pack and perform the following:
 To strip out the entirely random resource distributions and to apply "distribution templates" (carefully configured groups of resource distributions) according to the logically expected class and composition of a body. While this mod is installed, un-configured bodies will have no resources at all.
