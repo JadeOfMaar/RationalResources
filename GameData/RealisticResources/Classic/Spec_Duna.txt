@@ -97,8 +97,8 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 0.5
-		MaxAbundance = 4
+		MinAbundance = 5
+		MaxAbundance = 10
 		Variance = 50
 		Dispersal = 10
 	}
@@ -158,7 +158,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	{
 		PresenceChance = 50
 		MinAbundance = 1
-		MaxAbundance = 10
+		MaxAbundance = 4
 		Variance = 50
 		Dispersal = 10
 	}
