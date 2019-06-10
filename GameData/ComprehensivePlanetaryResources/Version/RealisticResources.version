@@ -1,0 +1,28 @@
+{
+	"NAME":"Comprehensive Planetary Resources",
+	"DOWNLOAD":
+	"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/releases",
+	"URL":
+	"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/blob/master/GameData/ComprehensivePlanetaryResources/Version/ComprehensivePlanetaryResources.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/blob/master/GameData/ComprehensivePlanetaryResources/Version/Changelog.txt",
+	"GITHUB":
+	{
+		"USERNAME":"JadeOfMaar",
+		"REPOSITORY":"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources",
+		"ALLOW_PRE_RELEASE":true,
+	},
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":8,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":7,
+		"PATCH":0
+	},
+}
+
