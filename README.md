@@ -1,6 +1,5 @@
-![RRlogo](https://raw.githubusercontent.com/JadeOfMaar/RealisticResources/master/RRlogo.png)
-# Realistic Resources
-Realistic Resources is inspired by [Realistic Atmospheres](https://github.com/OhioBob/Realistic-Atmospheres) made by [OhioBob](https://github.com/OhioBob/), and is designed to operate on the KSP Community Resource Pack and perform the following:
+# Comprehensive Planetary Resources
+Comprehensive Planetary Resources is inspired by [Realistic Atmospheres](https://github.com/OhioBob/Realistic-Atmospheres) made by [OhioBob](https://github.com/OhioBob/), and is designed to operate on the KSP Community Resource Pack and perform the following:
 To strip out the entirely random resource distributions and to apply "distribution templates" (carefully configured groups of resource distributions) according to the logically expected class and composition of a body. While this mod is installed, un-configured bodies will have no resources at all.
 
 This mod enables planet makers to easily assign these distribution templates to their planet packs and skip the headaches of figuring out and writing the individual nodes themselves, and assorting all of their writings into several per-resource config files.
@@ -35,7 +34,7 @@ In the spirit of realism, this mod drastically reduces the presence of the stock
 * LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
 
 ## Compatibility
-Realistic Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FINAL` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
+Comprehensive Planetary Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FINAL` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
 
 **Whitelisted resources**
 * Antimatter, ArgonGas, LqdHe3, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
