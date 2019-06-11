@@ -4,7 +4,7 @@
 	"https://github.com/JadeOfMaar/RationalResources/releases",
 	"URL":
 	"https://github.com/JadeOfMaar/RationalResources/blob/master/GameData/RationalResources/Version/RationalResources.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/RationalResources/blob/master/GameData/RationalResources/Version/Changelog.txt",
+	"CHANGE_LOG_URL":"https://raw.githubusercontent.com/JadeOfMaar/RationalResources/master/GameData/RationalResources/Version/Changelog.md",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
@@ -15,7 +15,7 @@
 	{
 		"MAJOR":0,
 		"MINOR":8,
-		"PATCH":0,
+		"PATCH":5,
 		"BUILD":0
 	},
 	"KSP_VERSION":
