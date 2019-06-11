@@ -12,6 +12,7 @@ The following templates have been made available. **Unique** entries are templat
 * Mun, as the real Moon, is made to possess a large fraction of Oxygen and MetalOre.
 * Duna, akin to Mars, is given a strong presence of CarbonDioxide, Minerals and MetalOre.
 
+The Star series templates apply resource bands to a narrow and general classification of stars, automatically making them all viable as mining destinations for interstellar vessels. The expected members of this seres are: Yellow; Red Dwarf; Red Giant; Blue Giant. Due to a very nasty bug in stock, any resource bands around a star can only have a a maximum span of somewhere under 2 Gigameters.
 
 | Surface | Ocean | Atmosphere | Unique |
 | --- | --- | --- | --- |
@@ -24,15 +25,19 @@ The following templates have been made available. **Unique** entries are templat
 | | | Ice-Water (Thin, CO2-rich) |
 | | | Gas (Jovian) |
 | | | Gas (Uranian) |
+| | | Star (Yellow) |
 
 ## Active Resources
 With some partial respect to realism, this mod drastically reduces the presence of the stock "Ore" resource in order to starve the use of this omnipotent and exceedingly abstracted resource, and to encourage the use of the distinct and specialized resources, and to encourage creation and use of the part mods that revolve around these. The exact resources used are named below as a heads-up to players:
 
 **Surface and Atmosphere resources**
-* Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, LqdHydrogen, MetalOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
+* Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, Hydrogen, MetalOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
 
 **Ocean resources**
 * LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
+
+**Star resources**
+* Antimatter, Karborundum, LqdHe3, Hydrogen, LqdDeuterium.
 
 ## ISRU
  With omnipotent Ore being stripped of its Godhood, the following ISRU chains are proposed and encouraged for use by seasoned modders. Ore abundance is capped to 5% and its presence chance to 80%. It will be inconvenient for most players... but it will still be around.
@@ -43,7 +48,7 @@ Ore tanks will be changed via B9 Part Switch, to hold the cryogenic input resour
 Rational Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FOR[zRationalResources]` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
 
 **Whitelisted resources**
-* Antimatter, ArgonGas, LqdHe3, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
+* Antimatter, ArgonGas, LqdHe3, Karborundum, LqdDeuterium, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
 * Karbonite, Karborundum.
 * __Not__ Dirt (used only by USI MKS. Its absence should be but a minor hurdle to MKS players).
 
