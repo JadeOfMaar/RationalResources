@@ -1,7 +1,6 @@
-Rational Resources
+# Rational Resources
 
-0.9
-
+## 0.8.5
 * Added parts:
   * ZZZ box Convert-O-Trons (will hold OmniConverters in Classic Stock mode).
   * HECS-shaped resource scanners.
@@ -16,8 +15,7 @@ Rational Resources
 * Buffed Minerite/Mineral abundance in Duna. Reduced RareMetal abundance in exchange.
 
 
-0.8
-
+## 0.8
 * Pre-release
 * CRP supported
 * Classic Stock supported
