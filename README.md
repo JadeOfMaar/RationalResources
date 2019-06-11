@@ -1,6 +1,7 @@
-# Comprehensive Planetary Resources
-Comprehensive Planetary Resources is inspired by [Realistic Atmospheres](https://github.com/OhioBob/Realistic-Atmospheres) made by [OhioBob](https://github.com/OhioBob/) and operates on the KSP Community Resource Pack or WBI Classic Stock.
-Comprehensive Planetary Resources strips out the entirely random resource distributions and applies "distribution templates" (carefully configured groups of resource distributions) according to the logically expected class and composition of a body. While this mod is installed, un-configured bodies will have no resources at all.
+![RRlogo](https://raw.githubusercontent.com/JadeOfMaar/RealisticResources/master/RRlogo.png)
+# Rational Resources
+Rational Resources is inspired by [Realistic Atmospheres](https://github.com/OhioBob/Realistic-Atmospheres) made by [OhioBob](https://github.com/OhioBob/) and operates on the KSP Community Resource Pack or WBI Classic Stock.
+Rational Resources strips out the entirely random resource distributions and applies "distribution templates" (carefully configured groups of resource distributions) according to the logically expected class and composition of a body. While this mod is installed, un-configured bodies will have no resources at all.
 
 This mod enables planet makers to easily assign these distribution templates to their planet packs and skip the headaches of figuring out and writing the individual nodes themselves, and assorting all of their writings into several per-resource config files.
 
@@ -39,7 +40,7 @@ With some partial respect to realism, this mod drastically reduces the presence 
 Ore tanks will be changed via B9 Part Switch, to hold the cryogenic input resources. The intended ISRU chains that will be provided can be viewed in [Issue #1](https://github.com/JadeOfMaar/RealisticResources/issues/1).
 
 ## Compatibility
-Comprehensive Planetary Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FOR[zComprehensivePlanetaryResources]` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
+Rational Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FOR[zRationalResources]` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
 
 **Whitelisted resources**
 * Antimatter, ArgonGas, LqdHe3, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).

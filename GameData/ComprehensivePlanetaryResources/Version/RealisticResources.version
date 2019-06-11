@@ -1,14 +1,14 @@
 {
-	"NAME":"Comprehensive Planetary Resources",
+	"NAME":"Rational Resources",
 	"DOWNLOAD":
-	"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/releases",
+	"https://github.com/JadeOfMaar/RationalResources/releases",
 	"URL":
-	"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/blob/master/GameData/ComprehensivePlanetaryResources/Version/ComprehensivePlanetaryResources.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources/blob/master/GameData/ComprehensivePlanetaryResources/Version/Changelog.txt",
+	"https://github.com/JadeOfMaar/RationalResources/blob/master/GameData/RationalResources/Version/RationalResources.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/RationalResources/blob/master/GameData/RationalResources/Version/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
-		"REPOSITORY":"https://github.com/JadeOfMaar/ComprehensivePlanetaryResources",
+		"REPOSITORY":"https://github.com/JadeOfMaar/RationalResources",
 		"ALLOW_PRE_RELEASE":true,
 	},
 	"VERSION":
