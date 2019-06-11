@@ -12,13 +12,13 @@
   * LqdCO2 secondary mode for stock NERV. Requires ReStock.
   * Atmo/exo harvester modules will not appear if KSPI is installed.
 * No longer add resource scanners to stock parts (the ones that will still appear in the Surface Scanner are those added by CRP, not this mod).
-* Added Easy Mode (`RationalResourcesEasy`) mod condition. This prevents deletion of the stock fuel options in the Convert-O-Trons and causes Ore to not be nerfed as harshly. Ore remains available everywhere but will not pass 8% max (vs the default 15%).
-* Added `RationalResourcesOverride` mod condition. This provides for planet mods that change Kerbin and Sun and will want alternate resource templates for them.
+* Added Easy Mode `RationalResourcesEasy` pseudo-mod. This prevents deletion of the stock fuel options in the Convert-O-Trons and causes Ore to not be nerfed as harshly. Ore remains available everywhere but will not pass 8% max (vs the default 15%).
+* Added `RationalResourcesOverride` pseudo-mod. This provides for planet mods that change Kerbin and Sun and will want alternate resource templates for them.
 * Buffed Minerite/Mineral abundance in Duna. Reduced RareMetal abundance in exchange.
 * Changed all LqdHydrogen presence to Hydrogen and tuned abundances and ranges.
 * Added yellow star atmo template (only provides exo resources).
 
-"Mod condition" names are pseudo mods. They are declared by either the creation of a folder with the condition name in GameData, or an MM config containing `:FOR[]` using such a name.
+"Pseudo-mods" in this context are mods whose purpose are only to activate extra patches. to activate a pseudo-mod, create a folder with its name in GameData or create a patch with a `:FOR[]` targeting the pseudo-mod.
 
 ## 0.8
 * Pre-release
