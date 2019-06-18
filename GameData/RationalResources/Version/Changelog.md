@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 0.8.6
+## 0.8.6 (WIP)
 * Added CarbonDioxide and Hydrates splitters to ISRU.
 * Added Star exo band templates (Population 1 ~ 3) with decreasing amounts of most things but Hydrogen and Helium.
 * Added Water to Mun and Minmus polar biomes.
