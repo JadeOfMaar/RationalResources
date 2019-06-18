@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 0.8.6
+* Added CarbonDioxide and Hydrates splitters to ISRU.
+* Added Star exo band templates (Population 1 ~ 3) with decreasing amounts of most things but Hydrogen and Helium.
+* Added Water to Mun and Minmus polar biomes.
+* Added MetalOre to stock Drill-O-Matics.
+* Added small MetalOre presence to Minmus to help with base-building.
+* Change SimpleConstruction ISRU to consume MetalOre.
+* Fixed Ore tank patch to only active if CRP present.
+* Fixed intake harvester patch to only active if CRP present.
+
 ## 0.8.5
 * Added parts:
   * ZZZ box Convert-O-Trons (will hold OmniConverters in Classic Stock mode). These are temporary parts and not to be used on permanent or long-term crafts. They are for testing the ISRU chains.
