@@ -12,7 +12,7 @@ The following templates have been made available. **Unique** entries are templat
 * Mun, as the real Moon, is made to possess a large fraction of Oxygen and MetalOre.
 * Duna, akin to Mars, is given a strong presence of CarbonDioxide, Minerals and MetalOre.
 
-The Star series templates apply resource bands to a narrow and general classification of stars, automatically making them all viable as mining destinations for interstellar vessels. The expected members of this seres are: Yellow; Red Dwarf; Red Giant; Blue Giant. Due to a very nasty bug in stock, any resource bands around a star can only have a a maximum span of somewhere under 2 Gigameters.
+The Star series templates apply resource bands in the vein of [Stellar Populations](https://en.wikipedia.org/wiki/Stellar_population), automatically making them all viable as mining destinations for interstellar vessels. Population 1 is current and rich with many common resources while the later ones retreat in time to a younger universe and become increasingly abundant in only Hydrogen and CRP's Antimatter or Classic Stock's Graviolium.
 
 | Surface | Ocean | Atmosphere | Unique |
 | --- | --- | --- | --- |
@@ -25,7 +25,9 @@ The Star series templates apply resource bands to a narrow and general classific
 | | | Ice-Water (Thin, CO2-rich) |
 | | | Gas (Jovian) |
 | | | Gas (Uranian) |
-| | | Star (Yellow) |
+| | | Star (Population 1) |
+| | | Star (Population 2) |
+| | | Star (Population 3) |
 
 ## Active Resources
 With some partial respect to realism, this mod drastically reduces the presence of the stock "Ore" resource in order to starve the use of this omnipotent and exceedingly abstracted resource, and to encourage the use of the distinct and specialized resources, and to encourage creation and use of the part mods that revolve around these. The exact resources used are named below as a heads-up to players:
