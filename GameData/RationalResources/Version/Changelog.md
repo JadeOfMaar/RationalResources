@@ -1,7 +1,8 @@
 # Rational Resources
 
-## 0.8.6 (WIP)
+## 0.8.6
 * Added CarbonDioxide and Hydrates splitters to ISRU.
+  * These and other ISRU chains pending balance pass.
 * Added Star exo band templates (Population 1 ~ 3) with decreasing amounts of most things but Hydrogen and Helium.
 * Added Water to Mun and Minmus polar biomes.
 * Added MetalOre to stock Drill-O-Matics.
@@ -9,6 +10,7 @@
 * Change SimpleConstruction ISRU to consume MetalOre.
 * Fixed Ore tank patch to only active if CRP present.
 * Fixed intake harvester patch to only active if CRP present.
+* Enabled several non-MKS resources to appear in SCANsat resource overlay selection.
 
 ## 0.8.5
 * Added parts:
