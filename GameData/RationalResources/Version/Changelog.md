@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 0.8.7 (WIP)
+* Added Ore tank types for SimpleConstruction.
+* Added MetalOre and Oxium to scanners for Classic Stock.
+
 ## 0.8.6
 * Added CarbonDioxide and Hydrates splitters to ISRU.
   * These and other ISRU chains pending balance pass.
