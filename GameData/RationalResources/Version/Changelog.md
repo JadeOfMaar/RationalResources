@@ -3,6 +3,12 @@
 ## 0.8.7 (WIP)
 * Added Ore tank types for SimpleConstruction.
 * Added MetalOre and Oxium to scanners for Classic Stock.
+* Added several stock scanner modules to RR Scanners:
+  * GPS to all.
+  * KerbNet to all.
+  * Biome scanner to ground and sea.
+  * Asteroid analysis to ground.
+  * (Per) Resource Analysis via CRP, Classic Stock (I might revert this one. Possible PAW spam.)
 
 ## 0.8.6
 * Added CarbonDioxide and Hydrates splitters to ISRU.
