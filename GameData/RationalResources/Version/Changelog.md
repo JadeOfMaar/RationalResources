@@ -2,6 +2,7 @@
 
 ## 0.8.7 (WIP)
 * Added Ore tank types for SimpleConstruction.
+* Added MetallicOre presence.
 * Added MetalOre and Oxium to scanners for Classic Stock.
 * Added several stock scanner modules to RR Scanners:
   * GPS to all.
@@ -9,6 +10,11 @@
   * Biome scanner to ground and sea.
   * Asteroid analysis to ground.
   * (Per) Resource Analysis via CRP, Classic Stock (I might revert this one. Possible PAW spam.)
+* Added Hexagen to Mun crust (Helium presence for CRP pending).
+* Added atmo edge distributions for Default and Terra templates.
+* Added ExoRock and ExoIce for airless worlds.
+* Fixed distributions settings for worlds changed by JNSQ.
+* Fixed gas giant hydrogen, helium presence.
 
 ## 0.8.6
 * Added CarbonDioxide and Hydrates splitters to ISRU.
