@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 0.8.7 (WIP)
+## 0.9.0
 * Added Ore tank types for SimpleConstruction.
 * Added MetallicOre presence.
 * Added MetalOre and Oxium to scanners for Classic Stock.
