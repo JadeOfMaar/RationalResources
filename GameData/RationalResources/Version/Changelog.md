@@ -15,6 +15,9 @@
 * Added ExoRock and ExoIce for airless worlds.
 * Fixed distributions settings for worlds changed by JNSQ.
 * Fixed gas giant hydrogen, helium presence.
+* Finish balancing ISRU chains.
+* Delete LqdOxygen converter options and treat stock Oxidizer as LqdOxygen.
+* Treat LiquidFuel as Dodecane.
 
 ## 0.8.6
 * Added CarbonDioxide and Hydrates splitters to ISRU.
