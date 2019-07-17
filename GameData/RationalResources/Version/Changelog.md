@@ -17,6 +17,7 @@
   * Added Hydrates, Rock options.
 * Fixed distributions settings for worlds changed by JNSQ.
 * Fixed gas giant Hydrogen, Helium presence.
+* Fixed mini drill abundance threshold, leave it unchanged.
 * Finish balancing ISRU chains.
 * Treat stock Oxidizer as LqdOxygen, remove LqdOxygen -> Oxidizer option. Due to balancing reasons, these two have a redundancy problem.
 * Treat LiquidFuel as Dodecane.
