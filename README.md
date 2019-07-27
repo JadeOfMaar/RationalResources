@@ -14,26 +14,26 @@ The following templates have been made available. **Unique** entries are templat
 
 The Star series templates apply resource bands in the vein of [Stellar Populations](https://en.wikipedia.org/wiki/Stellar_population), automatically making them all viable as mining destinations for interstellar vessels. Population 1 is current and rich with many common resources while the later ones retreat in time to a younger universe and become increasingly abundant in only Hydrogen and CRP's Antimatter or Classic Stock's Graviolium.
 
-| Surface | Ocean | Atmosphere | Unique |
-| --- | --- | --- | --- |
-| Rock | Terra | Default (CO2-rich) | Eve |
-| Rock-Metal | Nitrogen | Terra | Mun |
-| Rock-Ice | Methane | Ice-Nitrogen | Minmus |
-| Ice-Water | Ammonia | Ice-Methane | Duna |
-| Ice-Methane | | Ice-Ammonia |
-| Ice-Nitrogen | | Ice-Water (Thick, N2-rich) |
-| | | Ice-Water (Thin, CO2-rich) |
-| | | Gas (Jovian) |
-| | | Gas (Uranian) |
-| | | Star (Population 1) |
-| | | Star (Population 2) |
-| | | Star (Population 3) |
+| Surface | Ocean | Atmosphere | Unique | Exo (Trace) |
+| --- | --- | --- | --- | --- |
+| Rock | Terra | Default (CO2-rich) | Eve | Rock |
+| Rock-Metal | Nitrogen | Terra | Mun | Ice |
+| Rock-Ice | Methane | Ice-Nitrogen | Minmus | |
+| Ice-Water | Ammonia | Ice-Methane | Duna | |
+| Ice-Methane | | Ice-Ammonia | |
+| Ice-Nitrogen | | Ice-Water (Thick, N2-rich) | |
+| | | Ice-Water (Thin, CO2-rich) | |
+| | | Gas (Jovian) | |
+| | | Gas (Uranian) | |
+| | | Star (Population 1) | |
+| | | Star (Population 2) | |
+| | | Star (Population 3) | |
 
 ## Active Resources
 With some partial respect to realism, this mod drastically reduces the presence of the stock "Ore" resource in order to starve the use of this omnipotent and exceedingly abstracted resource, and to encourage the use of the distinct and specialized resources, and to encourage creation and use of the part mods that revolve around these. The exact resources used are named below as a heads-up to players:
 
 **Surface and Atmosphere resources**
-* Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, Hydrogen, MetalOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
+* Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, Hydrogen, MetalOre, MetallicOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
 
 **Ocean resources**
 * LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
