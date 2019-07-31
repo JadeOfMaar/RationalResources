@@ -1,3 +1,14 @@
+B9_TANK_TYPE:NEEDS[!CryoTanks]
+{
+	name = OX
+	tankMass = 0.000625
+	tankCost = 0
+	RESOURCE
+	{
+		name = Oxidizer
+		unitsPerVolume = 1
+	}
+}
 B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
 {
 	name = RR_BLU
