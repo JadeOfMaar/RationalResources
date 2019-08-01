@@ -131,6 +131,35 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
 		unitsPerVolume = 1
 	}
 }
+// B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
+// {
+	// name = RR_PLM
+	// tankMass = 0.00007085
+	// tankCost = 0.15
+	// percentFilled = 100
+	// RESOURCE
+	// {
+		// name = Propellium
+		// unitsPerVolume = 15
+	// }
+// }
+// B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
+// {
+	// name = RR_PLOX
+	// tankMass = 0.00007085
+	// tankCost = 0.15
+	// percentFilled = 100
+	// RESOURCE
+	// {
+		// name = Propellium
+		// unitsPerVolume = 7.5
+	// }
+	// RESOURCE
+	// {
+		// name = Oxidizer
+		// unitsPerVolume = 0.5
+	// }
+// }
 B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
 {
 	name = RR_RPT
@@ -274,22 +303,22 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
 			primaryColor = CadetBlue
 			secondaryColor = CadetBlue
 		}
-		SUBTYPE
-		{
-			name = Propellium
-			tankType = RR_PLM
-			title = Propellium
-			primaryColor = Lightblue
-			secondaryColor = Lightblue
-		}
-		SUBTYPE
-		{
-			name = PropLox
-			tankType = RR_PLOX
-			title = PropLox
-			primaryColor = Lightblue
-			secondaryColor = CadetBlue
-		}
+		// SUBTYPE
+		// {
+			// name = Propellium
+			// tankType = RR_PLM
+			// title = Propellium
+			// primaryColor = Lightblue
+			// secondaryColor = Lightblue
+		// }
+		// SUBTYPE
+		// {
+			// name = PropLox
+			// tankType = RR_PLOX
+			// title = PropLox
+			// primaryColor = Lightblue
+			// secondaryColor = CadetBlue
+		// }
 		SUBTYPE
 		{
 			name = PreciousMetals
