@@ -1,136 +1,119 @@
-@PART[nuclearEngine]:AFTER[Restock]
+// Convert RR nuclear turbojet and rocket engines
+@PART[RREngineNTJ1]
 {
-	MODULE //:NEEDS[!KerbalActuators]
+	@MODULE[ModuleEnginesFX]
 	{
-		name = MultiModeEngine
-		primaryEngineID = LiquidFuel
-		primaryEngineModeDisplayName = LiquidFuel
-		secondaryEngineID = Carbonated
-		secondaryEngineModeDisplayName = Carbonated
-	}
-	
-	+MODULE[ModuleEnginesFX],0
-	{
-		%engineID = LiquidFuel
-	}
-	!MODULE[ModuleEnginesFX],0 {}
-	
-	MODULE
-	{
-		name = ModuleEnginesFX
-		engineID = Carbonated
-		runningEffectName = fx-nerv-running2
-		thrustVectorTransformName = thrustTransform
-		exhaustDamage = True
-		ignitionThreshold = 0.1
-		minThrust = 0
-		maxThrust = 150
-		heatProduction = 133
-		fxOffset = 0, 0, 0.25
-		EngineType = Nuclear
-		exhaustDamageDistanceOffset = 0.19
-		PROPELLANT
+		@PROPELLANT[IntakeAtm]
 		{
-			name = GrayWater
-			resourceFlowMode = STAGE_STACK_FLOW_BALANCE
-			ratio = 1
-			DrawGauge = True
+			@name = Atmosphere
 		}
-		atmosphereCurve
+		@PROPELLANT[ThermalPower]
 		{
-			key = 0 283
-			key = 1 90 -110 -110
-			key = 3 0.001 0 0
+			@name = CoreHeat
 		}
 	}
-		
-	@EFFECTS
+	@RESOURCE[EnrichedUranium]
 	{
-		fx-nerv-running2
+		@name = NuclearFuel
+	}
+	RESOURCE[DepletedFuel]
+	{
+		@name = NuclearWaste
+	}
+	RESOURCE[ThermalPower]
+	{
+		@name = CoreHeat
+	}
+	@MODULE[ModuleResourceConverter]
+	{
+		@INPUT_RESOURCE[EnrichedUranium]
 		{
-			AUDIO
+			@ResourceName = NuclearFuel
+		}
+		@OUTPUT_RESOURCE[DepletedFuel]
+		{
+			@ResourceName = NuclearWaste
+		}
+		@OUTPUT_RESOURCE[ThermalPower]
+		{
+			@ResourceName = CoreHeat
+		}
+	}
+}
+@PART[RREngineNERVA-O]
+{
+	@description = O for "Oxidizing," this advanced form of the classic NERV engine, the LV-N-O is able to safely operate on any of a small number of "oxidizing" propellants, namely CompressedAtmosphere (which tends to contain StaleAir!) and Water. The average Isp of its propellant options is low, making this engine most suited for use on heavyweight and short range craft.
+	@MODULE[ModuleEnginesFX]
+	{
+		@PROPELLANT[LqdCO2]
+		{
+			@name = CompressedAtmosphere
+		}
+	}
+	@MODULE[ModuleB9PartSwitch]
+	{
+		@SUBTYPE[Carbon]
+		{
+			@name = Atmosphere
+			@title = Compressed Atmosphere
+			@descriptionSummary = The engine consumes pressurized atmosphere.<br>This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres.
+			@MODULE
 			{
-				channel = Ship
-				clip = sound_rocket_hard
-				volume = 0.0 0.0
-				volume = 1.0 1.0
-				pitch = 0.0 0.2
-				pitch = 1.0 1.0
-				loop = true
-			}
-			MODEL_MULTI_PARTICLE
-			{
-				name = core
-				modelName = ReStock/FX/restock-fx-nerv-core-1
-				transformName = fxTransformCore
-				emission = 0.0 0.0
-				emission = 0.01 0.1
-				emission = 0.075 0.25
-				emission = 1.0 1.0
-				speed = 0.0 0.35
-				speed = 1.0 1.0
-			}
-			MODEL_MULTI_PARTICLE
-			{
-				name = turbo
-				modelName = ReStock/FX/restock-fx-nerv-turbo-1
-				transformName = fxTransformTurbo
-				emission = 0.0 0.0
-				emission = 0.01 0.1
-				emission = 0.075 0.25
-				emission = 1.0 1.0
-				speed = 0.0 0.35
-				speed = 1.0 1.0
-			}
-			MODEL_MULTI_PARTICLE
-			{
-				name = plume
-				modelName = ReStock/FX/restock-fx-nerv-plume-1
-				transformName = fxTransformPlume
-				emission = 0.0 0.0
-				emission = 0.01 0.1
-				emission = 0.075 0.25
-				emission = 1.0 1.5
-				energy = 0.0 0.7
-				energy = 1.0 0.7
-				speed = 0.0 0.5
-				speed = 1.0 1.5
-			}
-			PREFAB_PARTICLE
-			{
-				prefabName = fx_smokeTrail_light
-				transformName = smokePoint
-				emission = 0.0 0.0
-				emission = 0.05 0.0
-				emission = 0.075 0.25
-				emission = 1.0 1.25
-				speed = 0.0 0.25
-				speed = 1.0 1.0
+				@DATA
+				{
+					@PROPELLANT[LqdCO2]
+					{
+						@name = CompressedAtmosphere
+					}
+				}
 			}
 		}
 	}
-	
-	!MODULE[ModuleAlternator],0 {}
-	MODULE
+}
+@PART[RREngineNERVA-R]
+{
+	@description = R for "Reducing," this advanced form of the classic NERV engine, the LV-N-R is able to safely operate on any of a small number of "reducing" propellants, namely Propellium and Raptium. The average Isp of its propellant options is high, keeping this engine most suited for use on lightweight and far-travelling craft.
+	@MODULE[ModuleEnginesFX]
 	{
-		name = ModuleAlternator
-		engineName = LiquidFuel
-		outputName = LiquidFuel
-		RESOURCE
+		@PROPELLANT[LqdHydrogen]
 		{
-			name = ElectricCharge
-			rate = 3.0
+			@name = Propellium
 		}
 	}
-	MODULE
+	@MODULE[ModuleB9PartSwitch]
 	{
-		name = ModuleAlternator
-		engineName = Carbonated
-		outputName = Carbonated
-		RESOURCE
+		@SUBTYPE[LqdHydrogen]
 		{
-			name = ElectricCharge
-			rate = 5.0
+			@name = Propellium
+			@title = Propellium
+			@descriptionSummary = The engine consumes Propellium.<br>This is the highest efficiency, baseline option for NTRs.
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LqdHydrogen]
+					{
+						@name = Propellium
+					}
+				}
+			}
+		}
+		!SUBTYPE[Ammonia] {}
+		@SUBTYPE[Methane]
+		{
+			@name = Raptium
+			@title = Raptium
+			@descriptionSummary = The engine consumes Raptium.<br>This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters.
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LqdMethane]
+					{
+						@name = Raptium
+					}
+				}
+			}
 		}
 	}
 }
