@@ -56,7 +56,7 @@
 		{
 			@name = Atmosphere
 			@title = Compressed Atmosphere
-			@descriptionSummary = The engine consumes pressurized atmosphere.<br>This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres.
+			@descriptionSummary = The engine consumes <color="yellow">CompressedAtmosphere</color>.<br>This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres.
 			@MODULE
 			{
 				@DATA
@@ -86,7 +86,7 @@
 		{
 			@name = Propellium
 			@title = Propellium
-			@descriptionSummary = The engine consumes Propellium.<br>This is the highest efficiency, baseline option for NTRs.
+			@descriptionSummary = The engine consumes <color="yellow">Propellium</color>.<br>This is the highest efficiency, baseline option for NTRs.
 			@MODULE
 			{
 				@DATA
@@ -103,7 +103,7 @@
 		{
 			@name = Raptium
 			@title = Raptium
-			@descriptionSummary = The engine consumes Raptium.<br>This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters.
+			@descriptionSummary = The engine consumes <color="yellow">Raptium</color>.<br>This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters.
 			@MODULE
 			{
 				@DATA
