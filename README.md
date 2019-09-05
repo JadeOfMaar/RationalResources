@@ -18,11 +18,11 @@ The Star series templates apply resource bands in the vein of [Stellar Populatio
 | --- | --- | --- | --- | --- |
 | Rock | Terra | Default (CO2-rich) | Eve | Rock |
 | Rock-Metal | Nitrogen | Terra | Mun | Ice |
-| Rock-Ice | Methane | Ice-Nitrogen | Minmus | |
-| Ice-Water | Ammonia | Ice-Methane | Duna | |
+| Rock-Ice | Methane | Ice-Water (Thick, N2-rich) | Minmus | |
+| Ice-Water | Ammonia | Ice-Water (Thin, CO2-rich) | Duna | |
 | Ice-Methane | | Ice-Ammonia | |
-| Ice-Nitrogen | | Ice-Water (Thick, N2-rich) | |
-| | | Ice-Water (Thin, CO2-rich) | |
+| Ice-Nitrogen | | Ice-Methane | |
+| | | Ice-Nitrogen | |
 | | | Gas (Jovian) | |
 | | | Gas (Uranian) | |
 | | | Star (Population 1) | |
