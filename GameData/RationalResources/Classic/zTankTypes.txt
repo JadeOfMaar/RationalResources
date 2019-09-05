@@ -9,7 +9,7 @@ B9_TANK_TYPE:NEEDS[!CryoTanks]
 		unitsPerVolume = 1
 	}
 }
-B9_TANK_TYPE:NEEDS[B9PartSwitch]:NEEDS[Pathfinder]
+B9_TANK_TYPE:NEEDS[B9PartSwitch,Pathfinder]
 {
 	name = RR_AUR
 	tankMass = 0.00007085
@@ -69,7 +69,7 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 		unitsPerVolume = 1
 	}
 }
-B9_TANK_TYPE:NEEDS[B9PartSwitch]:NEEDS[FlyingSaucers]
+B9_TANK_TYPE:NEEDS[B9PartSwitch,FlyingSaucers]
 {
 	name = RR_GRV
 	tankMass = 0.00007085
@@ -217,12 +217,12 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 	RESOURCE
 	{
 		name = Raptium
-		unitsPerVolume = 2.25
+		unitsPerVolume = 1.65
 	}
 	RESOURCE
 	{
 		name = Oxidizer
-		unitsPerVolume = 0.75
+		unitsPerVolume = 0.55
 	}
 }
 B9_TANK_TYPE:NEEDS[B9PartSwitch]
