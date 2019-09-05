@@ -1,5 +1,14 @@
 # Rational Resources
 
+## 0.9.2
+* Added engines:
+  * "Panther" clone "Main Coon" nuclear turbojet with built-in nuclear reactor.
+  * "NERVA" clones. The "O" edition is high thrust and can choose between Carbon Dioxide and Water. The "R" edition is high Isp and can choose between Hydrogen, Ammonia and Methane. Their mode switch feature requires **B9 Part Switch 2.10** or later.
+* WBI Classic Stock:
+  * Change engines to use Classic Stock resources
+  * Add OmniConverters for cycling Atmosphere and CompressedAtmosphere
+  * Arrange tank types
+
 ## 0.9.1
 * Added support for the Outer Planets Mod.
 * Added Extras folder with optional configs.
