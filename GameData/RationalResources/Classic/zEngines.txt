@@ -1,5 +1,5 @@
 // Convert RR nuclear turbojet and rocket engines
-@PART[RREngineNTJ1]
+@PART[RREngineNTJ1]:AFTER[RationalResources]
 {
 	@MODULE[ModuleEnginesFX]
 	{
@@ -40,7 +40,7 @@
 		}
 	}
 }
-@PART[RREngineNERVA-O]
+@PART[RREngineNERVA-O]:AFTER[RationalResources]
 {
 	@description = O for "Oxidizing," this advanced form of the classic NERV engine, the LV-N-O is able to safely operate on any of a small number of "oxidizing" propellants, namely CompressedAtmosphere (which tends to contain StaleAir!) and Water. The average Isp of its propellant options is low, making this engine most suited for use on heavyweight and short range craft.
 	@MODULE[ModuleEnginesFX]
@@ -70,7 +70,7 @@
 		}
 	}
 }
-@PART[RREngineNERVA-R]
+@PART[RREngineNERVA-R]:AFTER[RationalResources]
 {
 	@description = R for "Reducing," this advanced form of the classic NERV engine, the LV-N-R is able to safely operate on any of a small number of "reducing" propellants, namely Propellium and Raptium. The average Isp of its propellant options is high, keeping this engine most suited for use on lightweight and far-travelling craft.
 	@MODULE[ModuleEnginesFX]
@@ -82,10 +82,12 @@
 	}
 	@MODULE[ModuleB9PartSwitch]
 	{
-		@SUBTYPE[LqdHydrogen]
+		@SUBTYPE[Hydrogen]
 		{
 			@name = Propellium
 			@title = Propellium
+			@primaryColor = Lightblue
+			@secondaryColor = Lightblue
 			@descriptionSummary = The engine consumes <color="yellow">Propellium</color>.<br>This is the highest efficiency, baseline option for NTRs.
 			@MODULE
 			{
@@ -103,6 +105,8 @@
 		{
 			@name = Raptium
 			@title = Raptium
+			@primaryColor = PurpleyPink
+			@secondaryColor = PurpleyPink
 			@descriptionSummary = The engine consumes <color="yellow">Raptium</color>.<br>This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters.
 			@MODULE
 			{
