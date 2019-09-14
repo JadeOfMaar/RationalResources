@@ -5,6 +5,9 @@
 * Added nuclear engines:
   * "Panther" clone "Main Coon" nuclear turbojet with built-in nuclear reactor.
   * "NERVA" clones. The "O" edition is high thrust and can choose between Carbon Dioxide and Water. The "R" edition is high Isp and can choose between Hydrogen, Ammonia and Methane. Their mode switch feature requires **B9 Part Switch 2.10** or later.
+* Added/Updated LqdHe3 presence via ExoRock, ExoIce, Mun templates.
+* Added LqdHe3 to RR Ground Scanner.
+* Added Water to Duna.
 * Reduced MetalOre tank volume. A full tank weighed far, far too much.
 * WBI Classic Stock:
   * Changed nuclear engines to use Classic Stock resources.
