@@ -90,52 +90,31 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
 		Dispersal = 3
 	}
 }
-BIOME_RESOURCE:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
 {
-	ResourceName = MetalOre
-	ResourceType = 0
-	PlanetName = Mun
-	BiomeName = PolarCrater
-	Tag = Applied
-	Distribution
+	@Distribution
 	{
-		PresenceChance = 1000
-		MinAbundance = 7
-		MaxAbundance = 15
-		Variance = 10
-		Dispersal = 3
+		@PresenceChance = 1000
+		@MinAbundance = 7
+		@MaxAbundance = 15
 	}
 }
-BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[Oxium],#Tag[Applied]]:NEEDS[!JNSQ]
 {
-	ResourceName = Oxium
-	ResourceType = 0
-	PlanetName = Mun
-	BiomeName = PolarCrater
-	Tag = Applied
-	Distribution
+	@Distribution
 	{
-		PresenceChance = 1000
-		MinAbundance = 10
-		MaxAbundance = 20
-		Variance = 10
-		Dispersal = 3
+		@PresenceChance = 1000
+		@MinAbundance = 10
+		@MaxAbundance = 20
 	}
 }
-BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
 {
-	ResourceName = Water
-	ResourceType = 0
-	PlanetName = Mun
-	BiomeName = PolarCrater
-	Tag = Applied
-	Distribution
+	@Distribution
 	{
-		PresenceChance = 1000
-		MinAbundance = 50
-		MaxAbundance = 60
-		Variance = 20
-		Dispersal = 3
+		@PresenceChance = 1000
+		@MinAbundance = 50
+		@MaxAbundance = 60
 	}
 }
 BIOME_RESOURCE:NEEDS[!JNSQ]
