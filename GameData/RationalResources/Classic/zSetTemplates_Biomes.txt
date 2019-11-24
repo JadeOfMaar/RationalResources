@@ -5,16 +5,46 @@
 	@BiomeName = IceCaps
 	@Tag = Applied
 }
-+BIOME_RESOURCE:HAS[#Tag[Nuke]]
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
+{
+	@PlanetName = Mun
+	@BiomeName = PolarCrater
+	@Tag = Applied
+}
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[JNSQ]
 {
 	@PlanetName = Duna
 	@BiomeName = IceCaps
 	@Tag = Applied
 }
-+BIOME_RESOURCE:HAS[#Tag[Nuke]]
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
+{
+	@PlanetName = Duna
+	@BiomeName = Poles
+	@Tag = Applied
+}
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
+{
+	@PlanetName = Duna
+	@BiomeName = PolarCraters
+	@Tag = Applied
+}
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
+{
+	@PlanetName = Duna
+	@BiomeName = PolarHighlands
+	@Tag = Applied
+}
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[JNSQ]
 {
 	@PlanetName = Laythe
 	@BiomeName = IceCaps
+	@Tag = Applied
+}
++BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
+{
+	@PlanetName = Laythe
+	@BiomeName = Poles
 	@Tag = Applied
 }
 
@@ -60,7 +90,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
 		Dispersal = 3
 	}
 }
-BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
+BIOME_RESOURCE:NEEDS[!JNSQ]
 {
 	ResourceName = MetalOre
 	ResourceType = 0
@@ -124,7 +154,7 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		Dispersal = 3
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[IceCaps],#ResourceName[MetalOre],#Tag[Applied]]
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[IceCaps],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[JNSQ]
 {
 	@Distribution
 	{
@@ -133,7 +163,16 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		@MaxAbundance = 5
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[IceCaps],#ResourceName[Water],#Tag[Applied]]
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Poles],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 3
+		@MaxAbundance = 5
+	}
+}
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[IceCaps],#ResourceName[Water],#Tag[Applied]]:NEEDS[JNSQ]
 {
 	@Distribution
 	{
@@ -141,8 +180,43 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		@MinAbundance = 65
 		@MaxAbundance = 75
 	}
+}@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Poles],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 60
+		@MaxAbundance = 80
+	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Laythe],#BiomeName[IceCaps],#ResourceName[Water],#Tag[Applied]]
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[PolarCraters],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 60
+		@MaxAbundance = 80
+	}
+}
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[PolarHighlands],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 60
+		@MaxAbundance = 80
+	}
+}
+@BIOME_RESOURCE:HAS[#PlanetName[Laythe],#BiomeName[IceCaps],#ResourceName[Water],#Tag[Applied]]:NEEDS[JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 90
+		@MaxAbundance = 100
+	}
+}
+@BIOME_RESOURCE:HAS[#PlanetName[Laythe],#BiomeName[Poles],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
