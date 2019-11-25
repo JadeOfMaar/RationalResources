@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.0.3
+* Added Restock+ new Ore tanks (KSP 1.8) to Ore tank resource switching.
+* Fixed missing Water in Duna and Laythe polar regions without JNSQ.
+* Fixed specific restrictions at Mun Polar Crater without JNSQ.
+* Fixed missing NEEDS in OPM patch.
+
 ## 1.0.2
 * Updated SSPXr extras config. Caught redundant/overlapping subtypes.
 * Added WBI logistics module to all stock parts when TankSwitchForSquad patch is active and Rational Resources is in Classic Stock play mode.
