@@ -8,7 +8,7 @@
 +BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
 {
 	@PlanetName = Mun
-	@BiomeName = PolarCrater
+	@BiomeName = Polar Crater
 	@Tag = Applied
 }
 +BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[JNSQ]
@@ -26,13 +26,13 @@
 +BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
 {
 	@PlanetName = Duna
-	@BiomeName = PolarCraters
+	@BiomeName = Polar Craters
 	@Tag = Applied
 }
 +BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[!JNSQ]
 {
 	@PlanetName = Duna
-	@BiomeName = PolarHighlands
+	@BiomeName = Polar Highlands
 	@Tag = Applied
 }
 +BIOME_RESOURCE:HAS[#Tag[Nuke]]:NEEDS[JNSQ]
@@ -90,7 +90,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
 		Dispersal = 3
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[Polar?Crater],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
@@ -99,7 +99,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
 		@MaxAbundance = 15
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[Oxium],#Tag[Applied]]:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[Polar?Crater],#ResourceName[Oxium],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
@@ -108,7 +108,7 @@ BIOME_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources,!JNSQ]
 		@MaxAbundance = 20
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[PolarCrater],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Mun],#BiomeName[Polar?Crater],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
@@ -151,6 +151,24 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		@MaxAbundance = 5
 	}
 }
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Polar?Craters],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 3
+		@MaxAbundance = 5
+	}
+}
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Polar?Highlands],#ResourceName[MetalOre],#Tag[Applied]]:NEEDS[!JNSQ]
+{
+	@Distribution
+	{
+		@PresenceChance = 1000
+		@MinAbundance = 3
+		@MaxAbundance = 5
+	}
+}
 @BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[IceCaps],#ResourceName[Water],#Tag[Applied]]:NEEDS[JNSQ]
 {
 	@Distribution
@@ -168,7 +186,7 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		@MaxAbundance = 80
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[PolarCraters],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Polar?Craters],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
@@ -177,7 +195,7 @@ BIOME_RESOURCE:NEEDS[!JNSQ]
 		@MaxAbundance = 80
 	}
 }
-@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[PolarHighlands],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
+@BIOME_RESOURCE:HAS[#PlanetName[Duna],#BiomeName[Polar?Highlands],#ResourceName[Water],#Tag[Applied]]:NEEDS[!JNSQ]
 {
 	@Distribution
 	{
