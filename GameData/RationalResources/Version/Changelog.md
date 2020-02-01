@@ -17,7 +17,7 @@
 * Removed support for Karbonite and Karborundum as they are handwavium and not rational.
 * Stopped purging KSPI resources. They should coexist now and should appear in SCANsat's resource overlay selection.
 * Updated **Extras/** configs:
-  * Added "Blacksmith" facility for refilling non-tranferable resources. Introduces pseudo EVA work resource. Has upgrades. Converter inputs switchable.
+  * Added "Blacksmith" facility for refilling non-transferable resources. Introduces pseudo EVA work resource. Has upgrades. Converter inputs switchable.
   * RR Blacksmith currently caters to heatshields' Ablator and SRBs for SolidFuel.
   * Disabled LqdHe3 tank type as it upset some players.
 * Updated Ore tank types (certain heavy resources have reduced capacity due to their mass differences being an order of magnitude apart for other resources).
