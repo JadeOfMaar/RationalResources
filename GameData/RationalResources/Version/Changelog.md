@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.1
+## 1.1.0
 * Added input fuel switch to fuel cells. (Not available for Classic Stock due to OmniConverters.)
   * LFO, Hydrolox, Methalox for stock.
   * MonoProp, Ammonia for Restock+ APU.
