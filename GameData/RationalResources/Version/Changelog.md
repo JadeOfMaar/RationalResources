@@ -1,25 +1,25 @@
 # Rational Resources
 
-## 1.1 (WIP)
+## 1.1
 * Added input fuel switch to fuel cells. (Not available for Classic Stock due to OmniConverters.)
   * LFO, Hydrolox, Methalox for stock.
   * MonoProp, Ammonia for Restock+ APU.
 * Added Silica surface template.
 * Added splitter (converter) for Alumina and Monazite.
 * Added B9 tanks types for Alumina, Carbon, Monazite, Phosphorus (visible to Ore tanks).
-* Added facility for refilling Ablator on heatshields. Requires a science lab with engineers, and some Ore. Heatshields receive a converter to simulate EVA work. Has upgrades.
-* Added Phosphorus resource. Phosphorus is a vital element in life as we know it, but is incredibly hard to come by and will be priceless in generation ships. Can be extracted from Monazite. (WIP)
+* Added CryoTanks detection for fuel cell patch.
+* Added **Extra/s** feature:
+  * Facility for refilling Ablator on heatshields. Requires a science lab with engineers, and Ore (or Carbon + Water). Heatshields receive a converter to simulate EVA work. Has upgrades.
+* Added Kerbalism detection (Do not activate patches for drills, converters, fuel cells if Kerbalism is installed). WIP config exists to add ISRU chains to Kerbalism processes.
+* Added Phosphorus resource. Phosphorus is a vital element in life as we know it, but is incredibly hard to come by and will be priceless in generation ships. Fairly rewarding to produce for funds.
 * Added resource distributions: Alumina and Monazite.
   * Their max abundances are heavily nerfed to fit this mod's pie charts for resource compositions.
   * Their harvesters in the stock drills have been buffed to compensate.
 * Disabled Extras config that contains LqdHe3 tank type as it upset some players.
 * Fixed variants in Restocked cloned bread tanks.
 * Removed support for Karbonite and Karborundum as they are handwavium and not rational.
-
-### WIP
-* Added support for Kerbalism drill and converter mechanisms. (WIP)
-* Stopped purging KSPI resources. Coexists with them now. Everything should appear in SCANsat's resource overlay selector. (WIP)
-
+* Stopped purging KSPI resources. They should coexist now and should appear in SCANsat's resource overlay selection.
+* Updated Ore tank types (certain heavy resources have reduced capacity due to their mass differences being an order of magnitude apart for other resources).
 
 ## 1.0.3
 * Added Restock+ new Ore tanks (KSP 1.8) to Ore tank resource switching.
