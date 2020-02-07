@@ -9,7 +9,7 @@
 	{
 		"USERNAME":"JadeOfMaar",
 		"REPOSITORY":"https://github.com/JadeOfMaar/RationalResources",
-		"ALLOW_PRE_RELEASE":true,
+		"ALLOW_PRE_RELEASE":true
 	},
 	"VERSION":
 	{
@@ -27,7 +27,9 @@
 	"INSTALL_LOC":
 	{
 		"NAME": "Rational Resources",
-		"PATH": "RationalResources/Version/RationalResources.version"
+		"PATH": "",
+		"DIRECTORY": "RationalResources/Version/",
+		"FILE": "RationalResources.version"
 	}
 }
 
