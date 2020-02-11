@@ -9,7 +9,7 @@
 	{
 		"USERNAME":"JadeOfMaar",
 		"REPOSITORY":"https://github.com/JadeOfMaar/RationalResources",
-		"ALLOW_PRE_RELEASE":true,
+		"ALLOW_PRE_RELEASE":true
 	},
 	"VERSION":
 	{
@@ -32,4 +32,3 @@
 		"FILE": "RationalResources.version"
 	}
 }
-
