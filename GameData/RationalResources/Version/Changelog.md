@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.1.1
+* add Water splitter.
+* add Kerosene (LH2 + Carbon --> LiquidFuel) converter.
+* Make Carbon output available in CO2 splitter.
+* Make BlackSmith patch only activate if RR Parts is installed.
+
 ## 1.1.0
 * Added input fuel switch to fuel cells. (Not available for Classic Stock due to OmniConverters.)
   * LFO, Hydrolox, Methalox for stock.
