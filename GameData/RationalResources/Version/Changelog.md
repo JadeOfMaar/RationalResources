@@ -1,8 +1,8 @@
 # Rational Resources
 
 ## 1.1.1
-* add Water splitter.
-* add Kerosene (LH2 + Carbon --> LiquidFuel) converter.
+* Add Water splitter.
+* Add Kerosene (LH2 + Carbon --> LiquidFuel) converter.
 * Make Carbon output available in CO2 splitter.
 * Make BlackSmith patch only activate if RR Parts is installed.
 
