@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.1.1
+## 1.2.0
 * Added missing Water splitter.
 * Added Kerosene (LH2 + Carbon --> LiquidFuel) converter.
 * Fixed missing outputs in Hydrates Splitter.
