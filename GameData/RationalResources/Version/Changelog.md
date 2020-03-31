@@ -5,7 +5,7 @@
   * Carbon Extractor
   * CO2 Fuser
 * Added detection of Configurable Containers (stops the Ore tank B9PS problem for some players).
-* Enabled "dump excess" on outputs of other covnerters (namely: Hydrates Splitter)
+* Enabled "dump excess" on outputs of other converters (namely: Hydrates Splitter)
 
 ## 1.2.0
 * Added missing Water splitter.
