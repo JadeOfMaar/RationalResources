@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.3.1
+* Fixed resource definition issue with SimpleConstruction.
+
 ## 1.3.0
 * Added converters: 
   * Carbon Extractor
