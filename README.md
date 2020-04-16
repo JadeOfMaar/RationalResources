@@ -17,14 +17,16 @@ The Star series templates apply resource bands in the vein of [Stellar Populatio
 | Surface | Ocean | Atmosphere | Unique | Exo (Trace) |
 | --- | --- | --- | --- | --- |
 | Rock | Terra | Default (CO2-rich) | Eve | Rock |
-| Rock-Metal | Nitrogen | Terra | Mun | Ice |
-| Rock-Ice | Methane | Ice-Water (Thick, N2-rich) | Minmus | |
-| Ice-Water | Ammonia | Ice-Water (Thin, CO2-rich) | Duna | |
-| Ice-Methane | | Ice-Ammonia | |
-| Ice-Nitrogen | | Ice-Methane | |
-| | | Ice-Nitrogen | |
+| Silica | Nitrogen | Terra | Mun | Ice |
+| Rock-Metal | Methane | Ice-Water (Thick, N2-rich) | Minmus | |
+| Rock-Ice | Ammonia | Ice-Water (Thin, CO2-rich) | Duna | |
+| Ice-Water | Lava | Ice-Ammonia | |
+| Ice-Methane | | Ice-Methane | |
+| Ice-Nitrogen | | Ice-Nitrogen | |
 | | | Gas (Jovian) | |
 | | | Gas (Uranian) | |
+| | | Gas (Sudarsky II) | |
+| | | Gas (Sudarsky III) | |
 | | | Star (Population 1) | |
 | | | Star (Population 2) | |
 | | | Star (Population 3) | |
@@ -36,10 +38,10 @@ With some partial respect to realism, this mod drastically reduces the presence 
 * Ammonia, CarbonDioxide, ExoticMinerals, Gypsum, LqdHe3, Hydrates, Hydrogen, MetalOre, MetallicOre, Methane, Minerals, Nitrogen, Ore, Oxygen, RareMetals, Rock, Silicates, Substrate, Uraninite, Water.
 
 **Ocean resources**
-* LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, Water.
+* Carbon, ExoticMinerals, Gypsum, LqdAmmonia, LqdCO2, LqdMethane, LqdNitrogen, LqdOxygen, MetalOre, MetallicOre, Minerals, RareMetals, Rock, Water.
 
 **Star resources**
-* Antimatter, Karborundum, LqdHe3, Hydrogen, LqdDeuterium.
+* Ammonia, Antimatter, Carbon Dioxide, LqdHe3, Hydrogen, LqdDeuterium, Methane, Nitrogen, Oxygen, XenonGas.
 
 ## ISRU
  With omnipotent Ore being stripped of its Godhood, the following ISRU chains are proposed and encouraged for use by seasoned modders. Ore abundance is capped to 5% and its presence chance to 80%. It will be inconvenient for most players... but it will still be around.
@@ -50,8 +52,7 @@ Ore tanks will be changed via B9 Part Switch, to hold the cryogenic input resour
 Rational Resources purges resource distributions placed by most other mods. Untagged resource distributions are all deleted in the ModuleManager `:FOR[zRationalResources]` pass. The whitelisting mentioned below largely only applies to global/universal placements, and nearly no specific/per-planet placements in order to prevent unwanted high concentrations like Karbonite on Eve.
 
 **Whitelisted resources**
-* Antimatter, ArgonGas, LqdHe3, Karborundum, LqdDeuterium, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
-* Karbonite, Karborundum.
+* Antimatter, ArgonGas, LqdHe3, LqdDeuterium, LqdHydrogen, XenonGas. (used by at least the Near Future Tech and Far Future Tech mods).
 * __Not__ Dirt (used only by USI MKS. Its absence should be but a minor hurdle to MKS players).
 
 Easy and full compatibility is granted between a configured planet pack and the following mods:
