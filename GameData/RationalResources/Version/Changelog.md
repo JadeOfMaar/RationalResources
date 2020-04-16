@@ -1,5 +1,14 @@
 # Rational Resources
 
+## 1.4.0
+* Added `RationalResourcesAU` pseudo-mod for planet packs that rename or purge the stock planets.
+* Added some resources to ground scanner.
+* Added support (resource distributions and science) for Beyond Home (planet pack).
+* Added templates for gas giants (Sudarsky class II, III) and lava oceans.
+  * Updated sky and sea scanners accordingly.
+* Nerfed Oxygen presence in Mun, buffed Alumina presence.
+* Updated mine-able exo resources for AtmceWaterThick template.
+
 ## 1.3.1
 * Fixed resource definition issue with SimpleConstruction.
 
