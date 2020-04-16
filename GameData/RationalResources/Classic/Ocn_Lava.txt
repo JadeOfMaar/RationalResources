@@ -13,6 +13,21 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		Dispersal = 0
 	}
 }
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 9
+		Variance = 0
+		Dispersal = 0
+	}
+}
 PLANETARY_RESOURCE
 {
 	ResourceName = MetalOre
@@ -82,8 +97,8 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	Distribution
 	{
 		PresenceChance = 1000
-		MinAbundance = 8
-		MaxAbundance = 16
+		MinAbundance = 4
+		MaxAbundance = 6
 		Variance = 0
 		Dispersal = 0
 	}
