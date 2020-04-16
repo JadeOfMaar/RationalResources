@@ -156,6 +156,34 @@
 	{
 		name = ModuleResourceScanner
 		ScannerType = 1
+		ResourceName = Minerite
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = PreciousMetals
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = Rock
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = Slag
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
 		ResourceName = Water
 		RequiresUnlock = false
 	}
