@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.4.1
+* Fixed a big error with the NEEDS in the Beyond Home config.
+
 ## 1.4.0
 * Added `RationalResourcesAU` pseudo-mod for planet packs that rename or purge the stock planets.
 * Added some resources to ground scanner.
