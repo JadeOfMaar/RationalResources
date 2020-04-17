@@ -6,6 +6,8 @@
 * Added support (resource distributions and science) for Beyond Home (planet pack).
 * Added templates for gas giants (Sudarsky class II, III) and lava oceans.
   * Updated sky and sea scanners accordingly.
+* Fixed Hydrolox converter outputs (huge waste of Water).
+* Fixed Xenon, Argon outputs in Hydrates Splitter (way too high).
 * Nerfed Oxygen presence in Mun, buffed Alumina presence.
 * Updated mine-able exo resources for AtmceWaterThick template.
 
