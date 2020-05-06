@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 1.4.2
+* Added calculator for engine propellant flow. (Not in download.)
+* Added calculators for ISRU (in kilos and in molar masses). (Not in download.)
+* Added hybrid SRMs (clones of the Flea and Hammer).
+* Added LqdDeuterium presence.
+* Added Water MET (Microwave ElectroThermal Thruster, clone of Dawn ion engine).
+* Allowed scoop patches to run when KSPI installed.
+* Updated Alumina Splitter and Ore tank types concerning their needs.
+* Updated Hydrates Splitter outputs more, thanks to @ Muetdhiver on forum.
+* Updated other conversion chains using newly available calaculators.
+
 ## 1.4.1
 * Fixed a big error with the NEEDS in the Beyond Home config.
 
