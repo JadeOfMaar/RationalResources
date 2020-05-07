@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.4.2
+## 1.5.0
 * Added calculator for engine propellant flow. (Not in download.)
 * Added calculators for ISRU (in kilos and in molar masses). (Not in download.)
 * Added hybrid SRMs (clones of the Flea and Hammer).
