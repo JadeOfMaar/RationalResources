@@ -1,0 +1,90 @@
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = GrayWater
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 65
+		MaxAbundance = 75
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 5
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Minerite
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 4
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Nitronite
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 4
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Rock
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 10
+		MaxAbundance = 20
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Zeonium
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnMudWarm
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 2
+		Variance = 0
+		Dispersal = 0
+	}
+}
