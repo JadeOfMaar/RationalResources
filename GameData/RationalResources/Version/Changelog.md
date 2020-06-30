@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 1.6.0
+* Added templates: **AtmVulcan, SrfVulcan, OcnMudCold, OcnMudWarm**.
+* Added support for Extrasolar (planet pack).
+
 ## 1.5.0
 * Added calculator for engine propellant flow. (Not in download.)
 * Added calculators for ISRU (in kilos and in molar masses). (Not in download.)
