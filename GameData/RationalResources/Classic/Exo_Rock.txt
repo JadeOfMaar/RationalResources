@@ -78,7 +78,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	Tag = ExoRock
 	Distribution
 	{
-		PresenceChance = 100
+		PresenceChance = 1000
 		MinAbundance = 3
 		MaxAbundance = 10
 		MinAltitude = 0.1
@@ -114,7 +114,7 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	Tag = ExoIce
 	Distribution
 	{
-		PresenceChance = 100
+		PresenceChance = 1000
 		MinAbundance = 4
 		MaxAbundance = 8
 		MinAltitude = 0.1
