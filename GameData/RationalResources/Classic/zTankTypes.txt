@@ -176,7 +176,7 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 	RESOURCE
 	{
 		name = Propellium
-		unitsPerVolume = 10
+		unitsPerVolume = 2.7
 	}
 }
 B9_TANK_TYPE:NEEDS[B9PartSwitch]
@@ -188,12 +188,12 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 	RESOURCE
 	{
 		name = Propellium
-		unitsPerVolume = 5
+		unitsPerVolume = 1.35
 	}
 	RESOURCE
 	{
 		name = Oxidizer
-		unitsPerVolume = 0.5
+		unitsPerVolume = 0.45
 	}
 }
 B9_TANK_TYPE:NEEDS[B9PartSwitch]
