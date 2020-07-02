@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.6.1 (WIP)
+* Updated Classic B9 tank types: Propellium, PropLox.
+
 ## 1.6.0
 * Added templates: **AtmVulcan, SrfVulcan, OcnMudCold, OcnMudWarm**.
 * Added support for Extrasolar (planet pack).
