@@ -1,6 +1,12 @@
 # Rational Resources
 
-## 1.6.1 (WIP)
+## 1.7.0 (WIP)
+* Kerbalism integration:
+  * Added Alumina, CarbonDioxide, Hydrates, Monazite to crustal drills.
+  * Added LqdMethane (and changed Ammonia to LqdAmmonia ) to ocean drills.
+  * Added [Alumina, Hydrates, Monazite] Splitters to Convert-O-Trons. These don't seem to be fully functional yet. Will add remaining RR converter setps but this issue waits to be sorted out.
+  * Enabled stock XM-G5O intake to use Kerbalism for atmo harvesting.
+  * Enabled RR Exo Scoop to use Kerbalism for space harvesting.
 * Updated Classic B9 tank types: Propellium, PropLox.
 
 ## 1.6.0
