@@ -60,6 +60,14 @@
 	{
 		name = ModuleResourceScanner
 		ScannerType = 0
+		ResourceName = MetalOre
+		MaxAbundanceAltitude = 1500
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 0
 		ResourceName = Minerite
 		MaxAbundanceAltitude = 1500
 		RequiresUnlock = false
@@ -69,6 +77,14 @@
 		name = ModuleResourceScanner
 		ScannerType = 0
 		ResourceName = Nitronite
+		MaxAbundanceAltitude = 1500
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 0
+		ResourceName = Oxium
 		MaxAbundanceAltitude = 1500
 		RequiresUnlock = false
 	}
@@ -134,6 +150,34 @@
 		name = ModuleResourceScanner
 		ScannerType = 1
 		ResourceName = Hydrokerbon
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = Minerite
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = PreciousMetals
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = Rock
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 1
+		ResourceName = Slag
 		RequiresUnlock = false
 	}
 	MODULE

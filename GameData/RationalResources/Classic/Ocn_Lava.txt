@@ -1,0 +1,120 @@
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Explodium
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 70
+		MinAbundance = 2
+		MaxAbundance = 5
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hydrokerbon
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 9
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE
+{
+	ResourceName = MetalOre
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 9
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Minerite
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 9
+		MaxAbundance = 15
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = PreciousMetals
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 6
+		MaxAbundance = 10
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Rock
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 48
+		MaxAbundance = 56
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Slag
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 4
+		MaxAbundance = 6
+		Variance = 0
+		Dispersal = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Zeonium
+	ResourceType = 1
+	PlanetName = None
+	Tag = OcnLava
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 5
+		MaxAbundance = 7
+		Variance = 0
+		Dispersal = 0
+	}
+}

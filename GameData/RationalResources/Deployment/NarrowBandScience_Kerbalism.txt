@@ -1,0 +1,40 @@
+@KERBALISM_EXPERIMENT_VALUES:NEEDS[Kerbalism,FeatureScience]
+{
+	RR
+	{
+		planetClass
+		{
+			ECCost = 2.15 // EC/s to run the experiment; uses abstract powerful beam to read surface or sample particles far away
+			size = 3563 // lots of imagery and related tabular data
+			value = 20 // baseValue
+			duration = 5520 // 92 min
+			requirements =
+			ResourceRates =
+		}
+	}
+}
+
+@PART[OrbitalScanner]:NEEDS[Kerbalism,FeatureScience]
+{
+	MODULE
+	{
+		name = Experiment
+		experiment_id = RRplanetClass
+		experiment_description = Identify the current celestial's resource composition through observing the spectral lines of its atmosphere or the particles in the void around the craft.
+		sample_amount = #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/samples$
+		requires = #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/requirements$
+		ec_rate = #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/ECCost$
+		data_rate = #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/size$
+		data_rate /= #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/duration$
+		resources = #$@KERBALISM_EXPERIMENT_VALUES/RR/planetClass/ResourceRates$
+	}
+}
+
+@PART[rr_scanner_blue]:NEEDS[Kerbalism,FeatureScience]:FIRST
+{
+	MODULE
+	{
+		name = Configure
+		title = Underwater Science
+	}
+}
