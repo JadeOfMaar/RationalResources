@@ -1,13 +1,18 @@
 # Rational Resources
 
-## 1.7.0 (WIP)
+## 1.7.0
+* Added RR Hydro Scoop part for dedicated and more befitting ocean harvester. Related modules no longer populate the XM-G50 intake.
+* Added RR Boxed Decompressor (red ZZZ box) for thawing/heating resources and reversing the processes of the RR Boxed Compressor/Freezer.
 * Kerbalism integration:
-  * Added Alumina, CarbonDioxide, Hydrates, Monazite to crustal drills.
-  * Added LqdMethane (and changed Ammonia to LqdAmmonia ) to ocean drills.
+  * Added Alumina, CarbonDioxide, Hydrates, Metalore, Monazite to crustal drills.
+  * Added LqdDeuterium, LqdMethane (and changed Ammonia to LqdAmmonia ) to ocean drills.
+  * Added all harvester options of the Kerbalism ocean drills to RR Hydro Scoop.
   * Added [Alumina, Hydrates, Monazite] Splitters to Convert-O-Trons. These don't seem to be fully functional yet. Will add remaining RR converter setps but this issue waits to be sorted out.
-  * Enabled stock XM-G5O intake to use Kerbalism for atmo harvesting.
+  * Changed Boxed Convert-O-Trons to always populate with stock method resource converter modules and to respect Kerbalism's interpretation of LF and OX (and adjust these fundamental options accordingly).
+  * Changed: Stock Convert-O-Trons will not be populated with RR's extraneous converter modules. This cannot be done properly with creating and maintaining a new Kerbalism profile and KerbalismConfig package.
+  * Enabled stock XM-G50 intake to use Kerbalism for atmo harvesting.
   * Enabled RR Exo Scoop to use Kerbalism for space harvesting.
-* Updated Classic B9 tank types: Propellium, PropLox.
+* Updated units per volume in Classic Stock B9 tank types: Propellium, PropLox.
 
 ## 1.6.0
 * Added templates: **AtmVulcan, SrfVulcan, OcnMudCold, OcnMudWarm**.
