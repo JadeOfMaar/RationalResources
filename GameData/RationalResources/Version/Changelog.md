@@ -4,8 +4,8 @@
 * Added RR Hydro Scoop part for dedicated and more befitting ocean harvester. Related modules no longer populate the XM-G50 intake.
 * Added RR Boxed Decompressor (red ZZZ box) for thawing/heating resources and reversing the processes of the RR Boxed Compressor/Freezer.
 * Kerbalism integration:
-  * Added Alumina, CarbonDioxide, Hydrates, Metalore, Monazite to crustal drills.
-  * Added LqdDeuterium, LqdMethane (and changed Ammonia to LqdAmmonia ) to ocean drills.
+  * Added Alumina, CarbonDioxide, Hydrates, MetalOre, Monazite to crustal drills.
+  * Added LqdDeuterium, LqdMethane (and changed Ammonia to LqdAmmonia; Nitrogen to LqdNitrogen) to ocean drills.
   * Added all harvester options of the Kerbalism ocean drills to RR Hydro Scoop.
   * Added [Alumina, Hydrates, Monazite] Splitters to Convert-O-Trons. These don't seem to be fully functional yet. Will add remaining RR converter setps but this issue waits to be sorted out.
   * Changed Boxed Convert-O-Trons to always populate with stock method resource converter modules and to respect Kerbalism's interpretation of LF and OX (and adjust these fundamental options accordingly).
