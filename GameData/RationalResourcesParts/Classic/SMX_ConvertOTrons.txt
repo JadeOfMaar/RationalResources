@@ -1,0 +1,262 @@
+// Stockalike Mining Expansion
+// Populate all Convert-O-Trons
+@PART[SMX_Size0ISRU]:NEEDS[MiningExpansion,ClassicStock]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 0.6
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		EfficiencyBonus = 0.6
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Mk2ISRURefinery]:NEEDS[MiningExpansion,ClassicStock]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 1
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 1
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 1
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 2
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 1
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 1
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Mk3ISRURefinery]:NEEDS[MiningExpansion,ClassicStock]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 1
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 3
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 3
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 2
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 3
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 3
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 3
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 3
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 3
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 4
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 3
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 3
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Size3ISRU]:NEEDS[MiningExpansion,ClassicStock]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 1
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 4
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 4
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 2
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 4
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 4
+		showOpsView = true
+	}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 3
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 4
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 4
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}

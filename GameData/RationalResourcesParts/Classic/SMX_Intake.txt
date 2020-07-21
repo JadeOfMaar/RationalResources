@@ -1,0 +1,103 @@
+// Stockalike Mining Expansion
+@PART[SMX_Size?AtmCondenser]:NEEDS[MiningExpansion,ClassicStock]
+{
+	MODULE
+	{
+		name = WBIModuleResourceHarvester
+		// List of harvest types: Planetary, Oceanic, Atmospheric, Exospheric. You can have more than one harvest type. Separate the types with a semicolon.
+		// This overrides HarversterType from the base class. There is a precedence based on vessel situation and supported harvest types:
+		// Landed: Atmospheric before Planetary
+		// Splashed: Oceanic before Planetary
+		// In space: Exospheric before Atmospheric
+		harvestTypes = Atmospheric;Exospheric
+
+		AutoShutdown = true
+		ConverterName = Aero/Exo Scoop
+		StartActionName = Start Aero/Exo Scoop
+		StopActionName = Stop Aero/Exo Scoop
+		ToggleActionName = Toggle Aero/Exo Scoop
+		intakeTransformName = Intake
+		intakeSpeed = 20
+		airStaticSpeed = 20
+
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 3
+		}
+	}
+	!MODULE[ModuleResourceHarvester],* {}
+	+MODULE[ModuleResourceIntake]
+	{
+		@resourceName = Atmosphere
+		@checkForOxygen = False
+	}
+	+MODULE[ModuleResourceIntake]
+	{
+		@resourceName = IntakeLqd
+		@checkForOxygen = False
+		underwaterOnly = True
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = IntakeLqd
+	}
+}
+@PART[SMX_Size2AtmCondenser]:NEEDS[MiningExpansion,ClassicStock]
+{
+	@MODULE[WBIModuleResourceHarvester]
+	{
+		@intakeSpeed *= 4
+		@airStaticSpeed *= 4
+
+		@INPUT_RESOURCE
+		{
+			@Ratio *= 4
+		}
+	}
+}
+
+@PART[SMX_*Pump]:NEEDS[MiningExpansion,ClassicStock]
+{
+	MODULE
+	{
+		name = WBIModuleResourceHarvester
+		// List of harvest types: Planetary, Oceanic, Atmospheric, Exospheric. You can have more than one harvest type. Separate the types with a semicolon.
+		// This overrides HarversterType from the base class. There is a precedence based on vessel situation and supported harvest types:
+		// Landed: Atmospheric before Planetary
+		// Splashed: Oceanic before Planetary
+		// In space: Exospheric before Atmospheric
+		harvestTypes = Oceanic
+
+		AutoShutdown = true
+		ConverterName = Hydro Scoop
+		StartActionName = Start Hydro Scoop
+		StopActionName = Stop Hydro Scoop
+		ToggleActionName = Toggle Hydro Scoop
+		intakeSpeed = 20
+		airStaticSpeed = 20
+
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 3
+		}
+	}
+}
+@PART[SMX_2mStackPump]:NEEDS[MiningExpansion,ClassicStock]
+{
+	@MODULE[WBIModuleResourceHarvester]
+	{
+		@intakeSpeed *= 4
+		@airStaticSpeed *= 4
+
+		@INPUT_RESOURCE
+		{
+			@Ratio *= 4
+		}
+	}
+}
