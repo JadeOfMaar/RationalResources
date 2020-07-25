@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.8.1
+* Fixed some Kerbalism issues that sprung up.
+
 ## 1.8.0
 * Added Community Category Kit (thanks to @Iodyne on forum).
 * Added feature patches (where applicable) and stock subcategories akin to CCK for the following mods:
