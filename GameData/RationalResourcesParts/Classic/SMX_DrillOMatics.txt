@@ -1,0 +1,36 @@
+// Stockalike Mining Expansion
+@PART[SMX_?mStackDrill|SMX_InlineDrill|SMX_1mInlineDrill|SMX_1mHInlineDrill]:NEEDS[!Kerbalism]
+{
+	!MODULE[ModuleOverheatDisplay]{}
+	!MODULE[ModuleCoreHeat]{}
+
+	@MODULE[ModuleResourceHarvester]
+	{
+		@name = WBIGoldStrikeDrill
+		@GeneratesHeat = false
+		!TemperatureModifier{}
+		!ThermalEfficiency{}
+	}
+
+	@MODULE[ModuleAstroidDrill]
+	{
+		@Name = WBIGoldStrikeAsteroidDrill
+		@GeneratesHeat = false
+		!TemperatureModifier{}
+		!ThermalEfficiency{}
+	}
+
+	MODULE
+	{
+		name = WBIEfficiencyMonitor
+		efficiencyType = extractionModifier
+		efficiencyGUIName = Extraction Rate
+	}
+
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		quality = 100
+		mtbf = 400
+	}
+}

@@ -1,0 +1,29 @@
+@PART[SMX_RCSDriver]:NEEDS[MiningExpansion]
+{
+	@MODULE[ModuleRCSFX]
+	{
+		@PROPELLANT[ElectricCharge]
+		{
+			@ratio /= 4
+		}
+		@PROPELLANT[Ore]
+		{
+			@name = Rock
+		}
+	}
+}
+@PART[SMX_Size0Driver|SMX_Size1Driver]:NEEDS[MiningExpansion]
+{
+	@MODULE[ModuleEnginesFX],0
+	{
+		engineID = Rock
+		@PROPELLANT[ElectricCharge]
+		{
+			@ratio /= 4
+		}
+		@PROPELLANT[Ore]
+		{
+			@name = Rock
+		}
+	}
+}

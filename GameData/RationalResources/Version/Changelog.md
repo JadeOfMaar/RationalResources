@@ -1,5 +1,22 @@
 # Rational Resources
 
+## 1.8.0
+* Added Community Category Kit (thanks to @Iodyne on forum).
+* Added feature patches (where applicable) and stock subcategories akin to CCK for the following mods:
+  * CryoTanks.
+  * Far Future Tech.
+  * Stockalike Mining Expansion.
+  * WBI Airships (its Convert-O-Tron).
+  * WBI Buffalo (its drill and Convert-O-Tron).
+  * WBI Pathfinder (Arcology drilling rig, Castillo Factory, and the Lasso series harvesters).
+* Added Water option for fuselage fuel tanks (for use with the Water NTR and Water ion engine).
+* Added WBI OmniConverter modules.
+* Balance pass on harvesters cloned from stock parts. They cost more, may weigh more, some may perform less than before.
+* Fixed Configurable Containers detection in squad tanks patch.
+* Fixed missing Kerbalism drills config.
+* Fixed shroud style selection on NERVA clones.
+* Replaced Extras/TankswitchExtras.txt with Extras/RR_TankswitchFusionFuel.cfg for increased use of the common ground between Far Future Tech and Galaxies Unbound.
+
 ## 1.7.0
 * Added RR Hydro Scoop part for dedicated and more befitting ocean harvester. Related modules no longer populate the XM-G50 intake.
 * Added RR Boxed Decompressor (red ZZZ box) for thawing/heating resources and reversing the processes of the RR Boxed Compressor/Freezer.

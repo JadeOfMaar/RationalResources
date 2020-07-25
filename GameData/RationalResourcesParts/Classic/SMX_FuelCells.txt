@@ -1,0 +1,117 @@
+// Stockalike Mining Expansion
+@PART[SMX_Size0Generator]:NEEDS[CommunityResourcePack,MiningExpansion,!Kerbalism]:FOR[zRationalResources]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 0.4
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		EfficiencyBonus = 0.4
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Size1Generator]:NEEDS[CommunityResourcePack,MiningExpansion,!Kerbalism]:FOR[zRationalResources]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 1
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		EfficiencyBonus = 1
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Size2Generator]:NEEDS[CommunityResourcePack,MiningExpansion,!Kerbalism]:FOR[zRationalResources]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 3
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		EfficiencyBonus = 3
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
+@PART[SMX_Mk2Generator]:NEEDS[CommunityResourcePack,MiningExpansion,!Kerbalism]:FOR[zRationalResources]
+{
+	!MODULE[ModuleOverheatDisplay] {}
+	!MODULE[ModuleCoreHeat] {}
+	!MODULE[ModuleResourceConverter],* {}
+	MODULE
+	{
+		name = WBIOmniConverter
+		managedName = OmniConverter 1
+		templateNodes = OMNICONVERTER
+		BaseEfficiency = 1.6
+		reconfigureSkill = ConverterSkill
+		requiredResource = Equipment
+		requiredAmount = 100
+		
+		//Standard ModuleResourceConverter stuff
+		ConverterName = OmniConverter
+		StartActionName = Start Converter
+		StopActionName = Stop Converter
+		AutoShutdown = false
+		EfficiencyBonus = 1.6
+		showOpsView = true
+	}
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+}
