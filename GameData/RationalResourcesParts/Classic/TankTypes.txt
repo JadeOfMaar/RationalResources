@@ -1,5 +1,5 @@
 // Add secondary tank types without CryoTanks.
-@PART:HAS[@MODULE[ModuleB9PartSwitch]]:NEEDS[B9PartSwitch,RationalResourcesSquad,!CryoTanks]:AFTER[RationalResourcesSquad]
+@PART:HAS[@MODULE[ModuleB9PartSwitch]]:NEEDS[B9PartSwitch,RationalResourcesSquad]:AFTER[RationalResourcesSquad]
 {
 	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[RRStockSwitch]]
 	{

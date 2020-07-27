@@ -1,5 +1,10 @@
 # Rational Resources
 
+## 1.8.2
+* Fixed a small issue with CCK config.
+* Fixed some issues with stock tanks patch. (Didn't catch LF-only and Mono-only tanks when CryoTanks installed; Was not providing Methane and Methalox in some places it should.)
+* Updated patch to not provide MonoPropellant to CryoTanks.
+
 ## 1.8.1
 * Fixed some Kerbalism issues that sprung up.
 
