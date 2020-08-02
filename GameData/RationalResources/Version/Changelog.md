@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.8.3
+* Fixed Alumina issue (shortage) on specific stock body templates. (Mun, Minmus, Eve, Duna).
+
 ## 1.8.2
 * Fixed a small issue with CCK config.
 * Fixed some issues with stock tanks patch. (Didn't catch LF-only and Mono-only tanks when CryoTanks installed; Was not providing Methane and Methalox in some places it should.)
