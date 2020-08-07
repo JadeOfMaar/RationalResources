@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 1.9.0
+* Added RareMetals B9 tank option to Ore tanks.
+* Added stock/Restock Ore tanks to RR category.
+* Added Extras:
+  * RR_MoreTankSwitches.cfg adds tank options for tanks of various manufacturers/mods including Fuel Tanks Plus, USI, Mk2 & Mk3 Expansion, KNES, Munar Industries, Charyol, DaMichael's, NovaPunch, NF Launch Vehicles... (List not made by me, contributed by @ Iodyne on the forum.)
+  * RR_NTRReactorPatch.cfg adds the reactor engine functionality (demonstrated in the Main Coon jet engine) to the RR NERVA clones.
+  * RR_KCTFuelResources.cfg registers RR eccentric propellants with Kerbal Construction Time.
+  * RR_KerbalismEmitters.cfg adds Kerbalism radioactivity to the RR NERVA engines.
+* Updated Extras/RR_EveLiquidFuelOcean.cfg to add LiquidFuel harvesting to the RR Hydroscoop, not the stock air scoop.
+*This update brought to you by Iodyne! A little is plenty, plenty is deadly! but it's super rare and valuable!*
+
 ## 1.8.3
 * Fixed Alumina issue (shortage) on specific stock body templates. (Mun, Minmus, Eve, Duna).
 
