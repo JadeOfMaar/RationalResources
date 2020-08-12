@@ -1,3 +1,14 @@
+B9_TANK_TYPE:NEEDS[B9PartSwitch]
+{
+	name = RR_Ore
+	tankMass = 0
+	tankCost = 0
+	RESOURCE
+	{
+		name = Ore
+		unitsPerVolume = 0.2
+	}
+}
 B9_TANK_TYPE:NEEDS[!CryoTanks]
 {
 	name = OX
