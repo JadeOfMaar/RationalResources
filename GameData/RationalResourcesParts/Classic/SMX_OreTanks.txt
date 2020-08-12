@@ -1,5 +1,5 @@
 // Stockalike Mining Expansion
-@PART[SMX_*Ore?ank]:NEEDS[B9PartSwitch,CommunityResourcePack,MiningExpansion,!ConfigurableContainers]
+@PART[SMX_*Ore?ank]:NEEDS[MiningExpansion]
 {
 	refVolume = #$RESOURCE[Ore]/maxAmount$
 	@refVolume *= 5
@@ -19,37 +19,13 @@
 		}
 		SUBTYPE
 		{
-			name = Alumina
-			tankType = RR_Alumina
-			title = Alumina
-			primaryColor = Grey
-			secondaryColor = Grey
-		}
-		SUBTYPE
-		{
-			name = Monazite
-			tankType = RR_Monazite
-			title = Monazite
-			primaryColor = BrownishOrange
-			secondaryColor = BrownishOrange
-		}
-		SUBTYPE
-		{
-			name = Phosphorus
-			tankType = RR_Phosphorus
-			title = Phosphorus
-			primaryColor = Beige
-			secondaryColor = Beige
-		}
-		SUBTYPE
-		{
 			name = MetalOre
 			tankType = RR_MetalOre
 			title = MetalOre
 			primaryColor = BrownishGrey
 			secondaryColor = BrownishGrey
 		}
-		SUBTYPE:NEEDS[SimpleConstruction]
+		SUBTYPE
 		{
 			name = Metal
 			tankType = RR_Metal
@@ -57,7 +33,7 @@
 			primaryColor = Gunmetal
 			secondaryColor = Gunmetal
 		}
-		SUBTYPE:NEEDS[SimpleConstruction]
+		SUBTYPE:NEEDS[ExtraplanetaryLaunchpads|SimpleConstruction]
 		{
 			name = RocketParts
 			tankType = RR_RocketParts
@@ -65,85 +41,196 @@
 			primaryColor = PumpkinOrange
 			secondaryColor = PumpkinOrange
 		}
-		SUBTYPE
+		SUBTYPE:NEEDS[Pathfinder]
 		{
-			name = Ammonia
-			tankType = RR_Ammonia
-			title = Ammonia
-			primaryColor = BurntRed
-			secondaryColor = BurntRed
+			name = Aurum
+			tankType = RR_AUR
+			title = Aurum
+			primaryColor = DarkGold
+			secondaryColor = DarkGold
 		}
 		SUBTYPE
 		{
-			name = Carbon
-			tankType = RR_Carbon
-			title = Carbon
-			primaryColor = Dark
-			secondaryColor = Dark
+			name = Blutonium
+			tankType = RR_BLU
+			title = Blutonium
+			primaryColor = Greyblue
+			secondaryColor = Greyblue
 		}
 		SUBTYPE
 		{
-			name = CarbonDioxide
-			tankType = RR_CarbonDioxide
-			title = CarbonDioxide
-			primaryColor = Greyish
-			secondaryColor = Greyish
+			name = CompressedAtmosphere
+			tankType = RR_ATMC
+			title = Compressed Atmosphere
+			primaryColor = WarmGrey
+			secondaryColor = WarmGrey
 		}
 		SUBTYPE
 		{
-			name = Hydrates
-			tankType = RR_Hydrates
-			title = Hydrates
-			primaryColor = FadedBlue
-			secondaryColor = FadedBlue
+			name = Explodium
+			tankType = RR_XPL
+			title = Explodium
+			primaryColor = Mustard
+			secondaryColor = Mustard
 		}
 		SUBTYPE
 		{
-			name = Hydrogen
-			tankType = RR_Hydrogen
-			title = Hydrogen
-			primaryColor = CarolinaBlue
-			secondaryColor = CarolinaBlue
+			name = Gemstones
+			tankType = RR_GMS
+			title = Gemstones
+			primaryColor = Ruby
+			secondaryColor = Ruby
+		}
+		SUBTYPE:NEEDS[FlyingSaucers]
+		{
+			name = Graviolium
+			tankType = RR_GRV
+			title = Graviolium
+			primaryColor = DarkIndigo
+			secondaryColor = DarkIndigo
 		}
 		SUBTYPE
 		{
-			name = Methane
-			tankType = RR_Methane
-			title = Methane
-			primaryColor = FadedGreen
-			secondaryColor = FadedGreen
+			name = GrayWater
+			tankType = RR_GW
+			title = GrayWater
+			primaryColor = FrenchBlue
+			secondaryColor = FrenchBlue
 		}
 		SUBTYPE
 		{
-			name = Nitrogen
-			tankType = RR_Nitrogen
-			title = Nitrogen
-			primaryColor = Azure
-			secondaryColor = Azure
+			name = Hexagen
+			tankType = RR_HEX
+			title = Hexagen
+			primaryColor = Grapefruit
+			secondaryColor = Grapefruit
 		}
 		SUBTYPE
 		{
-			name = Oxygen
-			tankType = RR_Oxygen
-			title = Oxygen
-			primaryColor = BabyBlue
-			secondaryColor = BabyBlue
+			name = Hydrokerbon
+			tankType = RR_HKR
+			title = Hydrokerbon
+			primaryColor = Saffron
+			secondaryColor = Saffron
+		}
+		SUBTYPE
+		{
+			name = Minerite
+			tankType = RR_MNR
+			title = Minerite
+			primaryColor = Tea
+			secondaryColor = Tea
+		}
+		SUBTYPE
+		{
+			name = Nitronite
+			tankType = RR_N2O
+			title = Nitronite
+			primaryColor = DarkSkyBlue
+			secondaryColor = DarkSkyBlue
+		}
+		SUBTYPE
+		{
+			name = Oxium
+			tankType = RR_OXM
+			title = Oxium
+			primaryColor = ResourceColorOxidizer
+			secondaryColor = ResourceColorOxidizer
+		}
+		SUBTYPE
+		{
+			name = Propellium
+			tankType = RR_PLM
+			title = Propellium
+			primaryColor = Lightblue
+			secondaryColor = Lightblue
+		}
+		SUBTYPE
+		{
+			name = PropLox
+			tankType = RR_PLOX
+			title = PropLox
+			primaryColor = Lightblue
+			secondaryColor = ResourceColorOxidizer
+		}
+		SUBTYPE
+		{
+			name = PreciousMetals
+			tankType = RR_PRM
+			title = PreciousMetals
+			primaryColor = LightPlum
+			secondaryColor = LightPlum
+		}
+		SUBTYPE
+		{
+			name = Raptium
+			tankType = RR_RPT
+			title = Raptium
+			primaryColor = PurpleyPink
+			secondaryColor = PurpleyPink
+		}
+		SUBTYPE
+		{
+			name = RaptaLox
+			tankType = RR_RLOX
+			title = RaptaLox
+			primaryColor = PurpleyPink
+			secondaryColor = ResourceColorOxidizer
 		}
 		SUBTYPE
 		{
 			name = Rock
-			tankType = RR_Rock
+			tankType = RR_ROK
 			title = Rock
 			primaryColor = Desert
 			secondaryColor = Desert
 		}
 		SUBTYPE
 		{
+			name = Slag
+			tankType = RR_SLG
+			title = Slag
+			primaryColor = Shit
+			secondaryColor = Shit
+		}
+		SUBTYPE
+		{
 			name = Water
-			tankType = RR_Water
+			tankType = RR_WTR
 			title = Water
 			primaryColor = Ocean
 			secondaryColor = Ocean
 		}
+		SUBTYPE
+		{
+			name = Zeonium
+			tankType = RR_ZNM
+			title = Zeonium
+			primaryColor = Lavender
+			secondaryColor = Lavender
+		}
 	}
+	
+	
+	// - - Placeholder. Do not use due to incompatibility with Tweakscale - -
+	
+	
+	// @description ^= :$: <br><#8f88e2>WBI OmniStorage.</color>
+	// MODULE
+	// {
+		// name = WBIOmniStorage
+		// storageVolume = #$../RESOURCE[Ore]/maxAmount$
+		// @storageVolume *= 5
+		// reconfigureSkill = ConverterSkill
+		// reconfigureRank = 1
+		// requiredResource = Equipment
+		// requiredAmount = 0
+		// resourceBlacklist = GeoEnergy;ElectroPlasma;CoreHeat;DarkGoo;DarkScience;LabTime;ExposureTime;ScopeTime;SolarReports;SimulatorTime;GravityWaves;IntakeAir;StaticCharge;EVA Propellant;Lead;Plants;CoreSamples;MJPropellant;SOCSFuel;KIS Inventory
+		// DEFAULT_RESOURCE
+		// {
+			// name = Ore
+			// maxAmount = #$../../RESOURCE[Ore]/maxAmount$
+			// ratio = 1
+		// }
+	// }
 }
