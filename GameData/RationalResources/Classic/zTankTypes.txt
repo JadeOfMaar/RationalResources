@@ -9,6 +9,39 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 		unitsPerVolume = 0.2
 	}
 }
+B9_TANK_TYPE:NEEDS[B9PartSwitch]
+{
+	name = RR_MetalOre
+	tankMass = 0
+	tankCost = 0
+	RESOURCE
+	{
+		name = MetalOre
+		unitsPerVolume = 0.2
+	}
+}
+B9_TANK_TYPE:NEEDS[B9PartSwitch]
+{
+	name = RR_Metal
+	tankMass = 0
+	tankCost = 0
+	RESOURCE
+	{
+		name = Metal
+		unitsPerVolume = 1
+	}
+}
+B9_TANK_TYPE:NEEDS[B9PartSwitch,ExtraplanetaryLaunchpads]
+{
+	name = RR_RocketParts
+	tankMass = 0
+	tankCost = 0
+	RESOURCE
+	{
+		name = RocketParts
+		unitsPerVolume = 1
+	}
+}
 B9_TANK_TYPE:NEEDS[!CryoTanks]
 {
 	name = OX
