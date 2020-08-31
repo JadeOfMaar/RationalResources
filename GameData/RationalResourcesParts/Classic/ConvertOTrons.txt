@@ -164,7 +164,7 @@
 {
 	!MODULE[ModuleOverheatDisplay] {}
 	!MODULE[ModuleCoreHeat] {}
-	!MODULE[ModuleResourceConverter],*
+	!MODULE[ModuleResourceConverter],* {}
 	MODULE
 	{
 		name = WBIOmniConverter
