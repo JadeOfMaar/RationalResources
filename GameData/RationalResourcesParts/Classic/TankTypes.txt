@@ -3,30 +3,30 @@
 {
 	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[RRStockSwitch]]
 	{
-		SUBTYPE:NEEDS[Pathfinder]
-		{
-			name = Aurum
-			tankType = RR_AUR
-			title = Aurum
-			primaryColor = DarkGold
-			secondaryColor = DarkGold
-		}
-		SUBTYPE
-		{
-			name = Blutonium
-			tankType = RR_BLU
-			title = Blutonium
-			primaryColor = Greyblue
-			secondaryColor = Greyblue
-		}
-		SUBTYPE
-		{
-			name = CompressedAtmosphere
-			tankType = RR_ATMC
-			title = Compressed Atmosphere
-			primaryColor = WarmGrey
-			secondaryColor = WarmGrey
-		}
+		// SUBTYPE:NEEDS[Pathfinder]
+		// {
+			// name = Aurum
+			// tankType = RR_AUR
+			// title = Aurum
+			// primaryColor = DarkGold
+			// secondaryColor = DarkGold
+		// }
+		// SUBTYPE
+		// {
+			// name = Blutonium
+			// tankType = RR_BLU
+			// title = Blutonium
+			// primaryColor = Greyblue
+			// secondaryColor = Greyblue
+		// }
+		// SUBTYPE
+		// {
+			// name = CompressedAtmosphere
+			// tankType = RR_ATMC
+			// title = Compressed Atmosphere
+			// primaryColor = WarmGrey
+			// secondaryColor = WarmGrey
+		// }
 		SUBTYPE
 		{
 			name = Explodium
@@ -35,30 +35,30 @@
 			primaryColor = Mustard
 			secondaryColor = Mustard
 		}
-		SUBTYPE
-		{
-			name = Gemstones
-			tankType = RR_GMS
-			title = Gemstones
-			primaryColor = Ruby
-			secondaryColor = Ruby
-		}
-		SUBTYPE:NEEDS[FlyingSaucers]
-		{
-			name = Graviolium
-			tankType = RR_GRV
-			title = Graviolium
-			primaryColor = DarkIndigo
-			secondaryColor = DarkIndigo
-		}
-		SUBTYPE
-		{
-			name = GrayWater
-			tankType = RR_GW
-			title = GrayWater
-			primaryColor = FrenchBlue
-			secondaryColor = FrenchBlue
-		}
+		// SUBTYPE
+		// {
+			// name = Gemstones
+			// tankType = RR_GMS
+			// title = Gemstones
+			// primaryColor = Ruby
+			// secondaryColor = Ruby
+		// }
+		// SUBTYPE:NEEDS[FlyingSaucers]
+		// {
+			// name = Graviolium
+			// tankType = RR_GRV
+			// title = Graviolium
+			// primaryColor = DarkIndigo
+			// secondaryColor = DarkIndigo
+		// }
+		// SUBTYPE
+		// {
+			// name = GrayWater
+			// tankType = RR_GW
+			// title = GrayWater
+			// primaryColor = FrenchBlue
+			// secondaryColor = FrenchBlue
+		// }
 		SUBTYPE
 		{
 			name = Hexagen
@@ -67,22 +67,22 @@
 			primaryColor = Grapefruit
 			secondaryColor = Grapefruit
 		}
-		SUBTYPE
-		{
-			name = Hydrokerbon
-			tankType = RR_HKR
-			title = Hydrokerbon
-			primaryColor = Saffron
-			secondaryColor = Saffron
-		}
-		SUBTYPE
-		{
-			name = Minerite
-			tankType = RR_MNR
-			title = Minerite
-			primaryColor = Tea
-			secondaryColor = Tea
-		}
+		// SUBTYPE
+		// {
+			// name = Hydrokerbon
+			// tankType = RR_HKR
+			// title = Hydrokerbon
+			// primaryColor = Saffron
+			// secondaryColor = Saffron
+		// }
+		// SUBTYPE
+		// {
+			// name = Minerite
+			// tankType = RR_MNR
+			// title = Minerite
+			// primaryColor = Tea
+			// secondaryColor = Tea
+		// }
 		SUBTYPE
 		{
 			name = Nitronite
@@ -115,14 +115,14 @@
 			primaryColor = Lightblue
 			secondaryColor = ResourceColorOxidizer
 		}
-		SUBTYPE
-		{
-			name = PreciousMetals
-			tankType = RR_PRM
-			title = PreciousMetals
-			primaryColor = LightPlum
-			secondaryColor = LightPlum
-		}
+		// SUBTYPE
+		// {
+			// name = PreciousMetals
+			// tankType = RR_PRM
+			// title = PreciousMetals
+			// primaryColor = LightPlum
+			// secondaryColor = LightPlum
+		// }
 		SUBTYPE
 		{
 			name = Raptium
@@ -147,14 +147,14 @@
 			primaryColor = Desert
 			secondaryColor = Desert
 		}
-		SUBTYPE
-		{
-			name = Slag
-			tankType = RR_SLG
-			title = Slag
-			primaryColor = Shit
-			secondaryColor = Shit
-		}
+		// SUBTYPE
+		// {
+			// name = Slag
+			// tankType = RR_SLG
+			// title = Slag
+			// primaryColor = Shit
+			// secondaryColor = Shit
+		// }
 		SUBTYPE
 		{
 			name = Water
@@ -163,14 +163,14 @@
 			primaryColor = Ocean
 			secondaryColor = Ocean
 		}
-		SUBTYPE
-		{
-			name = Zeonium
-			tankType = RR_ZNM
-			title = Zeonium
-			primaryColor = Lavender
-			secondaryColor = Lavender
-		}
+		// SUBTYPE
+		// {
+			// name = Zeonium
+			// tankType = RR_ZNM
+			// title = Zeonium
+			// primaryColor = Lavender
+			// secondaryColor = Lavender
+		// }
 	}
 	
 	MODULE
