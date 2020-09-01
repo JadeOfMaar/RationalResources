@@ -1,5 +1,5 @@
 // Convert RR nuclear turbojet and rocket engines
-@PART[RREngineNTJ1]:AFTER[RationalResources]
+@PART[RREngineNTJ1]:AFTER[RationalResourcesParts]
 {
 	@MODULE[ModuleEnginesFX]
 	{
@@ -16,31 +16,31 @@
 	{
 		@name = NuclearFuel
 	}
-	RESOURCE[DepletedFuel]
+	@RESOURCE[DepletedFuel]
 	{
 		@name = NuclearWaste
 	}
-	RESOURCE[ThermalPower]
+	@RESOURCE[ThermalPower]
 	{
 		@name = CoreHeat
 	}
 	@MODULE[ModuleResourceConverter]
 	{
-		@INPUT_RESOURCE[EnrichedUranium]
+		@INPUT_RESOURCE:HAS[#ResourceName[EnrichedUranium]]
 		{
 			@ResourceName = NuclearFuel
 		}
-		@OUTPUT_RESOURCE[DepletedFuel]
+		@OUTPUT_RESOURCE:HAS[#ResourceName[DepletedFuel]]
 		{
 			@ResourceName = NuclearWaste
 		}
-		@OUTPUT_RESOURCE[ThermalPower]
+		@OUTPUT_RESOURCE:HAS[#ResourceName[ThermalPower]]
 		{
 			@ResourceName = CoreHeat
 		}
 	}
 }
-@PART[RREngineNERVA-O]:AFTER[RationalResources]
+@PART[RREngineNERVA-O]:AFTER[RationalResourcesParts]
 {
 	@description = O for "Oxidizing," this advanced form of the classic NERV engine, the LV-N-O is able to safely operate on any of a small number of "oxidizing" propellants, namely CompressedAtmosphere (which tends to contain StaleAir!) and Water. The average Isp of its propellant options is low, making this engine most suited for use on heavyweight and short range craft.
 	@MODULE[ModuleEnginesFX]
@@ -70,7 +70,7 @@
 		}
 	}
 }
-@PART[RREngineNERVA-R]:AFTER[RationalResources]
+@PART[RREngineNERVA-R]:AFTER[RationalResourcesParts]
 {
 	@description = R for "Reducing," this advanced form of the classic NERV engine, the LV-N-R is able to safely operate on any of a small number of "reducing" propellants, namely Propellium and Raptium. The average Isp of its propellant options is high, keeping this engine most suited for use on lightweight and far-travelling craft.
 	@MODULE[ModuleEnginesFX]
@@ -78,6 +78,10 @@
 		@PROPELLANT[LqdHydrogen]
 		{
 			@name = Propellium
+		}
+		@atmosphereCurve
+		{
+			@key,*[1, ] *= 3.7
 		}
 	}
 	@MODULE[ModuleB9PartSwitch]
@@ -97,6 +101,10 @@
 					{
 						@name = Propellium
 					}
+					@atmosphereCurve
+					{
+						@key,*[1, ] *= 3.7
+					}
 				}
 			}
 		}
@@ -115,6 +123,10 @@
 					@PROPELLANT[LqdMethane]
 					{
 						@name = Raptium
+					}
+					@atmosphereCurve
+					{
+						@key,*[1, ] *= 1.33
 					}
 				}
 			}
