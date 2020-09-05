@@ -1,5 +1,17 @@
 # Rational Resources
 
+## 1.10.0
+* Classic Stock focus
+  * Added support for CryoTanks.
+  * Added options for stock fuel cells.
+  * Disabled most tank types for fuel tanks as they are mostly not fuels, and enabled Ore tanks to hold them all.
+  * Fixed resources for RR atomic engines.
+  * Fixed removal of stock converter modules for Boxed Convert-O-Trons (where OmniConverter modules are added).
+
+* Fixed Configurable Containers detection.
+* Updated Extras:
+  * RR_TankswitchForSquad.cfg to stop detecting CryoTanks. This is handled elsewhere.
+
 ## 1.9.0
 * Added RareMetals B9 tank option to Ore tanks.
 * Added stock/Restock Ore tanks to RR category.
