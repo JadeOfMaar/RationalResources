@@ -1,5 +1,14 @@
 # Rational Resources
 
+## 1.11.0
+* Added Extras:
+  * RR_TACLS.cfg changes TAC Life Support: To use the proper resources (Hydrogen, Methane, Carbon) and cease abstracting them with Waste in its converters; Its Air Filter becomes an all purpose atmo harvester; affect TAC patches for Airline Kuisine and Station Parts Redux.
+  * RR_TACLS_AirlineKuisine.cfg to similarly affect Airline Kuisine's Mk2 and Mk3 converters.
+  * RR_TACLS_SSPXr.cfg to similarly affect Nertea's station parts.
+* Added LqdNitrogen propellant option to Reducing agent NERVA clone.
+* Added missing Rock extraction options to RR exoscoop and for Kerbalism.
+* Added support for Deep Sky Core intakes.
+
 ## 1.10.0
 * Classic Stock focus
   * Added support for CryoTanks.
