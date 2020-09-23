@@ -1,3 +1,4 @@
+//NOT READY
 //Numbers are bad, do NOT trust!!
 @PART[ISRU|MiniISRU]:NEEDS[UmbraSpaceIndustries/MKS|PlanetarySurfaceStructures|!Kerbalism]
 {
