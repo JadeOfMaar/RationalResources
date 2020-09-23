@@ -115,3 +115,41 @@
 		mtbf = 400
 	}
 }
+
+@PART[ds00_intrbm|ds00_intmk2]:NEEDS[DeepSky/00DeepSky]
+{
+	!MODULE[ModuleResourceHarvester],* {}
+	MODULE
+	{
+		name = WBIModuleResourceHarvester
+		harvestTypes = Atmospheric;Oceanic
+
+		AutoShutdown = true
+		ConverterName = Aero/Hydro Scoop
+		StartActionName = Start Aero/Hydro Scoop
+		StopActionName = Stop Aero/Hydro Scoop
+		ToggleActionName = Toggle Aero/Hydro Scoop
+		intakeTransformName = Intake
+		intakeSpeed = 10
+		airStaticSpeed = 10
+
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 1
+		}
+	}
+
+	MODULE:NEEDS[BARIS]
+	{
+		name = ModuleQualityControl
+		mtbf = 400
+	}
+	
+	RESOURCE
+	{
+		name = IntakeLqd
+		amount = 1
+		maxAmount = 1
+	}
+}
