@@ -1,0 +1,262 @@
+@PART[RRRCSLinearCold|RRRCSQuadCold]:NEEDS[B9PartSwitch,ClassicStock]
+{
+	IspASL = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,1[1, ]$ // get ASL Isp number
+	IspVac = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,0[1, ]$ // get vac Isp number
+	IspMult = #$IspVac$ // set numerator for div operation
+	@IspMult /= 240 // denominator, the highest vac Isp number among all targeted parts
+	
+	// precision sequence to keep div number at 2dp and not let it be 12+dp
+	@IspMult += 0.005
+	@IspMult *= 100
+	@IspMult = #$IspMult[0,.]$ // regex truncate, unknown behavior but used in RO
+	@IspMult /= 100
+	
+	// set and scale reference Isp numbers
+	IspVacAtm = 70
+	IspASLAtm = 35
+	@IspVacAtm *= #$IspMult$
+	@IspASLAtm *= #$IspMult$
+	
+	IspVacPLM = 272
+	IspASLPLM = 136
+	@IspVacPLM *= #$IspMult$
+	@IspASLPLM *= #$IspMult$
+	
+	IspVacN2O = 171.4
+	IspASLN2O = 85.7
+	@IspVacN2O *= #$IspMult$
+	@IspASLN2O *= #$IspMult$
+	
+	IspVacXe = 28
+	IspASLXe = 14
+	@IspVacXe *= #$IspMult$
+	@IspASLXe *= #$IspMult$
+	
+	IspVacRPT = 105
+	IspASLRPT = 52.5
+	@IspVacRPT *= #$IspMult$
+	@IspASLRPT *= #$IspMult$
+	
+	@description ^= :$: <br><color="green">RCS can accept other fuels.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = RCS
+		switcherDescription = RCS Mode
+		switcherDescriptionPlural = RCS Modes
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoPropellant
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			descriptionDetail = #Uses MonoPropellant.<br><b>Isp:</b> $/IspASL$ / $/IspVac$s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$ // thrust will change if the Isp is changed and thrusterPower is not re-declared
+					resourceName = MonoPropellant
+					PROPELLANT
+					{
+						name = MonoPropellant
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVac$
+						key = #1 $/IspASL$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = CompressedAtmosphere
+			title = CompressedAtmosphere
+			primaryColor = WarmGrey
+			secondaryColor = WarmGrey
+			descriptionDetail = #Uses Compressed Atmosphere.<br><b>Isp:</b> <color="yellow">$/IspASLAtm$ / $/IspVacAtm$</color>s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$
+					resourceName = CompressedAtmosphere
+					PROPELLANT
+					{
+						name = CompressedAtmosphere
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVacAtm$
+						key = #1 $/IspASLAtm$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Propellium
+			title = Propellium
+			primaryColor = Lightblue
+			secondaryColor = Lightblue
+			descriptionDetail = #Uses Propellium gas.<br><b>Isp:</b> <color="yellow">$/IspASLPLM$ / $/IspVacPLM$</color>s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$
+					resourceName = Propellium
+					PROPELLANT
+					{
+						name = Propellium
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVacPLM$
+						key = #1 $/IspASLPLM$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Nitronite
+			title = Nitronite
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			descriptionDetail = #Uses Nitronite gas.<br><b>Isp:</b> <color="yellow">$/IspASLN2O$ / $/IspVacN2O$</color>s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$
+					resourceName = Nitronite
+					PROPELLANT
+					{
+						name = Nitronite
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVacN2O$
+						key = #1 $/IspASLN2O$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = XenonGas
+			title = XenonGas
+			primaryColor = ResourceColorXenonGas
+			secondaryColor = ResourceColorXenonGas
+			descriptionDetail = #Uses Xenon gas.<br><b>Isp:</b> <color="yellow">$/IspASLXe$ / $/IspVacXe$</color>s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$
+					resourceName = XenonGas
+					PROPELLANT
+					{
+						name = XenonGas
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVacXe$
+						key = #1 $/IspASLXe$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Raptium
+			title = Raptium
+			primaryColor = PurpleyPink
+			secondaryColor = PurpleyPink
+			descriptionDetail = #Uses Raptium gas.<br><b>Isp:</b> <color="yellow">$/IspASLRPT$ / $/IspVacRPT$</color>s.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					thrusterPower = #$/MODULE[ModuleRCSFX]/thrusterPower$
+					resourceName = Raptium
+					PROPELLANT
+					{
+						name = Raptium
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = #0 $/IspVacRPT$
+						key = #1 $/IspASLRPT$
+						key = 4 0.001
+					}
+				}
+			}
+		}
+	}
+}
+@PART[RRRCSLinearCold|RRRCSQuadCold]:NEEDS[B9PartSwitch,ClassicStock]
+{
+	!IspASL = nope
+	!IspVac = nope
+	!IspMult = nope
+	
+	!IspVacAtm = nope
+	!IspASLAtm = nope
+	
+	!IspVacPLM = nope
+	!IspASLPLM = nope
+	
+	!IspVacN2O = nope
+	!IspASLN2O = nope
+	
+	!IspVacXe = nope
+	!IspASLXe = nope
+	
+	!IspVacRPT = nope
+	!IspASLRPT = nope
+}
