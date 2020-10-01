@@ -1,7 +1,7 @@
 @PART[RRRCSLinearCold|RRRCSQuadCold]:NEEDS[B9PartSwitch,ClassicStock]
 {
-	IspASL = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,1[1, ]$ // get ASL Isp number
 	IspVac = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,0[1, ]$ // get vac Isp number
+	IspASL = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,1[1, ]$ // get ASL Isp number
 	IspMult = #$IspVac$ // set numerator for div operation
 	@IspMult /= 240 // denominator, the highest vac Isp number among all targeted parts
 	

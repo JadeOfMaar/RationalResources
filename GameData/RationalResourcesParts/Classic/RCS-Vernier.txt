@@ -2,14 +2,14 @@
 
 @PART[vernierEngine]:NEEDS[B9PartSwitch,ClassicStock]
 {
-	IspASL = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,1[1, ]$ // get ASL Isp number
 	IspVac = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,0[1, ]$ // get vac Isp number
+	IspASL = #$MODULE[ModuleRCSFX]/atmosphereCurve/key,1[1, ]$ // get ASL Isp number
 	
-	IspASLH2 = 340
-	IspVacH2 = 136
+	IspVacH2 = 340
+	IspASLH2 = 136
 	
-	IspASLCH4 = 346
-	IspVacCH4 = 186
+	IspVacCH4 = 346
+	IspASLCH4 = 186
 	
 	@description ^= :$: <br><color="green">RCS can accept other fuels.</color>
 	MODULE
