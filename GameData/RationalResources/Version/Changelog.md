@@ -1,10 +1,10 @@
 # Rational Resources
 
 ## 1.12.0
-* Added cold gas RCS thrusters with 9 RCS modes.
-* Added patch for Hydrolox and Methalox to stock vernier LFO RCS.
+* Added cold gas RCS thrusters with 9 RCS modes (including MonoPropellant).
+* Added patch for Hydrolox and Methalox to stock vernier LFO RCS. (Is not an extra.)
 * Added extras:
-  * RR_ColdGasRCSStock.cfg to add all of these to stock and Restock+ MonoPropellant RCS.
+  * RR_ColdGasRCSStock.cfg to add all cold gas options to stock and Restock+ MonoPropellant RCS.
 * Added support for these in WBI Classic Stock.
 
 

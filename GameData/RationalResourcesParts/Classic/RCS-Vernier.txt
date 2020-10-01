@@ -11,7 +11,7 @@
 	IspASLCH4 = 346
 	IspVacCH4 = 186
 	
-	@description ^= :$: <br><color="green">This part can change its RCS fuel mix.</color>
+	@description ^= :$: <br><color="green">RCS can accept other fuels.</color>
 	MODULE
 	{
 		name = ModuleB9PartSwitch
