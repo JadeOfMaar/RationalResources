@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 1.12.0
+* Added cold gas RCS thrusters with 9 RCS modes.
+* Added patch for Hydrolox and Methalox to stock vernier LFO RCS.
+* Added extras:
+  * RR_ColdGasRCSStock.cfg to add all of these to stock and Restock+ MonoPropellant RCS.
+* Added support for these in WBI Classic Stock.
+
+
 ## 1.11.0
 * Added Extras:
   * RR_TACLS.cfg changes TAC Life Support: To use the proper resources (Hydrogen, Methane, Carbon) and cease abstracting them with Waste in its converters; Its Air Filter becomes an all purpose atmo harvester; affect TAC patches for Airline Kuisine and Station Parts Redux.
