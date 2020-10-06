@@ -6,6 +6,11 @@
 * Added extras:
   * RR_ColdGasRCSStock.cfg to add all cold gas options to stock and Restock+ MonoPropellant RCS.
 * Added support for these in WBI Classic Stock.
+* Added variant select for RR Ocean Scoop. Choose between: white + brown; all white.
+* Added engines: 
+  * MAPT "Microwave Air Plasma Thruster" based on stock J-20 Juno.
+  * SFRJ "SolidFuel Ramjet" based on stock RT-10 Hammer SRB.
+* Renamed engines: water ion and hybrid SRBs. May break craft.
 
 
 ## 1.11.0
