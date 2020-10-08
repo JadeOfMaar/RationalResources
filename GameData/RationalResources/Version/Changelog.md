@@ -5,13 +5,16 @@
 * Added patch for Hydrolox and Methalox to stock vernier LFO RCS. (Is not an extra.)
 * Added extras:
   * RR_ColdGasRCSStock.cfg to add all cold gas options to stock and Restock+ MonoPropellant RCS.
+  * RR_NuclearFamily.cfg causes Reducing Agent and Oxidating agent versions to appear for compatible single-mode NTRs.
 * Added support for these in WBI Classic Stock.
+* Added preliminary support for GEP.
+* Added support for Grounded - Modular Vehicles.
+* Added template: **AtnGasIV**.
 * Added variant select for RR Ocean Scoop. Choose between: white + brown; all white.
 * Added engines: 
-  * MAPT "Microwave Air Plasma Thruster" based on stock J-20 Juno.
-  * SFRJ "SolidFuel Ramjet" based on stock RT-10 Hammer SRB.
+  * MAPT "Microwave Air Plasma Thruster" built on stock J-20 Juno.
+  * SFRJ "SolidFuel Ramjet" built on stock RT-10 Hammer SRB.
 * Renamed engines: water ion and hybrid SRBs. May break craft.
-
 
 ## 1.11.0
 * Added Extras:
