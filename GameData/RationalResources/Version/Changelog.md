@@ -3,11 +3,11 @@
 ## 1.12.0
 * Added cold gas RCS thrusters with 9 RCS modes (including MonoPropellant).
 * Added patch for Hydrolox and Methalox to stock vernier LFO RCS. (Is not an extra.)
-* Added extras:
+* Added Extras:
   * RR_ColdGasRCSStock.cfg to add all cold gas options to stock and Restock+ MonoPropellant RCS.
-  * RR_NuclearFamily.cfg causes Reducing Agent and Oxidating agent versions to appear for compatible single-mode NTRs.
+  * RR_NuclearFamily.cfg causes Reducing Agent and Oxidating Agent versions to appear for compatible single-mode NTRs.
 * Added support for these in WBI Classic Stock.
-* Added preliminary support for GEP.
+* Added preliminary support for GEP. May change later. May upset mining vessels.
 * Added support for Grounded - Modular Vehicles.
 * Added template: **AtnGasIV**.
 * Added variant select for RR Ocean Scoop. Choose between: white + brown; all white.
