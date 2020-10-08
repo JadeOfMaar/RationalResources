@@ -331,12 +331,12 @@
 		}
 		SUBTYPE
 		{
-			name = Nitronite
+			name = NIT
 			title = Nitronite
 			primaryColor = ResourceColorMonoPropellant
 			secondaryColor = ResourceColorMonoPropellant
 			descriptionSummary = Nitronite
-			descriptionDetail = <b>Inputs = </b> 0.167 N2O/min <br><b>Outputs = </b> 1.5 EC/s.<br><color="orange">Please quicksave + quickload after applying.</color>
+			descriptionDetail = <b>Inputs = </b> 0.167 NIT/min <br><b>Outputs = </b> 1.5 EC/s.<br><color="orange">Please quicksave + quickload after applying.</color>
 			MODULE
 			{
 				IDENTIFIER

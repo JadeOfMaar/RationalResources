@@ -175,7 +175,7 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 }
 B9_TANK_TYPE:NEEDS[B9PartSwitch]
 {
-	name = RR_N2O
+	name = RR_NIT
 	tankMass = 0.00007085
 	tankCost = 0.15
 	// percentFilled = 100
