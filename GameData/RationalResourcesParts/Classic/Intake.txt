@@ -79,40 +79,349 @@
 
 @PART[rr_exoscoop]
 {
+	RESOURCE
+	{
+		name = Atmosphere
+		amount = 0
+		maxAmount = 2
+	}
 	MODULE
 	{
-		name = WBIModuleResourceHarvester
-		harvestTypes = Exospheric
-
-		AutoShutdown = true
-		ConverterName = Exo Scoop
-		StartActionName = Start Exo Scoop
-		StopActionName = Stop Exo Scoop
-		ToggleActionName = Toggle Exo Scoop
-		intakeTransformName = Intake
-		intakeSpeed = 60
-		airStaticSpeed = 60
-
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Hexagen
+		ConverterName = Hexagen Collector
+		StartActionName = Open Hexagen Collector
+		StopActionName = Close Hexagen Collector
 		INPUT_RESOURCE
 		{
 			ResourceName = ElectricCharge
-			Ratio = 10
+			Ratio = 8
 		}
 	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Nitronite
+		ConverterName = Nitronite Collector
+		StartActionName = Open Nitronite Collector
+		StopActionName = Close Nitronite Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Oxium
+		ConverterName = Oxium Collector
+		StartActionName = Open Oxium Collector
+		StopActionName = Close Oxium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Propellium
+		ConverterName = Propellium Collector
+		StartActionName = Open Propellium Collector
+		StopActionName = Close Propellium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Rock
+		ConverterName = Rock Collector
+		StartActionName = Open Rock Collector
+		StopActionName = Close Rock Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Water
+		ConverterName = Water Collector
+		StartActionName = Open Water Collector
+		StopActionName = Close Water Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Zeonium
+		ConverterName = Zeonium Collector
+		StartActionName = Open Zeonium Collector
+		StopActionName = Close Zeonium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	
+	// MODULE
+	// {
+		// name = WBIModuleResourceHarvester
+		// harvestTypes = Exospheric
 
+		// AutoShutdown = true
+		// ConverterName = Exo Scoop
+		// StartActionName = Start Exo Scoop
+		// StopActionName = Stop Exo Scoop
+		// ToggleActionName = Toggle Exo Scoop
+		// intakeTransformName = Intake
+		// intakeSpeed = 60
+		// airStaticSpeed = 60
+
+		// INPUT_RESOURCE
+		// {
+			// ResourceName = ElectricCharge
+			// Ratio = 10
+		// }
+	// }
+
+	// MODULE
+	// {
+		// name = ModuleResourceScanner
+		// MaxAbundanceAltitude = 5000000
+		// RequiresUnlock = true
+		// ScannerType = 3
+		// ResourceName = Atmosphere
+	// }
+
+	// MODULE:NEEDS[BARIS]
+	// {
+		// name = ModuleQualityControl
+		// mtbf = 400
+	// }
+}
+
+@PART[wbilassosize0]:NEEDS[Pathfinder]
+{
+	@MODULE[WBIModuleResourceHarvester]
+	{
+		%Efficiency = 0.5
+		@airStaticSpeed = 5000
+	}
+}
+@PART[wbilassosize1]:NEEDS[Pathfinder]
+{
+	@MODULE[WBIModuleResourceHarvester]
+	{
+		%Efficiency = 1
+		@airStaticSpeed = 5000
+	}
+}
+@PART[wbilassosize2]:NEEDS[Pathfinder]
+{
+	@MODULE[WBIModuleResourceHarvester]
+	{
+		%Efficiency = 4
+		@airStaticSpeed = 5000
+	}
+}
+
+@PART[wbilassosize3]:NEEDS[Pathfinder]
+{
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Hexagen
+		ConverterName = Hexagen Collector
+		StartActionName = Open Hexagen Collector
+		StopActionName = Close Hexagen Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Nitronite
+		ConverterName = Nitronite Collector
+		StartActionName = Open Nitronite Collector
+		StopActionName = Close Nitronite Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Oxium
+		ConverterName = Oxium Collector
+		StartActionName = Open Oxium Collector
+		StopActionName = Close Oxium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Propellium
+		ConverterName = Propellium Collector
+		StartActionName = Open Propellium Collector
+		StopActionName = Close Propellium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Rock
+		ConverterName = Rock Collector
+		StartActionName = Open Rock Collector
+		StopActionName = Close Rock Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Water
+		ConverterName = Water Collector
+		StartActionName = Open Water Collector
+		StopActionName = Close Water Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceHarvester
+		HarvesterType = 3
+		Efficiency = 1
+		ResourceName = Zeonium
+		ConverterName = Zeonium Collector
+		StartActionName = Open Zeonium Collector
+		StopActionName = Close Zeonium Collector
+		INPUT_RESOURCE
+		{
+			ResourceName = ElectricCharge
+			Ratio = 8
+		}
+	}
 	MODULE
 	{
 		name = ModuleResourceScanner
-		MaxAbundanceAltitude = 5000000
-		RequiresUnlock = true
 		ScannerType = 3
-		ResourceName = Atmosphere
+		ResourceName = GrayWater
+		RequiresUnlock = false
 	}
-
-	MODULE:NEEDS[BARIS]
+	MODULE
 	{
-		name = ModuleQualityControl
-		mtbf = 400
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Hexagen
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Hydrokerbon
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Nitronite
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Oxium
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Propellium
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Rock
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Water
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Zeonium
+		RequiresUnlock = false
 	}
 }
 

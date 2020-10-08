@@ -301,6 +301,13 @@
 	{
 		name = ModuleResourceScanner
 		ScannerType = 3
+		ResourceName = Oxium
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
 		ResourceName = Propellium
 		RequiresUnlock = false
 	}
@@ -309,6 +316,13 @@
 		name = ModuleResourceScanner
 		ScannerType = 3
 		ResourceName = Rock
+		RequiresUnlock = false
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		ScannerType = 3
+		ResourceName = Water
 		RequiresUnlock = false
 	}
 	MODULE
