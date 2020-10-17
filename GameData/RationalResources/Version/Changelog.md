@@ -15,6 +15,8 @@
   * MAPT "Microwave Air Plasma Thruster" built on stock J-20 Juno.
   * SFRJ "SolidFuel Ramjet" built on stock RT-10 Hammer SRB.
 * Renamed engines: water ion and hybrid SRBs. May break craft.
+* Updated Extras:
+  * RR_TankswitchForSquad.cfg to not activate when Modular Fuel Tanks installed.
 
 ## 1.11.0
 * Added Extras:
