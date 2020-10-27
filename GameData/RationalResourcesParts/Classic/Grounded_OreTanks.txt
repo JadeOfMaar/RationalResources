@@ -124,7 +124,7 @@
 		SUBTYPE
 		{
 			name = Nitronite
-			tankType = RR_N2O
+			tankType = RR_NIT
 			title = Nitronite
 			primaryColor = DarkSkyBlue
 			secondaryColor = DarkSkyBlue

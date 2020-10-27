@@ -60,7 +60,7 @@
 		{
 			name = PropLox
 			title = PropLox
-			primaryColor = ResourceColorPropellium
+			primaryColor = ResourceColorLqdHydrogen
 			secondaryColor = ResourceColorOxidizer
 			defaultSubtypePriority = 2
 			descriptionDetail = #Uses Propellium + Oxidizer.<br><b>Isp:</b> <color="yellow">$/IspASLH2$ / $/IspVacH2$</color>s.
