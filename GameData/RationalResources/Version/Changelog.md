@@ -4,12 +4,12 @@
 * Added cold gas RCS thrusters with 9 RCS modes (including MonoPropellant).
 * Added patch for Hydrolox and Methalox to stock vernier LFO RCS. (Is not an extra.)
 * Added Extras:
-  * RR_ColdGasRCSStock.cfg to add all cold gas options to stock and Restock+ MonoPropellant RCS.
-  * RR_NuclearFamily.cfg causes Reducing Agent and Oxidating Agent versions to appear for compatible single-mode NTRs.
+  * RR_ColdGasRCSStock.cfg to add all cold gas options to all stock and Restock+ MonoPropellant RCS.
+  * RR_NuclearFamily.cfg causes Reducing Agent and Oxidating Agent versions to appear for compatible NTRs. Simply tag such engines that you like. Insutructions in config. Can run stand-alone.
 * Added support for these in WBI Classic Stock.
-* Added preliminary support for GEP. May change later. May upset mining vessels.
+* Added support for GEP (Grannus Expansion Pack). Includes experiment blurbs. This may change later-on and upset landed mining vessels, with new templates that may come.
 * Added support for Grounded - Modular Vehicles.
-* Added template: **AtnGasIV**.
+* Added template: **AtnGasIV** for use by some Hot Jool type planets. Produced by forum user: **@ Clamp-O-Tron**.
 * Added variant select for RR Ocean Scoop. Choose between: white + brown; all white.
 * Added engines: 
   * MAPT "Microwave Air Plasma Thruster" built on stock J-20 Juno.
