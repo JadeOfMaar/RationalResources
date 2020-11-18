@@ -1,0 +1,72 @@
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Graviolium
+	ResourceType = 3
+	PlanetName = None
+	Tag = BlackHole
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 65
+		MaxAbundance = 75
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 5
+		MaxRange = 5
+		Variance = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Hexagen
+	ResourceType = 3
+	PlanetName = None
+	Tag = BlackHole
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 1.2
+		MinAltitude = 15
+		MaxAltitude = 20
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Propellium
+	ResourceType = 3
+	PlanetName = None
+	Tag = BlackHole
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 2
+		MaxAbundance = 5
+		MinAltitude = 0.1
+		MaxAltitude = 0.1
+		MinRange = 75
+		MaxRange = 100
+		Variance = 0
+	}
+}
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Rock
+	ResourceType = 3
+	PlanetName = None
+	Tag = BlackHole
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 15
+		MaxAbundance = 20
+		MinAltitude = 11
+		MaxAltitude = 12
+		MinRange = 10
+		MaxRange = 20
+		Variance = 0
+	}
+}
