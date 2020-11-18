@@ -117,7 +117,22 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 		// Variance = 20
 		// Dispersal = 10
 	// }
-// }
+// } 
+PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
+{
+	ResourceName = Oxium
+	ResourceType = 2
+	PlanetName = None
+	Tag = SrfVulcan
+	Distribution
+	{
+		PresenceChance = 1000
+		MinAbundance = 1
+		MaxAbundance = 4
+		Variance = 0
+		Dispersal = 0
+	}
+}
 PLANETARY_RESOURCE
 {
 	ResourceName = Ore

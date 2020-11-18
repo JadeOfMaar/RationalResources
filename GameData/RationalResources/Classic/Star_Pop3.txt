@@ -100,8 +100,8 @@ PLANETARY_RESOURCE:NEEDS[WildBlueIndustries/ClassicStockResources]
 	// Distribution
 	// {
 		// PresenceChance = 1000
-		// MinAbundance = 0.5
-		// MaxAbundance = 2
+		// MinAbundance = 0
+		// MaxAbundance = 0
 		// MinAltitude = 12
 		// MaxAltitude = 12
 		// MinRange = 10
