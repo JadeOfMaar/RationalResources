@@ -20,17 +20,25 @@ The Star series templates apply resource bands in the vein of [Stellar Populatio
 | Silica | Nitrogen | Terra | Mun | Ice |
 | Vulcan | Methane | Vulcan | Minmus | |
 | Rock-Metal | Ammonia | Ice-Water (Thick, N2-rich) | Duna | |
-| Rock-Ice | Lava | Ice-Water (Thin, CO2-rich) | | |
-| Ice-Water | MudWarm | Ice-Ammonia | |
-| Ice-Methane | MudCold | Ice-Methane | |
+| Rock-Ice | Lava | Ice-Water (Thin, CO2-rich) | Neidon | |
+| Ice-Water | Mud (Warm) | Ice-Ammonia | |
+| Ice-Methane | Mud (Cold) | Ice-Methane | |
 | Ice-Nitrogen | | Ice-Nitrogen | |
+| | | Oxygen | |
+| | | Gas (Helium) | |
 | | | Gas (Jovian) | |
 | | | Gas (Uranian) | |
 | | | Gas (Sudarsky II) | |
 | | | Gas (Sudarsky III) | |
+| | | Gas (Sudarsky IV) | |
 | | | Star (Population 1) | |
 | | | Star (Population 2) | |
 | | | Star (Population 3) | |
+| | | Star (Carbon) | |
+| | | Star (Dying Red Giant) | |
+| | | Star (Neutron) | |
+| | | Black Hole | |
+| | | Worm Hole | |
 
 ## Active Resources
 With some partial respect to realism, this mod drastically reduces the presence of the stock "Ore" resource in order to starve the use of this omnipotent and exceedingly abstracted resource, and to encourage the use of the distinct and specialized resources, and to encourage creation and use of the part mods that revolve around these. The exact resources used are named below as a heads-up to players:
