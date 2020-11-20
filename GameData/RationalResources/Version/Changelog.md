@@ -1,5 +1,12 @@
 # Rational Resources
 
+## 1.13.0
+* Added Antimatter presence to gas giant templates.
+* Added LqdDeuterium presence to ice atmospheres.
+* Added templates associated with Event Horizon: **WormHole**.
+* Added templates associated with Galaxies Unbound: **AtmOxygen** (not for gas giants), **AtmGasHelium, BlackHole, StarNeutron, StarCarbon, StarDyingRedGiant**.
+* Added templates for LOX oceans: **OcnOxygen** (pure), **OcnOxygenC** (with CO2 and various traces), **OcnOxygenN** (with Nitrogen).
+
 ## 1.12.0
 * Added cold gas RCS thrusters with 9 RCS modes (including MonoPropellant).
 * Added patch for Hydrolox and Methalox to stock vernier LFO RCS. (Is not an extra.)
@@ -9,7 +16,7 @@
 * Added support for these in WBI Classic Stock.
 * Added support for GEP (Grannus Expansion Pack). Includes experiment blurbs. This may change later-on and upset landed mining vessels, with new templates that may come.
 * Added support for Grounded - Modular Vehicles.
-* Added template: **AtnGasIV** for use by some Hot Jool type planets. Produced by forum user: **@ Clamp-O-Tron**.
+* Added template: **AtmGasIV** for use by some Hot Jool type planets. Produced by forum user: **@ Clamp-O-Tron**.
 * Added variant select for RR Ocean Scoop. Choose between: white + brown; all white.
 * Added engines: 
   * MAPT "Microwave Air Plasma Thruster" built on stock J-20 Juno.
