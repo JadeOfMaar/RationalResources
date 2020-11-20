@@ -23,9 +23,9 @@ The Star series templates apply resource bands in the vein of [Stellar Populatio
 | Rock-Ice | Lava | Ice-Water (Thin, CO2-rich) | Neidon | |
 | Ice-Water | Mud (Warm) | Ice-Ammonia | |
 | Ice-Methane | Mud (Cold) | Ice-Methane | |
-| Ice-Nitrogen | | Ice-Nitrogen | |
-| | | Oxygen | |
-| | | Gas (Helium) | |
+| Ice-Nitrogen | Oxygen | Ice-Nitrogen | |
+| | Oxygen (+ N2) | Oxygen | |
+| | Oxygen (+ CO2) | Gas (Helium) | |
 | | | Gas (Jovian) | |
 | | | Gas (Uranian) | |
 | | | Gas (Sudarsky II) | |
