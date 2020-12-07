@@ -13,6 +13,7 @@
 * Add Spodumene-related B9 tank options.
 * Add Spodumene presence to planets. Most abundant in rocky worlds and mud/lava oceans.
 * Rewrite converter options to use Kerbalism side profile system.
+* Rewrite ISRU mod integration system, create opt-in system to more easily integrate other ISRU mods.
 
 ## 1.13.0
 * Added Antimatter presence to gas giant templates.
