@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.14.0
+## 1.14.1
 * Added Spodumene Splitter ISRU. Its primary output is Lithium, used by Near Future engines.
 * Added Spodumene-related B9 tank options.
 * Added Spodumene presence to planets. Most abundant in vulcan and metal worlds and warm mud and lava oceans.
