@@ -2,18 +2,17 @@
 
 ## 1.14.0
 * Added Spodumene Splitter ISRU. Its primary output is Lithium, used by Near Future engines.
+* Added Spodumene-related B9 tank options.
+* Added Spodumene presence to planets. Most abundant in vulcan and metal worlds and warm mud and lava oceans.
 * Changed some engines to be inoperable when submerged.
+* Rewrite converter options/configs to use Kerbalism side profile system.
+* Rewrite ISRU mod integration system, create opt-in system to more easily integrate other ISRU mods.
 * Updated Extras:
   * RR_NuclearFamily.cfg to handle bimodal rockets and assume their secondary mode, if present, is Lox-Augmented.
   * RR_NuclearFamily.cfg to handle nuclear jets and give them characteristics like the example "Maine Coon" NTJ.
   * RR_NuclearFamily.cfg to handle Restock+ Cherenkov and the Space Tux/Atomic Age engines by default.
-  * RR_SSPXr_ContainerTypes.cfg to not activate when Classic Stock active.
-
-### To-Do/WIP
-* Add Spodumene-related B9 tank options.
-* Add Spodumene presence to planets. Most abundant in rocky worlds and mud/lava oceans.
-* Rewrite converter options to use Kerbalism side profile system.
-* Rewrite ISRU mod integration system, create opt-in system to more easily integrate other ISRU mods.
+  * RR_NuclearFamily.cfg to to add Kerbalism radioactivity.
+  * RR_SSPXr_ContainerTypes.cfg to not activate when WBI Classic Stock active.
 
 ## 1.13.0
 * Added Antimatter presence to gas giant templates.
