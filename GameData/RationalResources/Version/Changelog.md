@@ -2,7 +2,7 @@
 
 ## 1.15.0
 * Added Extras:
-  * RR_RCSFamily.cfg to add fuel switching to RCS thrusters whether MonoProp, LFO, or MonoProp (WBI Classic Stock). Has default support for NF Aero, NF Spacecraft, most of NFLV, MKIV Spaceplane, KRE.
+  * RR_RCSFamily.cfg with modlet `RationalResourcesRCSFamily` to add fuel switching to RCS thrusters whether MonoProp, LFO, or MonoProp (WBI Classic Stock). Has default support for NF Aero, NF Spacecraft, most of NFLV, MKIV Spaceplane, KRE.
 * Added ISRU options (specific to other mods or parts in them):
   * Water-consuming NSW production to FFT 3.75m smelter part.
   * Blacksmith (Ablator refurbishment) to FFT 3.75m smelter part.
@@ -17,8 +17,10 @@
 * Added opt-in ISRU options (stock mode only, should already be provided by Kerbalism):
   * NFE Uraninite Harvester.
   * NFE Uraninite Enricher (converter).
+* Fixed missing Kerbalism MRE Rock definition.
+* Moved Kerbalism patches to their own mod folder to prevent their config nodes loading when they need not (when Kerbalism not installed). Due to how Kerbalism operates, configs are parsed before MM runs, making MM conditions irrelevant, and which is the cause of RR processes involving Metal and MetalOre to cause cascade problems because these resources' definitions haven't gotten to load at the time the processes are parsed.
 * Updated Extras:
-  * RR_ScienceLabBlacksmith.cfg: Blacksmith is now its own modlet `:FOR[RRBlacksmith]` so it can be targeted by patches or used as a dependency. Its converters are SystemHeat compatible.
+  * RR_ScienceLabBlacksmith.cfg: Blacksmith is now its own modlet `RationalResourcesBlacksmith` so it can be targeted by patches or used as a dependency. Its converters are SystemHeat compatible.
 * Updated Water Splitter to produce proper amounts of H2 and O2 gas (was broken and would produce 20%) and to produce Deuterium (gas).
 
 ## 1.14.1
