@@ -1,5 +1,26 @@
 # Rational Resources
 
+## 1.15.0
+* Added Extras:
+  * RR_RCSFamily.cfg to add fuel switching to RCS thrusters whether MonoProp, LFO, or MonoProp (WBI Classic Stock). Has default support for NF Aero, NF Spacecraft, most of NFLV, MKIV Spaceplane, KRE.
+* Added ISRU options (specific to other mods or parts in them):
+  * Water-consuming NSW production to FFT 3.75m smelter part.
+  * Blacksmith (Ablator refurbishment) to FFT 3.75m smelter part.
+  * EL recipe for KerbalHealth Radiation Shielding.
+  * Blacksmith based Shielding refurbishment to all parts equipped with KerbalHealth Radiation Shielding.
+* Added/Updated WIP tank options for NF Propulsion (Lihtium,Argon,Xenon).
+* Added opt-in ISRU options:
+  * Deuterium: Freezer option to RR Boxed Compressor/Freezer.
+  * Deuterium: as byproduct of Water Splitter.
+  * Glykerol production (for DeepFreeze users).
+  * KerbalHealth Lead Extractor.
+* Added opt-in ISRU options (stock mode only, should already be provided by Kerbalism):
+  * NFE Uraninite Harvester.
+  * NFE Uraninite Enricher (converter).
+* Updated Extras:
+  * RR_ScienceLabBlacksmith.cfg: Blacksmith is now its own modlet `:FOR[RRBlacksmith]` so it can be targeted by patches or used as a dependency. Its converters are SystemHeat compatible.
+* Updated Water Splitter to produce proper amounts of H2 and O2 gas (was broken and would produce 20%) and to produce Deuterium (gas).
+
 ## 1.14.1
 * Added Spodumene Splitter ISRU. Its primary output is Lithium, used by Near Future engines.
 * Added Spodumene-related B9 tank options.
