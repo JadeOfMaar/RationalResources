@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 1.16.0
+* Added Restock+ APU to, and removed CryoTanks from RR CCK.
+* Added drill support for the standalone "Ventral Drill for stock ISRU" mod.
+* Added integration for Snacks! LS: Create Snacks from Hydrates (CRP) or Rock (Classic Stock).
+* Added Extras:
+  * RR_BlacksmithFamily.cfg which allows for parts to opt-in and have Blacksmith style furnace or workshop (compatible with EL) and does opt-in on EL workshops and smelters.
+* Fixed (inaccessible) bug with LqdHe3 placement in Mun (specific) template.
+* Updated Extras:
+  * RR_ScienceLabBlacksmith.cfg: Added 4th level (not available in stock tech tree) and added support for nuclear material tanks for use when NF Electric not installed.
+
 ## 1.15.0
 * Added Extras:
   * RR_RCSFamily.cfg with modlet `RationalResourcesRCSFamily` to add fuel switching to RCS thrusters whether MonoProp, LFO, or MonoProp (WBI Classic Stock). Has default support for NF Aero, NF Spacecraft, most of NFLV, MKIV Spaceplane, KRE.
