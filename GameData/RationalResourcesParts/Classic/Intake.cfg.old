@@ -1,4 +1,4 @@
-@PART[airScoop]
+@PART[airScoop]:NEEDS[ClassicStock]
 {
 	MODULE
 	{

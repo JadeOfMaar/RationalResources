@@ -7,8 +7,10 @@
 * Added Extras:
   * RR_BlacksmithFamily.cfg which allows for parts to opt-in and have Blacksmith style furnace or workshop (compatible with EL) and does opt-in on EL workshops and smelters.
 * Fixed (inaccessible) bug with LqdHe3 placement in Mun (specific) template.
+* Revised opt-in patches for converters, harvesters and Ore tanks.
 * Updated Extras:
   * RR_ScienceLabBlacksmith.cfg: Added 4th level (not available in stock tech tree) and added support for nuclear material tanks for use when NF Electric not installed.
+* Updated NEEDS and filenames concerning CRP vs Classic Stock to reduce fatal errors concerning WBI Play Mode switching.
 
 ## 1.15.0
 * Added Extras:
