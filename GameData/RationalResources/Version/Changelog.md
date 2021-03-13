@@ -1,21 +1,20 @@
 # Rational Resources
 
-## 1.16.0 (WIP)
+## 1.16.0
 * Added Restock+ APU to, and removed CryoTanks from RR CCK.
 * Added drill support for the standalone "Ventral Drill for stock ISRU" mod.
 * Added integration for Snacks! LS: Create Snacks from Hydrates (CRP) or Rock (Classic Stock).
 * Added Extras:
   * RR_BlacksmithFamily.cfg which allows for parts to opt-in and have Blacksmith style furnace or workshop (compatible with EL) and does opt-in on EL workshops and smelters.
+* Changed part desc heads-up color from green to blue.
+* Enabled Convert-O-Trons that opt-in to have configurable efficiency multiplier and configurable slot count (for mod plugins that facilitate module switching such as Kerbalism and WBI OmniConverters).
 * Fixed (inaccessible) bug with LqdHe3 placement in Mun (specific) template.
 * Fixed and revised Kerbalism integration.
 * Revised opt-in patches for converters, harvesters and Ore tanks.
 * Updated Extras:
-  * RR_ScienceLabBlacksmith.cfg: Added 4th level (not available in stock tech tree) and added support for nuclear material tanks for use when NF Electric not installed.
+  * RR_ScienceLabBlacksmith.cfg: Added 4th level (not available in stock tech tree) and added support for nuclear material tanks for use when NF Electric not installed; Added Classic Stock support.
+  * RR_BlacksmithFamily.cfg: Added Classic Stock support.
 * Updated NEEDS and filenames concerning CRP vs Classic Stock to reduce fatal errors concerning WBI Play Mode switching.
-
-### TBD
-* Add system for fairly easily setting science results for planet packs.
-* Provide for ocean/splashed results, maybe split experiment into exo and ocean.
 
 ## 1.15.0
 * Added Extras:
