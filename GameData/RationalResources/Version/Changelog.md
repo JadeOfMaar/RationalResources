@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.16.1
+## 1.16.2
 * Added Restock+ APU to, and removed CryoTanks from RR CCK.
 * Added drill support for the standalone "Ventral Drill for stock ISRU" mod.
 * Added integration for Snacks! LS: Create Snacks from Hydrates (CRP) or Rock (Classic Stock).
