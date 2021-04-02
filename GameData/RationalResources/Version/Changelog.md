@@ -1,5 +1,12 @@
 # Rational Resources
 
+## 1.17
+* Added water vapor atmosphere templates: **AtmSteam** (pure), **AtmSteamC** (featuring Carbon compounds), **AtmSteamN** (featuring Nitrogen compounds).
+* Adjusted stock Mun's polar water presence: moved from Polar Crater to POlar Lowlands. This will break water miners landed in Polar Crater.
+* Minor adjustment to SCANsat resource color overlays.
+* Fixed filename issue: **AtmVulcan** was accidentally named **AtmSulfur**.
+* Fixed Deuterium issue in **AtmIceNitrogen** template.
+
 ## 1.16.2
 * Added Restock+ APU to, and removed CryoTanks from RR CCK.
 * Added drill support for the standalone "Ventral Drill for stock ISRU" mod.
