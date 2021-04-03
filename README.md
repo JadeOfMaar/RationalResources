@@ -19,9 +19,9 @@ The Star series templates apply resource bands in the vein of [Stellar Populatio
 | Rock | Terra | Default (CO2-rich) | Eve | Rock |
 | Silica | Nitrogen | Terra | Mun | Ice |
 | Vulcan | Methane | Vulcan | Minmus | |
-| Rock-Metal | Ammonia | AtmSteam | Duna | |
-| Rock-Ice | Lava | AtmSteamC (+CO2) | Neidon | |
-| Ice-Water | Mud (Warm) | AtmSteamN (+N2) | |
+| Rock-Metal | Ammonia | Steam | Duna | |
+| Rock-Ice | Lava | Steam (+ CO2) | Neidon | |
+| Ice-Water | Mud (Warm) | Steam (+ N2) | |
 | Ice-Methane | Mud (Cold) | Ice-Water (Thick, N2-rich) | |
 | Ice-Nitrogen | Oxygen | Ice-Water (Thin, CO2-rich) | |
 | | Oxygen (+ N2) | Ice-Ammonia | |
