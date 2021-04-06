@@ -2,7 +2,7 @@
 
 ## 1.17
 * Added water vapor atmosphere templates: **AtmSteam** (pure), **AtmSteamC** (featuring Carbon compounds), **AtmSteamN** (featuring Nitrogen compounds).
-* Adjusted stock Mun's polar water presence: moved from Polar Crater to POlar Lowlands. This will break water miners landed in Polar Crater.
+* Adjusted stock Mun's polar water presence: moved from Polar Crater to Polar Lowlands. This will break water miners landed in Polar Crater.
 * Minor adjustment to SCANsat resource color overlays.
 * Fixed filename issue: **AtmVulcan** was accidentally named **AtmSulfur**.
 * Fixed Deuterium issue in **AtmIceNitrogen** template.
