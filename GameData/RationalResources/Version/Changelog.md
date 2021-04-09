@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 1.17.1
+* Added Graviolium module to RR Scanner Green.
+* Adjusted CoreHeat curve for Stockalike Mining Expansion's 3.75m (RefineOre Y-3000) Convert-O-Tron.
+* Fixed Ore Tank patch problems. (Includes file-deletion.)
+* Fixed double-addition of modules to Squad convert-O-Trons.
+* Other adjustments to Squad and RR Convert-O-Trons.
+* Some of these fixes by forum user **@ flart**.
+
 ## 1.17
 * Added water vapor atmosphere templates: **AtmSteam** (pure), **AtmSteamC** (featuring Carbon compounds), **AtmSteamN** (featuring Nitrogen compounds).
 * Adjusted stock Mun's polar water presence: moved from Polar Crater to Polar Lowlands. This will break water miners landed in Polar Crater.
