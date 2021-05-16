@@ -1,5 +1,22 @@
 # Rational Resources
 
+## 1.18
+* Added acid world templates: **AtmAcidC, AtmAcidN, OcnAcid**. Note that no actual corrosives resources are introduced as no popular mods use them for anything important, or at all, as far as I know.
+* Added ocean template: **OcnKerosene**.
+* Added more support for Graviolium placement.
+* Added templating system for science results and updated support for the following planet packs to comply: Beyond Home, Extrasolar, Grannus Expansion Pack, Outer Planets Mod.
+* Added integration for Procedural Tanks.
+* Added missing drill options (non-Kerbalism).
+* Fixed some Kerbalism issues that sprung up... Again. Thanks to **@ Clamp-O-Tron**
+* Fixed redundancy issue with Methalox tank options when CryoTanks installed since Methalox changed from optional to always available.
+* Updated gas planet templates:
+  * Completed Sudarsky based template series (AtmGasI through AtmGasV).
+  * Deprecated **AtmGasJovian, AtmGasUranian**. Replaced these with **AtmGasI, AtmGasIII** respectively.
+* Updated planetary classification experiment to work while splashed (but not while flying or landed).
+* Updated surface templates:
+  * Changed "specific" stock planet templates to general templates fit for use on any mod planets: [Eve, Mun, Minmus, Duna] to **SrfRockMineral, SrfAlumina, SrfMetalSulfur, SrfMetalCarbon** respectively.
+* Updated Extras/RR_StripStockConverters.cfg
+
 ## 1.17.1
 * Added Graviolium module to RR Scanner Green.
 * Adjusted CoreHeat curve for Stockalike Mining Expansion's 3.75m (RefineOre Y-3000) Convert-O-Tron.
