@@ -6,7 +6,6 @@
 * Added more support for Graviolium placement.
 * Added templating system for science results and updated support for the following planet packs to comply: Beyond Home, Extrasolar, Grannus Expansion Pack, Outer Planets Mod.
 * Added integration for Procedural Tanks.
-* Added SystemHeatConverters detection to fuel switching in fuel cells.
 * Added missing drill options.
 * Fixed broken targeting of converter parts for adding modules (non-Kerbalism).
 * Fixed some Kerbalism issues that sprung up... Again. Thanks to **@ Clamp-O-Tron**
