@@ -14,34 +14,34 @@ The following templates have been made available. **Unique** entries are templat
 
 The Star series templates apply resource bands in the vein of [Stellar Populations](https://en.wikipedia.org/wiki/Stellar_population), automatically making them all viable as mining destinations for interstellar vessels. Population 1 is current and rich with many common resources while the later ones retreat in time to a younger universe and become increasingly abundant in only Hydrogen and CRP's Antimatter or Classic Stock's Graviolium.
 
-| Surface | Ocean | Atmosphere | Unique | Exo (Trace) |
+| Surface | Ocean | Atmosphere | Exo (Trace) |
 | --- | --- | --- | --- | --- |
-| Rock | Terra | Default (CO2-rich) | Eve | Rock |
-| Silica | Nitrogen | Terra | Mun | Ice |
-| Vulcan | Methane | Vulcan | Minmus | |
-| Rock-Metal | Ammonia | Steam | Duna | |
-| Rock-Ice | Lava | Steam (+ CO2) | Neidon | |
-| Ice-Water | Mud (Warm) | Steam (+ N2) | |
-| Ice-Methane | Mud (Cold) | Ice-Water (Thick, N2-rich) | |
-| Ice-Nitrogen | Oxygen | Ice-Water (Thin, CO2-rich) | |
-| | Oxygen (+ N2) | Ice-Ammonia | |
-| | Oxygen (+ CO2) | Ice-Methane | |
-| | | Ice-Nitrogen | |
-| | | Oxygen | |
-| | | Gas (Helium) | |
-| | | Gas (Jovian) | |
-| | | Gas (Uranian) | |
-| | | Gas (Sudarsky II) | |
-| | | Gas (Sudarsky III) | |
-| | | Gas (Sudarsky IV) | |
-| | | Star (Population 1) | |
-| | | Star (Population 2) | |
-| | | Star (Population 3) | |
-| | | Star (Carbon) | |
-| | | Star (Dying Red Giant) | |
-| | | Star (Neutron) | |
-| | | Black Hole | |
-| | | Worm Hole | |
+| Rock | Terra | Default (CO2-rich) | Rock |
+| Silica | Nitrogen | Terra |  Ice |
+| Vulcan | Methane | Vulcan |  None |
+| Rock-Metal | Ammonia | Steam |
+| Rock-Ice | Lava | Steam (+ CO2) | |
+| Ice-Water | Mud (Warm) | Steam (+ N2) |
+| Ice-Methane | Mud (Cold) | Ice-Water (Thick, N2-rich) |
+| Ice-Nitrogen | Oxygen | Ice-Water (Thin, CO2-rich) |
+| Alumina | Oxygen (+ N2) | Ice-Ammonia |
+| Metal-Carbon | Oxygen (+ CO2) | Ice-Methane |
+| Metal-Sulfur | Acid | Ice-Nitrogen |
+| Rock-Mineral | Kerosene | Oxygen |
+| | | Gas (Helium) |
+| | | Gas (Sudarsky I) |
+| | | Gas (Sudarsky II) |
+| | | Gas (Sudarsky III) |
+| | | Gas (Sudarsky IV) |
+| | | Gas (Sudarsky V) |
+| | | Star (Population 1) |
+| | | Star (Population 2) |
+| | | Star (Population 3) |
+| | | Star (Carbon) |
+| | | Star (Dying Red Giant) |
+| | | Star (Neutron) |
+| | | Black Hole |
+| | | Worm Hole |
 
 ## Active Resources
 With some partial respect to realism, this mod drastically reduces the presence of the stock "Ore" resource in order to starve the use of this omnipotent and exceedingly abstracted resource, and to encourage the use of the distinct and specialized resources, and to encourage creation and use of the part mods that revolve around these. The exact resources used are named below as a heads-up to players:
