@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 1.18.1
+* Minor fixes to dictionary and Graviolium templates.
+
 ## 1.18
 * Added acid world templates: **AtmAcidC, AtmAcidN, OcnAcid**. Note that no actual corrosives resources are introduced as no popular mods use them for anything important, or at all, as far as I know.
 * Added ocean template: **OcnKerosene**.
