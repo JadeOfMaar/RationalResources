@@ -1,5 +1,29 @@
 # Rational Resources
 
+## 1.19
+* Added Graviolium Ping experiment.
+* Changed resource whitelist system to only target the resources that RR handles, and no longer purge Handwavium resources. Their owners no longer need to tag them to protect them. This reduces incompatibility with USI on the whole.
+* Added support for MPE (Minor Planets Expansion) in part from forum user @ AtomicRocketBooster.
+* Added support for planet pack: Galaxies Unbound:
+  * Majority resource placement and Planetary Classification experiment (Virtually complete. Will lag behind due to that mod trickling out updates with new planets.)
+  * Graviolium placement and experiment. (Complete.)
+* Fixed missing Deuterium in Default, Terra atmo templates.
+* Fixed for Kerbalism:
+  * Enabled Hydrates Splitter an Spodumene Splitter without Metal outputs.
+  * Procedural Tanks config will not provide Metal and MetalOre options.
+* Reduced abundance values of He3, Graviolium.
+* Replaced Hydrogen with LqdHydrogen to reduce incompatibility with mods that involve mining of this resource.
+* Restored and nerfed Dirt resource abundance to reduce incompatibility with MKS.
+* Regularized Ore presence so it can be found everywhere. Note: Abundance still nerfed by default.
+* Update Extras/RR_TankswitchForSquad:
+  * Isolate parts that are tank + engine and allow them to only hold certain bi-propellants and immediately use the chosen bi-propellants.
+  * This affects the stock Twin-boar and Restock+ Pug.
+  * Supports Classic Stock.
+* Updated support for planet pack: JNSQ:
+  * Added results for splashed on Huygen.
+  * Changed Nara's assigned templates.
+  * Changed experiment results to templated form.
+
 ## 1.18.1
 * Minor fixes to dictionary and Graviolium templates.
 
@@ -70,7 +94,7 @@
   * NFE Uraninite Harvester.
   * NFE Uraninite Enricher (converter).
 * Fixed missing Kerbalism MRE Rock definition.
-* Moved Kerbalism patches to their own mod folder to prevent their config nodes loading when they need not (when Kerbalism not installed). Due to how Kerbalism operates, configs are parsed before MM runs, making MM conditions irrelevant, and which is the cause of RR processes involving Metal and MetalOre to cause cascade problems because these resources' definitions haven't gotten to load at the time the processes are parsed.
+* Moved Kerbalism patches to their own mod folder to prevent their config nodes loading when they need not (when Kerbalism not installed). Due to how Kerbalism operates, configs are parsed before MM runs, making MM conditions irrelevant, and which is the cause of RR processes involving Metal and MetalOre to cause cascade problems because these resources' definitions Kerbin't gotten to load at the time the processes are parsed.
 * Updated Extras:
   * RR_ScienceLabBlacksmith.cfg: Blacksmith is now its own modlet `RationalResourcesBlacksmith` so it can be targeted by patches or used as a dependency. Its converters are SystemHeat compatible.
 * Updated Water Splitter to produce proper amounts of H2 and O2 gas (was broken and would produce 20%) and to produce Deuterium (gas).
