@@ -5,7 +5,8 @@
 * Changed resource whitelist system to only target the resources that RR handles, and no longer purge Handwavium resources. Their owners no longer need to tag them to protect them. This reduces incompatibility with USI on the whole.
 * Added support for planet pack: Galaxies Unbound:
   * Graviolium placement and experiment. (Complete.)
-  * Majority resource placement and Planetary Classification experiment (Virtually complete. Will lag behind due to that mod trickling out updates with new planets.)
+  * Majority resource placement (Carried in GU itself, actually.)
+  * Planetary Classification experiment (Virtually complete. Will lag behind due to that mod trickling out updates with new planets.)
 * Added support for planet pack: MPE (Minor Planets Expansion) in part from forum user @ AtomicRocketBooster.
 * Added support for planet pack: RSS (Real Solar System). Science and planet level configuration done. Pending biome-specific configuration.
 * Fixed missing Deuterium in Default, Terra atmo templates.
