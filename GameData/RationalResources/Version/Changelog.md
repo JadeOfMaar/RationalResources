@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 1.19.1
+* Added support for planet pack: GPP.
+* Added to Uraninite abundance in Vulcan template.
+* Added template: **AtmPandora** which is akin to **AtmTerra** but has roughly 7% composition reserved for undefined toxic chemicals.
+* Added Uraninite to drills and Ore tanks.
+* Added Silicates Splitter (+1 path to Oxygen).
+* Minor adjustments to Spodumene Splitter.
+* Added Extras/RR_Aluminium.cfg. 
+  This causes Alumina and Spodumene splitters to produce Aluminium instead of Metal; reveals this tank type in propellant tanks; changes the hybrid SRBs to consume this.
+* Removed Extras/RR_EveLiquidFuelOcean.cfg. Any supported ocean harvester parts will gain LiquidFuel harvester module.
+
 ## 1.19
 * Added Graviolium Ping experiment. This will appear in any part that is a Graviolium scanner.
 * Changed resource whitelist system to only target the resources that RR handles, and no longer purge Handwavium resources. Their owners no longer need to tag them to protect them. This reduces incompatibility with USI on the whole.
@@ -11,7 +22,7 @@
 * Added support for planet pack: RSS (Real Solar System). Science and planet level configuration done. Pending biome-specific configuration.
 * Fixed missing Deuterium in Default, Terra atmo templates.
 * Fixed for Kerbalism:
-  * Enabled Hydrates Splitter an Spodumene Splitter without Metal outputs.
+  * Enabled Hydrates Splitter and Spodumene Splitter without Metal outputs.
   * Procedural Tanks config will not provide Metal and MetalOre options.
 * Reduced abundance values of LqdHe3, Graviolium.
 * Replaced Hydrogen with LqdHydrogen to reduce incompatibility with mods that involve mining of this resource.
