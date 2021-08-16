@@ -6,9 +6,10 @@
 * Added template: **AtmPandora** which is akin to **AtmTerra** but has roughly 7% composition reserved for undefined toxic chemicals.
 * Added Uraninite to drills and Ore tanks.
 * Added Silicates Splitter (+1 path to Oxygen).
-* Minor adjustments to Spodumene Splitter.
 * Added Extras/RR_Aluminium.cfg. 
   This causes Alumina and Spodumene splitters to produce Aluminium instead of Metal; reveals this tank type in propellant tanks; changes the hybrid SRBs to consume this.
+* Fixed Kerbalism upgrade slot amount in Freezer and Heater boxes.
+* Minor adjustments to Spodumene Splitter.
 * Removed Extras/RR_EveLiquidFuelOcean.cfg. Any supported ocean harvester parts will gain LiquidFuel harvester module.
 
 ## 1.19
