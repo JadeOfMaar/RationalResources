@@ -1,5 +1,20 @@
 # Rational Resources
 
+## 1.19.2
+* Added support for RealFuels.
+  * Extends only to Convert-O-Trons, Kerosene ocean harvesting and a Carbon option for fuel cells. Does not include configs for tanks, RCS or engines. Does not include added mine-able resources.
+  * Renamed some prior converter options to prevent conflict or confusion.
+* Adjusted throughputs in some converters. Some are faster. Some are slower.
+* Added Opt-in system for fuel cells:
+  * Fills in some nasty blanks that were left open in the previous fuel cells patch for Stockalike Mining Extension.
+  * Preserves and extends the re-balance given in Extraplanetary Launchpads.
+  * Provides for RealFuels.
+  * Will not apply to tagged parts if CryoTanks is installed due to CryoTanks having this system also.
+* Updated Extras/RR_NuclearFamily:
+  * Added CarbonMonoxide NTR option.
+* Updated Extras/RR_TankswitchForSquad:
+  * Added CarbonMonoxide + Oxidizer option.
+
 ## 1.19.1
 * Added support for planet pack: GPP.
 * Added to Uraninite abundance in Vulcan template.
