@@ -1,9 +1,12 @@
 # Rational Resources
 
 ## 1.19.2
-* Added support for RealFuels.
+* Added support for RealFuels:
   * Extends only to Convert-O-Trons, Kerosene ocean harvesting and a Carbon option for fuel cells. Does not include configs for tanks, RCS or engines. Does not include added mine-able resources.
   * Renamed some prior converter options to prevent conflict or confusion.
+* Added/Adjusted support for RealFuels In Kerbalism.
+  * Created mod folder: `RationalResourcesKerbalismRF`.
+  * Enabled missing Alumina, Hydrates, Spodumene Splitters since they don't involve non-CRP Metal/MetalOre.
 * Adjusted throughputs in some converters. Some are faster. Some are slower.
 * Added Opt-in system for fuel cells:
   * Fills in some nasty blanks that were left open in the previous fuel cells patch for Stockalike Mining Extension.
@@ -14,6 +17,7 @@
   * Added CarbonMonoxide NTR option.
 * Updated Extras/RR_TankswitchForSquad:
   * Added CarbonMonoxide + Oxidizer option.
+  * Does not support RealFuels.
 
 ## 1.19.1
 * Added support for planet pack: GPP.
