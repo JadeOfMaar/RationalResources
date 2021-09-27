@@ -1,8 +1,8 @@
 # Rational Resources
 
-## 1.19.2
+## 1.20
 * Added support for RealFuels:
-  * Extends only to Convert-O-Trons, Kerosene ocean harvesting and a Carbon option for fuel cells. Does not include configs for tanks, RCS or engines. Does not include added mine-able resources.
+  * Extends to Convert-O-Trons (including OmniConverters), Kerosene ocean harvesting and a Carbon Monoxide option for fuel cells. Does not include configs for tanks, RCS or engines. Does not include added mine-able resources.
   * Renamed some prior converter options to prevent conflict or confusion.
 * Added/Adjusted support for RealFuels In Kerbalism.
   * Created mod folder: `RationalResourcesKerbalismRF`.
@@ -13,6 +13,9 @@
   * Preserves and extends the re-balance given in Extraplanetary Launchpads.
   * Provides for RealFuels.
   * Will not apply to tagged parts if CryoTanks is installed due to CryoTanks having this system also.
+* Fixed Procedural Parts patch. It added a tank option that already existed and caused that mod to break the ship editors.
+* Moved demo parts into their own folder: `RationalResourcesDemoParts` so players can opt out of having them.
+* Moved JNSQ config out of JNSQ and into this mod's package.
 * Updated Extras/RR_NuclearFamily:
   * Added CarbonMonoxide NTR option.
 * Updated Extras/RR_TankswitchForSquad:
