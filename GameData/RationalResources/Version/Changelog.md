@@ -16,6 +16,7 @@
 * Fixed Procedural Parts patch. It added a tank option that already existed and caused that mod to break the ship editors.
 * Moved demo parts into their own folder: `RationalResourcesDemoParts` so players can opt out of having them.
 * Moved JNSQ config out of JNSQ and into this mod's package.
+* Renamed original `RationalResourcesParts` to `RationalResourcesCompanion`. RationalResourcesParts is now home to only parts and can be more easily ignored.
 * Updated Extras/RR_NuclearFamily:
   * Added CarbonMonoxide NTR option.
 * Updated Extras/RR_TankswitchForSquad:
