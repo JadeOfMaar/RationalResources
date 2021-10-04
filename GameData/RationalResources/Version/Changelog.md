@@ -2,18 +2,25 @@
 
 ## 1.20
 * Added support for RealFuels:
-  * Extends to Convert-O-Trons (including OmniConverters), Kerosene ocean harvesting and a Carbon Monoxide option for fuel cells. Does not include configs for tanks, RCS or engines. Does not include added mine-able resources.
+  * Applies to any opted-in Convert-O-Trons (including any WBI OmniConverters), Kerosene ocean harvesting and a CarbonMonoxide + Oxidizer option for fuel cells.
+  * Does not add fuel cell options to Kerbalism.
+  * Does not include configs for tanks, RCS or engines.
   * Renamed some prior converter options to prevent conflict or confusion.
 * Added/Adjusted support for RealFuels In Kerbalism.
-  * Created mod folder: `RationalResourcesKerbalismRF`.
+  * Changed the 4 built-in processes that involve stock propellants to instead involve equivalent real propellants and include blue "RealFuels edition" in the description.
+  * Created profile/mod folder: `RationalResourcesKerbalismRF`.
   * Enabled missing Alumina, Hydrates, Spodumene Splitters since they don't involve non-CRP Metal/MetalOre.
+  * Enabled slot count (as per the opt-in system) to +1 when upgrades applied. If a mod part opts in with, example: 4 slots, it will automatically have 5 when upgraded.
+  * Ensured that the micro-sized Kerbalism Chemical Plant part gets all RR processes and properly scaled.
 * Adjusted throughputs in some converters. Some are faster. Some are slower.
 * Added Opt-in system for fuel cells:
   * Fills in some nasty blanks that were left open in the previous fuel cells patch for Stockalike Mining Extension.
   * Preserves and extends the re-balance given in Extraplanetary Launchpads.
   * Provides for RealFuels.
   * Will not apply to tagged parts if CryoTanks is installed due to CryoTanks having this system also.
-* Fixed Procedural Parts patch. It added a tank option that already existed and caused that mod to break the ship editors.
+* Fixed Procedural Parts patch:
+  * It added a tank option (XenonGas) that already existed and caused that mod to break the ship editors.
+  * It added cryofuels options and was not aware of CryoTanks doing the same.
 * Moved demo parts into their own folder: `RationalResourcesDemoParts` so players can opt out of having them.
 * Moved JNSQ config out of JNSQ and into this mod's package.
 * Renamed original `RationalResourcesParts` to `RationalResourcesCompanion`. RationalResourcesParts is now home to only parts and can be more easily ignored.
