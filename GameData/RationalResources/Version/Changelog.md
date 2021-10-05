@@ -1,14 +1,15 @@
 # Rational Resources
 
 ## 1.20
+* Added KerbalChangelog support.
 * Added support for RealFuels:
   * Applies to any opted-in Convert-O-Trons (including any WBI OmniConverters), Kerosene ocean harvesting and a CarbonMonoxide + Oxidizer option for fuel cells.
   * Does not add fuel cell options to Kerbalism.
   * Does not include configs for tanks, RCS or engines.
   * Renamed some prior converter options to prevent conflict or confusion.
 * Added/Adjusted support for RealFuels In Kerbalism.
+  * Added profile/mod folder: `RationalResourcesKerbalismRF`.
   * Changed the 4 built-in processes that involve stock propellants to instead involve equivalent real propellants and include blue "RealFuels edition" in the description.
-  * Created profile/mod folder: `RationalResourcesKerbalismRF`.
   * Enabled missing Alumina, Hydrates, Spodumene Splitters since they don't involve non-CRP Metal/MetalOre.
   * Enabled slot count (as per the opt-in system) to +1 when upgrades applied. If a mod part opts in with, example: 4 slots, it will automatically have 5 when upgraded.
   * Ensured that the micro-sized Kerbalism Chemical Plant part gets all RR processes and properly scaled.
@@ -23,7 +24,7 @@
   * It added cryofuels options and was not aware of CryoTanks doing the same.
 * Moved demo parts into their own folder: `RationalResourcesDemoParts` so players can opt out of having them.
 * Moved JNSQ config out of JNSQ and into this mod's package.
-* Renamed original `RationalResourcesParts` to `RationalResourcesCompanion`. RationalResourcesParts is now home to only parts and can be more easily ignored.
+* Renamed original `RationalResourcesParts` to `RationalResourcesCompanion`. RationalResourcesParts is now home to only added parts and can be more easily ignored.
 * Updated Extras/RR_NuclearFamily:
   * Added CarbonMonoxide NTR option.
 * Updated Extras/RR_TankswitchForSquad:
