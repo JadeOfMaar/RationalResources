@@ -1,5 +1,10 @@
 # Rational Resources
 
+## 1.20.3
+* Minor adjustments to OmniConverters options.
+  * Fixed missing flow mode parameter on ElectricCharge.
+  * Changed convert ratio on WBI ElectroPlasma to ElectricCharge from 1:8 to 1:20.
+
 ## 1.20
 * Added KerbalChangelog support.
 * Added support for RealFuels:
