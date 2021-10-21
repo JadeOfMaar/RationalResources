@@ -4,6 +4,7 @@ This modlet enables all supported atomic rockets to have fuel switching and acce
 ![screenshot](https://i.imgur.com/8gNXvRi.png)
 
 > :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled.
+
 > :bulb: WBI Classic Stock is supported.
 
 > All affected engines, in addtion to the details below, also receive Kerbalism radioactivity. This rating scales with the part's dry mass.
