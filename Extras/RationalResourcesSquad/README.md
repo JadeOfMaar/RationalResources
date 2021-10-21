@@ -25,4 +25,4 @@ Mod agencies supported:
 
 `RR_TankswitchFusionFuel.cfg` provides for adding options for LqdDeuterium and LqdHe3 to Squad's tanks when CryoTanks is not installed, adding these to the CryoTanks themselves, and coloring the subtype options for these in Far Future Tech's fusion fuel tanks.
 
-`RR_SquadJetsCRP.cfg` and `RR_SquadJetsClassic.cfg` provide for enabling the high-performance stock jet engines (the Whiplash, Panther and Rapier) to choose between LiquidFuel, LqdHydrogen or LqdMethane. this is for players who would like to mix and match the stock engines with CryoEngine's rockets but feel the burning need to escape from carrying both LiquidFuel and any cryofuel on the same vessel.
+`RR_SquadJetsCRP.cfg` and `RR_SquadJetsClassic.cfg` provide for enabling the high-performance stock jet engines (the Whiplash, Panther and Rapier) to choose between LiquidFuel, LqdHydrogen or LqdMethane. This is for players who would like to mix and match the stock engines with CryoEngine's rockets but are deterred by the need to carry both LiquidFuel and any cryofuel on the same vessel.
