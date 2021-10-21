@@ -1,5 +1,6 @@
 # Rational Resources Blacksmith
 This modlet provides an upgrade-able pseudo industrial furnace in the unused crew space of the stock science lab and makes use of the pseudo resource "RRWork" and the CRP "ThermalPower" resource. RR Blacksmith is a stock modules involved mechanism for enabling kerbals to refill certain resources that generally cannot be refilled.
+
 ![screenshot](https://i.imgur.com/7iP3z9m.png)
 
 ## Blacksmith Stats
@@ -33,19 +34,20 @@ Its required resource combos are:
 * Carbon + Water ThermalPower + RRWork
 
 ### SolidFuel
-Demand is pretty solid for a mechanism for refueling solid rockets. Based on the real and plusible concept of recovering and reusing solid rockets, this case goes without further explanation.
+Demand is pretty solid for a mechanism for refueling solid rockets. Based on the real and plausible concept of recovering and reusing solid rockets, this case goes without further explanation.
 Its required resource combos are:
 * Ore + RRWork
 * Alumina + RRWork
 * LqdAmmonia + LqdNitrogen + LqdOxygen (Assuming Ammonium Nitrate composition)
 
-> :warning: Note that no means is provided for making sold rockets able to shutdown and restart.
+> :warning: Note that solid rockets easily can be, but are not enabled to shutdown and restart.
 
 ### NuclearFuel
-In the absence of Near Future Electric, the following are applied to any part that holds EnrichedUranium:
+In the absence of Near Future Electric (or alongside it. Feel free to mix these), the following are applied to any part that holds EnrichedUranium:
 * A refill converter which consumes Uraninite + ThermalPower + RRWork
 * A disposal converter which consumes Ore + DepletedFuel + RRWork (simulating a means of burying the waste. Please only use this while landed.)
 
+> :warning: Note that no ISRU option is provided by RR for recycling o re-enriching spent nuclear fuel.
 
 
 ## Rational Resources Blacksmith Family

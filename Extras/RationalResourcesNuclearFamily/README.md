@@ -10,18 +10,19 @@ This modlet enables all supported atomic rockets to have fuel switching and acce
 > :warning: WBI Classic Stock is not supported.
 
 ## NTR Primary/Single Mode
-RRNF operates on any atomic rocket part that is given the tag `RRNF = Yes`. The affected engine gets its title appended and gets cloned: one instance for oxidating agents (propellants that contain Oxygen) and one for reducing agents (propellants that don't contain Oxygen).
+Rational Resources Nuclear Family operates on any atomic rocket part that is given the tag `RRNF = Yes`. The affected engine gets its title appended and gets cloned: one instance for oxidating agents (propellants that contain Oxygen) and one for reducing agents (propellants that don't contain Oxygen).
 
-* The Oxidating Agent engine receives the following options for its primary mode:
+
+The Oxidating Agent engine receives the following options for its primary mode: 
 
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
 | Carbon Dioxide | 283 s | 60 kN | Impulse is as good as the average LiquidFuel rocket, and this is the most convenient option due to the great abundance of Carbon Dioxide in some planets' atmospheres. |
 | Carbon Monoxide | 253 s | 60 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
 | Water | 370 s | 45.6 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
-|  |  |  |  |
 
-* The Reducing Agent engine receives the following options for its primary mode:
+
+The Reducing Agent engine receives the following options for its primary mode: 
 
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
