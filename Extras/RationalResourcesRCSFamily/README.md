@@ -7,7 +7,7 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 
 > :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled. Conflicts or undesirable overlap (duplicate patching) have been observed with mods including Nertea's Cryogenic Engines, and the Kiwi Tech Tree.
 
-> :bulb: WBI Classic Stock is supported but Bi-propellant options are currently not available. Those will be added soon:tm:.
+> :bulb: WBI Classic Stock is supported.
 
 
 **CRP MonoPropellant RCS**
