@@ -43,5 +43,5 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 | Propellant | SL / Vac Isp :small_orange_diamond: |
 | -- | -- |
 | LiquidFuel + Oxidizer | 140 / 260 s |
-| Propellium + Oxidizer | 136 / 340 s |
+| Propellium + Oxidizer | 210 / 390 s |
 | Raptium + Oxidizer | 186 / 346 s |
