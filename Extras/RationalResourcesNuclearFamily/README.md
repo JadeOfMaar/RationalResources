@@ -7,7 +7,7 @@ This modlet enables all supported atomic rockets to have fuel switching and acce
 
 > All affected engines, in addtion to the details below, also receive Kerbalism radioactivity. This rating scales with the part's dry mass.
 
-> :warning: WBI Classic Stock is not supported.
+> :warning: WBI Classic Stock is not supported. This mod may also conflict with Kerbal Atomics' optional extra: KerbalAtomicsLH2NTRModSupport
 
 > :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
 
@@ -35,7 +35,7 @@ The Reducing Agent engine receives the following options for its primary mode:
 
 
 ## LANTR Mode
-All affected engines which have a second engine mode are ensured to have Hydrogen + Oxidizer as the propellants, with a fixed ratio. No other changes are made.
+All affected engines which have a second engine mode are ensured to have Hydrogen + Oxidizer as the propellants, with a fixed ratio and 20% Isp buff.
 
 
 This mod also enables any atomic jets to have half-life behavior (requiring IntakeAtm + EnrichedUranium) and adds Kerbalism radioactivity to any supported engine.
