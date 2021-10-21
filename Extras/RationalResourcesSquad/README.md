@@ -1,5 +1,5 @@
 # Rational Resources Squad
-Contained in `RR_TankswitchForSquad.cfg` this mod is essential for flexibility with the stock propellant tanks and any mod's tanks that use the stock manufacturers. Its presence is required by other Rational Resources patches such as `RR_MoreTankSwitches.cfg` which adds RR options to tanks of other parts mods after they have been given B9 fuel switching by the CryoTanks mod.
+Contained in `RR_SquadTanks.cfg` this mod is essential for flexibility with the stock propellant tanks and any mod's tanks that use the stock manufacturers. Its presence is required by other Rational Resources patches such as `RR_MoreTankSwitches.cfg` which adds RR options to tanks of other parts mods after they have been given B9 fuel switching by the CryoTanks mod.
 
 Mod agencies supported:
 
