@@ -33,6 +33,7 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 **Classic Stock MonoPropellant RCS**
 | Propellant | SL / Vac Isp :small_orange_diamond: |
 | -- | -- |
+| MonoPropellant | 100 / 240 s |
 | CompressedAtmosphere | 35 / 70 s |
 | Propellium | 136 / 272 s |
 | Nitronite | 85.7 / 171.4 s |
