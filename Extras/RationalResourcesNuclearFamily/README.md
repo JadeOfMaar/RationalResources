@@ -4,10 +4,11 @@ This modlet enables all supported atomic rockets to have fuel switching and acce
 ![screenshot](https://i.imgur.com/8gNXvRi.png)
 
 > :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled.
+> :bulb: WBI Classic Stock is supported.
 
 > All affected engines, in addtion to the details below, also receive Kerbalism radioactivity. This rating scales with the part's dry mass.
 
-> :warning: WBI Classic Stock is not supported. This mod may also conflict with Kerbal Atomics' optional extra: KerbalAtomicsLH2NTRModSupport
+> :warning: This mod may conflict with Kerbal Atomics' optional extra: KerbalAtomicsLH2NTRModSupport
 
 > :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
 
@@ -17,15 +18,25 @@ Rational Resources Nuclear Family operates on any atomic rocket part that is giv
 
 The Oxidating Agent engine receives the following options for its primary mode: 
 
+CRP:
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
 | Carbon Dioxide | 283 s | 60 kN | Impulse is as good as the average LiquidFuel rocket, and this is the most convenient option due to the great abundance of Carbon Dioxide in some planets' atmospheres. |
 | Carbon Monoxide | 253 s | 60 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
 | Water | 370 s | 45.6 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
 
+Classic Stock:
+| Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
+| -- | -- | -- | -- |
+| Water | 370 s | 45.6 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
+| Nitronite | 253 s | 69 kN | Impulse is as good as the average LiquidFuel rocket, and a bonus to thrust is gained through the relatively reactive nature of this propellant, however, it is hard to come by in nature. |
+| Compressed Atmosphere | 283 s | 60 kN | CompressedAtmosphere as a propellant may be very poor in terms of Isp, but any atmosphere is fuel, and that's always good. |
+| Stale Air | 283 s | 60 kN | Stale Air, right? |
+
 
 The Reducing Agent engine receives the following options for its primary mode: 
 
+CRP:
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
 | Hydrogen | 800 s | 60 kN | This is the highest efficiency, baseline option for NTRs. |
@@ -33,12 +44,17 @@ The Reducing Agent engine receives the following options for its primary mode:
 | Nitrogen | 253 s | 40.2 kN | Nitrogen as a propellant may be very niche and is poor in terms of Isp, but it is common in planetary crusts, atmospheres, oceans, and exospheres. |
 | Methane | 606 s | 79.8 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
 
+Classic Stock:
+| Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
+| -- | -- | -- | -- |
+| Propellium | 800 s | 60 kN | This is the highest efficiency, baseline option for NTRs. |
+| Raptium | 606 s | 79.8 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
+| Fresh Air | 253 s | 40.2 kN | This option is on the weirder and desperate side but whatever works... Pray that it's never needed. |
 
 ## LANTR Mode
-All affected engines which have a second engine mode are ensured to have Hydrogen + Oxidizer as the propellants, with a fixed ratio and 20% Isp buff.
+All affected engines which have a second engine mode are ensured to have Hydrogen + Oxidizer (CRP) or Propellium + Oxidizer (Classic) as the propellants, with a fixed ratio and 20% Isp buff.
 
-
-This mod also enables any atomic jets to have half-life behavior (requiring IntakeAtm + EnrichedUranium) and adds Kerbalism radioactivity to any supported engine.
+This mod also enables any atomic jets to have half-life behavior (requiring **IntakeAtm + EnrichedUranium (CRP)** or **Atmosphere + CoreHeat (Classic Stock)**) and adds Kerbalism radioactivity to any supported engine.
 
 ## NTJ
-Rational Resources Nuclear Family operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm + ThermalPower as its propellants.. It is also given a stock converter module (the nuclear reactor) and capacity for EnrichedUranium + DepletedFuel. This reactor is required for the production of ThermalPower (the added propellant) but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
+Rational Resources Nuclear Family operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm + ThermalPower as its propellants.. It is also given a stock converter module (the nuclear reactor) and capacity for **EnrichedUranium + DepletedFuel (CRP)** or **NuclearFuel + NuclearWaste (Classic)**. This reactor is required for the production of ThermalPower (the added propellant) but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
