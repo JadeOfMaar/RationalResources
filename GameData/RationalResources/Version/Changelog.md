@@ -2,7 +2,9 @@
 
 ## 1.21
 * Assorted and consolidated extras into mod (sub) folders for more CKAN compatibility.
-  * Updated `RationalResourcesNuclearFamily` to apply 20% Isp buff to LOX mode on tagged atomic rockets. This mod conflicts with `KerbalAtomicsLH2NTRModSupport`.
+  * Updated `RationalResourcesNuclearFamily` to:
+    * Apply 20% Isp buff to LOX mode on tagged atomic rockets. This mod conflicts with `KerbalAtomicsLH2NTRModSupport`.
+    * Have complete Classic Stock compatibility.
   * Updated `RationalResourcesRCSFamily` to:
     * Handle all integration of RCS parts, especially the stock ones. This is no longer partially contained/forced by `RationalResourcesCompanion`.
     * Have complete Classic Stock compatibility.
