@@ -1,2 +1,2 @@
 # Rational Resources Aluminium
-This modlet enables the Aluminium tank type in propellant tanks empowered by RR's TankSwitchForSquad. It is also the trigger for any non-Kerbalism converter processes that involve EL's Metal resource to involve CRP Aluminium instead. This also triggers RR's demo hybrid SRBs to use Aluminium and not Metal resource.
+This modlet enables the Aluminium tank type in propellant tanks empowered by `RationalResourcesSquad`. It is also the trigger for any non-Kerbalism converter processes that involve EL's Metal resource to involve CRP Aluminium instead. This also triggers RR's demo hybrid SRBs to use Aluminium and not Metal resource.
