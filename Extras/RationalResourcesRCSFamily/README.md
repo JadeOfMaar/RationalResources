@@ -1,5 +1,5 @@
 # Rational Resources RCS Family
-This modlet enables all supported RCS thrusters to receive multiple propellant options that they may be useful with the diverse ambient resources that occur on RR supported planets. The Isp values scale with the base Isp curve of the part.
+This modlet enables all supported RCS thrusters to receive multiple propellant options that they may be useful with the diverse ambient resources that occur on RR supported planets. Some of the MonoPropellant RCS options are treated as cold gas and not catalyzed. The (lack of) impulse on such options is very clear.
 
 ![screenshot GIF](https://i.imgur.com/5WEZMuh.gif)
 
@@ -7,7 +7,7 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 
 > :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled. Conflicts or undesirable overlap (duplicate patching) have been observed with mods including Nertea's Cryogenic Engines, and the Kiwi Tech Tree.
 
-> :bulb: WBI Classic Stock is supported.
+> :bulb: WBI Classic Stock is supported but Bi-propellant options are currently not available. Those will be added soon:tm:.
 
 
 **CRP MonoPropellant RCS**
@@ -21,7 +21,7 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 | ArgonGas | 26 / 52 s |
 | XenonGas | 14 / 28 s |
 | LqdMethane | 52.5 / 105 s |
-| Lqd Carbon Dioxide | 30.5 / 61 s |
+| LqdCO2 | 30.5 / 61 s |
 
 **CRP Bi-propellant RCS**
 | Propellant | SL / Vac Isp :small_orange_diamond: |
