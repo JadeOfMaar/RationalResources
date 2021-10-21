@@ -3,6 +3,13 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 
 ![screenshot GIF](https://i.imgur.com/5WEZMuh.gif)
 
+> :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
+
+> :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled. Conflicts or undesirable overlap (duplicate patching) have been observed with mods including Nertea's Cryogenic Engines, and the Kiwi Tech Tree.
+
+> :bulb: WBI Classic Stock is supported.
+
+
 **CRP MonoPropellant RCS**
 | Propellant | SL / Vac Isp :small_orange_diamond: |
 | -- | -- |
@@ -32,9 +39,3 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 | XenonGas | 14 / 28 s |
 | Raptium | 52.5 / 105 s |
 
-
-> :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
-
-> :bulb: This mod involves an opt-in system. Parts must be tagged and correctly in order to be handled. Conflicts or undesirable overlap (duplicate patching) have been observed with mods including Nertea's Cryogenic Engines, and the Kiwi Tech Tree.
-
-> :bulb: WBI Classic Stock is supported.
