@@ -39,3 +39,9 @@ This modlet enables all supported RCS thrusters to receive multiple propellant o
 | XenonGas | 14 / 28 s |
 | Raptium | 52.5 / 105 s |
 
+**Classic Stock Bi-propellant RCS**
+| Propellant | SL / Vac Isp :small_orange_diamond: |
+| -- | -- |
+| LiquidFuel + Oxidizer | 140 / 260 s |
+| Propellium + Oxidizer | 136 / 340 s |
+| Raptium + Oxidizer | 186 / 346 s |
