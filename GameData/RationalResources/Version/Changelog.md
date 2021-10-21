@@ -1,6 +1,6 @@
 # Rational Resources
 
-## 1.21
+## 1.30
 * Assorted and consolidated extras into mod (sub) folders for more CKAN compatibility.
   * Updated `RationalResourcesNuclearFamily` to:
     * Apply 20% Isp buff to LOX mode on tagged atomic rockets. This mod conflicts with `KerbalAtomicsLH2NTRModSupport`.
