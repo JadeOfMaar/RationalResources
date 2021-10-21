@@ -9,6 +9,8 @@ This modlet enables all supported atomic rockets to have fuel switching and acce
 
 > :warning: WBI Classic Stock is not supported.
 
+> :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
+
 ## NTR Primary/Single Mode
 Rational Resources Nuclear Family operates on any atomic rocket part that is given the tag `RRNF = Yes`. The affected engine gets its title appended and gets cloned: one instance for oxidating agents (propellants that contain Oxygen) and one for reducing agents (propellants that don't contain Oxygen).
 
@@ -31,7 +33,6 @@ The Reducing Agent engine receives the following options for its primary mode:
 | Nitrogen | 253 s | 40.2 kN | Nitrogen as a propellant may be very niche and is poor in terms of Isp, but it is common in planetary crusts, atmospheres, oceans, and exospheres. |
 | Methane | 606 s | 79.8 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
 
-> :small_orange_diamond: = Given values are for reference and will scale with the original thrust and Isp of the affected engine.
 
 ## LANTR Mode
 All affected engines which have a second engine mode are ensured to have Hydrogen + Oxidizer as the propellants, with a fixed ratio. No other changes are made.
@@ -40,4 +41,4 @@ All affected engines which have a second engine mode are ensured to have Hydroge
 This mod also enables any atomic jets to have half-life behavior (requiring IntakeAtm + EnrichedUranium) and adds Kerbalism radioactivity to any supported engine.
 
 ## NTJ
-RRNF operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm + ThermalPower as its propellants.. It is also given a stock converter module (the nuclear reactor) and capacity for EnrichedUranium + DepletedFuel. This reactor is required for the production of ThermalPower (the added propellant) but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
+Rational Resources Nuclear Family operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm + ThermalPower as its propellants.. It is also given a stock converter module (the nuclear reactor) and capacity for EnrichedUranium + DepletedFuel. This reactor is required for the production of ThermalPower (the added propellant) but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
