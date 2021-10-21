@@ -1,6 +1,14 @@
 # Rational Resources
 
-## 1.20.3
+## 1.21
+* Assorted and consolidated extras into mod (sub) folders for more CKAN compatibility.
+  * Updated `RationalResourcesRCSFamily` to have some RealFuels compatibility; have complete Classic Stock compatibility; handle all integration of RCS parts, especially the stock ones. This is no longer partially contained/forced by `RationalResourcesCompanion`.
+  * Created `RationalResourcesTACLS` to contain any and all TAC LS configs.
+  * Updated TAC LS integration for Airline Kuisine: Air Filter now only extracts Nitrogen, Oxygen and Water, and not everything provided to typical RR atmo harvesters.
+  * Updated TAC LS integration for SSPXr following the template style complete rewrite done for, and released in, SSPXr itself.
+  * Updated `RationalResourcesSquad` to add fuel switching to the Panther, Whiplash, Rapier; Classic Stock supported.
+  * Updated `RationalResourcesSquad` to contain the MoreTankSwitches config that supports various parts mods/ their agencies
+  * Updated `RationalResourcesSquad` to contain the TankswitchFusionFuel config that adds Deuterium & Helium-3 options to Squad tanks and CryoTanks.  
 * Minor adjustments to OmniConverters options.
   * Fixed missing flow mode parameter on ElectricCharge.
   * Changed convert ratio on WBI ElectroPlasma to ElectricCharge from 1:8 to 1:20.
