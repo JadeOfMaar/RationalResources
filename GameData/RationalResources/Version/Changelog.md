@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 1.31
+* Added WBI Play Mode UI configs for some Extras.
+* Added Classic Stock Only tank switch to Extras/RationalResourcesSSPXRTanks/ for whoever may find that useful. (Not tested with CRP installed.)
+* Fixed Boxed Compressor and Decompressor. They were being treated as Convert-O-Trons. This issue bricked players hoping to take advantage of CO and CO2.
+* Fixed missing flow mode parameter in all instances in WBI OmniConverter integration.
+* Nerfed the Mk1 and Mk2 SMX generators. They were quite OP.
+* Updated Procedural Gas Tank options to not have so much dry mass.
+* Updated Procedural Gas Tank options to try to be equivalent with short 2.5m tanks for NFP ArgonGas and CryoTanks LH2.
+* Updated Procedural Liquid Tank option to include LqdMethane (unpaired)... CryoTanks does not provide this.
+
 ## 1.30
 * Assorted and consolidated extras into mod (sub) folders for more CKAN compatibility.
   * Updated `RationalResourcesNuclearFamily` to:
