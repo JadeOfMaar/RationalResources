@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 1.32
+* Bulk fixes for Classic Stock Resources:
+  * Added missing surface templates.
+  * Added missing Antimatter and Graviolium in gas planet templates.
+  * Added missing gas planet, ocean and surface templates.
+  * Buffed GrayWater presence (to be partially treated like Hydrates).
+  * Fixed Ore presences.
+  * Nerfed Rock presence.
+  * Removed old gas planet templates.
+  * Changed Zeonium abundances (to be partially treated like Substrate).
+
 ## 1.31
 * Added WBI Play Mode UI configs for some Extras.
 * Added Classic Stock Only tank switch to Extras/RationalResourcesSSPXRTanks/ for whoever may find that useful. (Not tested with CRP installed.)
