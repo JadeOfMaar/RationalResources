@@ -4,11 +4,11 @@
 * Added Configurable Containers detection to Ore tanks opt-in to cure related MM errors.
 * Added stock inventory volumes for RR parts except for tanks and engines.
 * Changed Metal, MetalOre resources to be defined with no concern for the presence of EL itself or other mods that may also declare them. Leave redundancy handling entirely to MM's code. This answers edge cases where these resources still don't get defined at all, and consequent issues like B9PS-SSPXr fatal errors.
-
 * Kerbalism fixes:
-  * Added "empty" option for when you want to leave slots open (and save some funds) on an integrated Convert-O-Tron or atmo and exo harvester.
-  * Fixed double-patching of Chemical Plant.
-  * Increased slot counts on integrated atmo and exo harvesters so multiple resources can be scooped at once, as it should be. Each slot that is not needed can have an empty loaded into them.
+  * Added "empty" option for when you want to leave slots open (and hopefully save some funds) on a made-compatible Convert-O-Tron. Thanks to @ Gordon Dry.
+  * Added conditional Graviolium option to exo harvesters, and tech limit to this and Antimatter.
+  * Fixed double-patching of Chemical Plant. Thanks to @ Gordon Dry.
+  * Increased slot counts on integrated exo harvesters (from 1 to 8) so multiple resources can be scooped at once, as it should be. Each slot that is not needed can have an empty loaded into them. Thanks to @ TR_HYDR4.
   * Reduced EC demand in atmo and exo harvesters.
 
 ## 1.32
