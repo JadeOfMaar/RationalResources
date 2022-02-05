@@ -4,6 +4,9 @@
 * Added Configurable Containers detection to Ore tanks opt-in to cure related MM errors.
 * Added stock inventory volumes for RR parts except for tanks and engines.
 * Changed Metal, MetalOre resources to be defined with no concern for the presence of EL itself or other mods that may also declare them. Leave redundancy handling entirely to MM's code. This answers edge cases where these resources still don't get defined at all, and consequent issues like B9PS-SSPXr fatal errors.
+* Fixed duplicate subtype issue for Mk2 Expansion (in the `RationalResourcesSquad` extra.) Spotted by @ Eberkain.
+* Fixed inconsistent Oscar B volume with respect to other Oscar tanks added by Restock+. Spotted by @ Eberkain.
+* Updated RationalResourcesNuclearFamily` to handle atomic jet/rocket engines.
 * Kerbalism fixes:
   * Added "empty" option for when you want to leave slots open (and hopefully save some funds) on a made-compatible Convert-O-Tron. Thanks to @ Gordon Dry.
   * Added conditional Graviolium option to exo harvesters, and tech limit to this and Antimatter.
