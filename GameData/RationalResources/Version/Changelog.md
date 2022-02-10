@@ -13,6 +13,7 @@
   * SMURFF compatibility.
   * Tank volume consistency fixes.
 * Updated `RationalResourcesNuclearFamily` to handle atomic jet/rocket engines.
+* Updated `RationalResourcesSquad`'s fusion fuel options to detect CRP to prevent fatal B9 errors.
 * Kerbalism fixes:
   * Added "empty" option for when you want to leave slots open (and hopefully save some funds) on a made-compatible Convert-O-Tron. Thanks to @ Gordon Dry.
   * Added conditional Graviolium option to exo harvesters, and tech limit to this and Antimatter.
