@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 1.40
+* Fixed tag issue with opt-in system in `RationalResourcesNuclearFamily`.
+* Added `Advanced Jet Engine` detection to `RationalResourcesSquad` jet engine patch to prevent a significant conflict.
+* Added LqdDeuterium + LqdHe3 options to ProcTanks.
+* Fixed SSPXr TACLS patch in `RationalResourcesTACLS`. An error in root node configs was the cause of serious problems. Thanks to @ Vexxel on the forum.
+* Fixed "duplicate subtypes: Methane, Methalox" B9 issue.
+* Fixed repeat tank types in ProcTanks (causes game-breaking bug): MetallicOre, Metals
+* Major change: Rational Resources now favors MetallicOre and Metals instead of Extraplanetary Launchpads' own MetalOre and Metal. Authored by @ Veronika Kerman on the forum.
+  * Added extra: `RationalResourcesELCRP`. Forces Extraplanetary Launchpads to use MetallicOre and Metals instead of its own MetalOre and Metal.
+
+
 ## 1.33
 * Added Configurable Containers detection to Ore tanks opt-in to cure related MM errors.
 * Added stock inventory volumes for RR parts except for tanks and engines.
