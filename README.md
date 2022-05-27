@@ -15,7 +15,7 @@ The following templates have been made available. **Unique** entries are templat
 The Star series templates apply resource bands in the vein of [Stellar Populations](https://en.wikipedia.org/wiki/Stellar_population), automatically making them all viable as mining destinations for interstellar vessels. Population 1 is current and rich with many common resources while the later ones retreat in time to a younger universe and become increasingly abundant in only Hydrogen and CRP's Antimatter or Classic Stock's Graviolium.
 
 | Surface | Ocean | Atmosphere | Exo (Trace) |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | Rock | Terra | Default (CO2-rich) | Rock |
 | Silica | Nitrogen | Terra |  Ice |
 | Vulcan | Methane | Vulcan |  None |
