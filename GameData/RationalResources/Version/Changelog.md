@@ -1,5 +1,12 @@
 # Rational Resources
 
+## 1.41
+* Added Extras/RationalResourcesELCRP/RR_EL-RF.cfg
+  * This firstly changes the default resource link and resource recipe from LFO to Kerosene + LqdOxygen.
+  * This secondly adds other (hopefully popular) resource links and recipes.
+* Added support for Quack Pack (planet pack).
+* Added support for Real Exoplanets (planet pack).
+
 ## 1.40
 * Fixed tag issue with opt-in system in `RationalResourcesNuclearFamily`.
 * Added `Advanced Jet Engine` detection to `RationalResourcesSquad` jet engine patch to prevent a significant conflict.
@@ -112,7 +119,7 @@
 * Added Uraninite to drills and Ore tanks.
 * Added Silicates Splitter (+1 path to Oxygen).
 * Added Extras/RR_Aluminium.cfg. 
-  This causes Alumina and Spodumene splitters to produce Aluminium instead of Metal; reveals this tank type in propellant tanks; changes the hybrid SRBs to consume this.
+  * This causes Alumina and Spodumene splitters to produce Aluminium instead of Metal; reveals this tank type in propellant tanks; changes the hybrid SRBs to consume this.
 * Fixed Kerbalism upgrade slot amount in Freezer and Heater boxes.
 * Minor adjustments to Spodumene Splitter.
 * Removed Extras/RR_EveLiquidFuelOcean.cfg. Any supported ocean harvester parts will gain LiquidFuel harvester module.
