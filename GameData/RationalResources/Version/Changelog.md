@@ -1,5 +1,19 @@
 # Rational Resources
 
+## 1.42
+* Added Air Maker OmniConverter option for the presence of WBI Snacks! with Air!
+* Fixed output resource flow mode in RR Boxed Compressor and Decompressor.
+* Fixed template error with JNSQ Lindor.
+* Updated (hopefully) Extras/RationalResourcesELCRP to catch any resource converters that consume/produce Metal to do Metals instead; consumes MetallicOre to consume MetallicOre instead.
+* Updated Extras/RationalResourcesNuclearFamily so integrated nuclear jets produce and consume more ThermalPower, and convert to ElectricCharge without needing to throttle up the engine.
+* Updated Extras/RationalResourcesSquad to handle Kerbondyne branded parts that hold LiquidFuel but not Oxidizer. The presence of Buffalo 2's bioreactor caused an error where MM will not save the config cache.
+* Updated Extras/RationalResourcesSSPXRTanks to catch all such tanks and replace Metal subtype with Metals.
+* Updated Procedural Tanks (thanks to @ VeronikaKerman):
+  * Alphabetically sorted tank types.
+  * Added Helium and/or Helium3 gas form tank types.
+  * Added boiloff config for Deuterium and Helium-3.
+  * Fixed (hopefully) Ore reappearing after selecting another tank type.
+
 ## 1.41
 * Added Extras/RationalResourcesELCRP/RR_EL-RF.cfg
   * This firstly changes the default resource link and resource recipe from LFO to Kerosene + LqdOxygen.
