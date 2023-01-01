@@ -1,5 +1,19 @@
 # Rational Resources
 
+## 2.0 To-Do
+* Test Kerbalism integration of new parts.
+* Test Pathfinder integration of new parts.
+
+## 2.0
+* Added LqdHe3 to atmo scoops options.
+* Added parts:
+  * "MISPLACED" series ram air harvesters for LACE type engines.
+  * "Chill-O-Tron" 2.5m inline freezer with the power of 5 boxed freezers.
+  * 5m exosphere scoop with 100m funnel span.
+  * "Giga-Tron" 3.75m ISRU which produces (only) FusionPellets.
+* Reduced atmospheric LqdHe3 presences.
+* Updated parts integration to require WBI Pathfinder, not Classic Stock, for insertion of WBI OmniStorage, OmniConverter or "Omni-" harvester modules into parts.
+
 ## 1.42
 * Added Air Maker OmniConverter option for the presence of WBI Snacks! with Air!
 * Fixed output resource flow mode in RR Boxed Compressor and Decompressor.
