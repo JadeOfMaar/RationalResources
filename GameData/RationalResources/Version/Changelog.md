@@ -1,5 +1,12 @@
 # Rational Resources
 
+## 1.43
+* Changed requirement of harvesters and refineries from Classic Stock to WBI Pathfinder. When Pathfinder is installed, harvesters can use one module to produce all resources, refineries become switchable and decluttered.
+* Fixed excessive Water demand of Hydrolox production (increased Hydrolox outputs).
+* Fixed MetalOre and Metal subtypes not showing in Ore tanks. Yay typoes.
+* Deleted legacy Kerbalism config that caused repeat modules on, and breakage of the stock drills.
+* Updated handling for stock drills and refineries to cover for RO Kerbalism which does not handle the stock parts.
+  
 ## 1.42
 * Added Air Maker OmniConverter option for the presence of WBI Snacks! with Air!
 * Fixed output resource flow mode in RR Boxed Compressor and Decompressor.
