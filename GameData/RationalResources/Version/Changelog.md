@@ -1,46 +1,12 @@
 # Rational Resources
 
-## 2.0 To-Do
-* Test Pathfinder integration of new parts.
-* Add Classic Stock version of OmniConverter chains.
-* Add Geocooling resource placement for GSHP.
-* Add parts:
-  * Blacksmith furnace.
-  * Fuel cell (single, radial).
-  * Fuel cell (inline).
-  * 1.25m GSHP radiator.
-  * 1.25m GSHP geothermal power.
-  * 5m cooling tower - open cycle radiator.
-  * 5m cooling tower - geothermal power.
-  * 5m cooling tower - nuclear reactor.
-  * Thaw version of Chill-O-Tron.
-  * New Convert-O-Trons suite.
-* Fix/Finish parts:
-  * Texture seams in Chill-O-Tron.
-  * Add indiciator lights to parts.
-* Update OmniConverter chains: redefine Classic Stock and separate/dedicate CRP config to CRP side of mod.
-
-## 2.0 WIP
-* Added LqdHe3 to atmo scoops options.
-* Added parts:
-  * "MISPLACED" series ram air harvesters for LACE type engines.
-  * "Chill-O-Tron" 2.5m inline freezer with the power of 5 boxed freezers.
-  * 5m exosphere scoop with 100m funnel span.
-  * "Giga-Tron" 3.75m ISRU which produces (only) FusionPellets.
-* Deleted legacy Kerbalism config that caused repeat modules on, and breakage of the stock drills.
-* Fixed EL-CRP integration for WBI SandCastle.
-* Fixed huge Water input imbalance in Hydrolox (from Water) chain.
-* Reduced atmospheric LqdHe3 presences.
-* Updated detection of EL and SimpleConstruction.
-* Updated parts integration to require WBI Pathfinder, not Classic Stock, for insertion of WBI OmniStorage, OmniConverter or "Omni-" harvester modules into parts.
-
 ## 1.43
 * Changed requirement of harvesters and refineries from Classic Stock to WBI Pathfinder. When Pathfinder is installed, harvesters can use one module to produce all resources, refineries become switchable and decluttered.
 * Fixed excessive Water demand of Hydrolox production (increased Hydrolox outputs).
 * Fixed MetalOre and Metal subtypes not showing in Ore tanks. Yay typoes.
 * Deleted legacy Kerbalism config that caused repeat modules on, and breakage of the stock drills.
 * Updated handling for stock drills and refineries to cover for RO Kerbalism which does not handle the stock parts.
-
+  
 ## 1.42
 * Added Air Maker OmniConverter option for the presence of WBI Snacks! with Air!
 * Fixed output resource flow mode in RR Boxed Compressor and Decompressor.
