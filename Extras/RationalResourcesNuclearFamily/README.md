@@ -23,18 +23,18 @@ CRP:
 
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
-| Carbon Dioxide | 283 s | 60 kN | Impulse is as good as the average LiquidFuel rocket, and this is the most convenient option due to the great abundance of Carbon Dioxide in some planets' atmospheres. |
-| Carbon Monoxide | 253 s | 60 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
-| Water | 370 s | 45.6 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
+| Water | 370 s | 107 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
+| Carbon Dioxide | 283 s | 130.8 kN | Impulse is as good as the average LiquidFuel rocket, and this is the most convenient option due to the great abundance of Carbon Dioxide in some planets' atmospheres. |
+| Carbon Monoxide | 253 s | 142.3 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
 
 Classic Stock:
 
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
-| Water | 370 s | 45.6 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
-| Nitronite | 253 s | 69 kN | Impulse is as good as the average LiquidFuel rocket, and a bonus to thrust is gained through the relatively reactive nature of this propellant, however, it is hard to come by in nature. |
+| Water | 370 s | 107 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
 | Compressed Atmosphere | 283 s | 60 kN | CompressedAtmosphere as a propellant may be very poor in terms of Isp, but any atmosphere is fuel, and that's always good. |
-| Stale Air | 283 s | 60 kN | Stale Air, right? |
+| Stale Air | 283 s | 130.8 kN | Stale Air, right? |
+| Nitronite | 253 s | 142.27 kN | Impulse is as good as the average LiquidFuel rocket, and a bonus to thrust is gained through the relatively reactive nature of this propellant, however, it is hard to come by in nature. |
 
 
 The Reducing Agent engine receives the following options for its primary mode: 
@@ -44,17 +44,17 @@ CRP:
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
 | Hydrogen | 800 s | 60 kN | This is the highest efficiency, baseline option for NTRs. |
-| Ammonia | 400 s | 120 kN | This may be very niche but is made very available, the Ammonia option trades exactly half the baseline efficiency for double the thrust. |
-| Nitrogen | 253 s | 40.2 kN | Nitrogen as a propellant may be very niche and is poor in terms of Isp, but it is common in planetary crusts, atmospheres, oceans, and exospheres. |
-| Methane | 606 s | 79.8 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
+| Methane | 606 s | 73.9 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
+| Ammonia | 400 s | 100.9 kN | This may be very niche but is made very available, the Ammonia option trades exactly half the baseline efficiency for double the thrust. |
+| Nitrogen | 253 s | 142.3 kN | Nitrogen as a propellant may be very niche and is poor in terms of Isp, but it is common in planetary crusts, atmospheres, oceans, and exospheres. |
 
 Classic Stock:
 
 | Propellant | Vac Isp :small_orange_diamond: | Thrust :small_orange_diamond: | Detail |
 | -- | -- | -- | -- |
 | Propellium | 800 s | 60 kN | This is the highest efficiency, baseline option for NTRs. |
-| Raptium | 606 s | 79.8 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
-| Fresh Air | 253 s | 40.2 kN | This option is on the weirder and desperate side but whatever works... Pray that it's never needed. |
+| Raptium | 606 s | 73.9 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
+| Fresh Air | 253 s | 142.3 kN | This option is on the weirder and desperate side but whatever works... Pray that it's never needed. |
 
 
 ## LANTR Mode
