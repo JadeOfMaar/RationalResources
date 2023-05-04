@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 1.44
+* Added compatibility (excluding template adaptation) for The Gold Standard.
+* Balance pass in `RationalResourcesNuclearFamily`. Lower Isp propellants are ensured greater thrust and oxidating agent NTRs have greater baseline thrust due to default lower Isp.
+* Changed (most if not all) exo resources to liquid form and exo scoop modules to suit.
+* Deleted redundant CO2 generators.
+* Fixed RR_MetallicOre issue when CRP not installed (hopefully).
+* Fixed issues with Kerbalism + WBI Pathfinder.
+* Rewrote and divided RR Omniconverter recipes between basic, CRP and Classic Stock.
+* Tagged all engines except the open cycle one in Kerbal Atomics for `RationalResourcesNuclearFamily`.
+
 ## 1.43
 * Changed requirement of harvesters and refineries from Classic Stock to WBI Pathfinder. When Pathfinder is installed, harvesters can use one module to produce all resources, refineries become switchable and decluttered.
 * Fixed excessive Water demand of Hydrolox production (increased Hydrolox outputs).
