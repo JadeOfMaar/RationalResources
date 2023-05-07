@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 1.45
+* Added KPBS ISRU support by @ CoriW on the forum.
+* Added detection for InterstellarFuelSwitch (do nothing) and SMURFF (required compatibility) to `RationalResourcesSquad`.
+
 ## 1.44
 * Added compatibility (excluding template adaptation) for The Gold Standard.
 * Balance pass in `RationalResourcesNuclearFamily`. Lower Isp propellants are ensured greater thrust and oxidating agent NTRs have greater baseline thrust due to default lower Isp.
