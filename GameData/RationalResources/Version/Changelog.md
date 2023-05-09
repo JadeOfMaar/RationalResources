@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 1.46
+* Added Extra: `RationalResourcesELUtilities`.
+* Added detection for On Demand Fuel Cells (do nothing to fuel cells; prevent conflict).
+* Added KPBS Ore and LFO tanks support.
+* Balance pass on Kerbalism drills. Apparently they were at 20% of baseline performance.
+* Deprecated Extra: `RationalResourcesELCRP`.
+* Fixed unforeseen problems with Squad drills and Kerbalism.
+
 ## 1.45.1
 * Fixed unforeseen problems with KPBS and Kerbalism.
 * Fixed minor problem with Ore tanks and SMURFF.
