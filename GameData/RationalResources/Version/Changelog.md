@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.47
+* Housekeeping...
+* Added support for Kcalbeloh.
+* Added support for OWR.
+* Added ExoFire template for Io-like works. Partially placeholder.
+
 ## 1.46
 * Added Extra: `RationalResourcesELUtilities`.
 * Added detection for On Demand Fuel Cells (do nothing to fuel cells; prevent conflict).
