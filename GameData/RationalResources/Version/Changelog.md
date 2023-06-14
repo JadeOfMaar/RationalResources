@@ -19,12 +19,6 @@
   * Moved CO propellant option to Reducing Agent side.
   * Updated detection to only apply to engines that use ModuleEnginesFX.
 
-## 1.49 To-Do
-* Update these in `RationalResourcesNuclearFamily`:
-  * Classic Stock integration
-  * SystemHeat integration?
-  * Increase burn time (Kerbalism reliability) to counter Kerbalism forcibly nerfing them as a balance mechanic
-
 ## 1.47
 * Housekeeping...
 * Added support for Kcalbeloh.
