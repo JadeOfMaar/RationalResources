@@ -1,7 +1,8 @@
 # Rational Resources
 
-## 1.49
+## 1.48
 * Added (missing) Freeze Deuterium option to omniconverters.
+* Added Carbon Monoxide fuel tank options in `RationalResourcesSquad`.
 * Added Explodium (Classic Stock) resource definition to cure fatal issue when Classic Stock does not define this resource because Far Future Tech is installed.
 * Updated energy demand in EL System Heat converters in `RationalResourcesELUtilities`.
 * Updated Ore tank integration (to do nothing) when InterstellarFuelSwitch installed.
@@ -12,18 +13,17 @@
   * Rebalances with respect to System Heat mechanics and ThermalPower now being treated as Megajoules or Megawatts by Rational Resources.
   * Updated detection of CRP vs Classic Stock.
 * Updated `RationalResourcesNuclearFamily`:
+  * Added Bluedog Design Bureau to opt-in. (selection by @ dangaffa )
   * Added SpaceTux Recycled Parts: FTmN Atomic Rockets to opt-in.
   * Added SpaceTux Recycled Parts: LVN Clusters to opt-in.
   * Moved CO propellant option to Reducing Agent side.
+  * Updated detection to only apply to engines that use ModuleEnginesFX.
 
 ## 1.49 To-Do
 * Update these in `RationalResourcesNuclearFamily`:
   * Classic Stock integration
   * SystemHeat integration?
   * Increase burn time (Kerbalism reliability) to counter Kerbalism forcibly nerfing them as a balance mechanic
-
-## 1.48
-* Added BDB engines to opt-in on `RationalResourcesNuclearFamily`.
 
 ## 1.47
 * Housekeeping...
