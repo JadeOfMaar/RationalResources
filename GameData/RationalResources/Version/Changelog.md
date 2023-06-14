@@ -1,10 +1,35 @@
 # Rational Resources
 
+## 1.49
+* Added (missing) Freeze Deuterium option to omniconverters.
+* Added Explodium (Classic Stock) resource definition to cure fatal issue when Classic Stock does not define this resource because Far Future Tech is installed.
+* Updated energy demand in EL System Heat converters in `RationalResourcesELUtilities`.
+* Updated Ore tank integration (to do nothing) when InterstellarFuelSwitch installed.
+* Updated Silicates and ISRU chains to reflect SiO4.
+* Updated: `RationalResourcesBlacksmith`:
+  * To apply its changes late in MM runtime in order to allow NTRs affected by `RationalResourcesNuclearFamily` to get nuclear fuel refill and nuclear waste disposal options.
+  * To prevent inserting duplicate work or furnace factor tags into parts (in case of parts that specify their own factor).
+  * Rebalances with respect to System Heat mechanics and ThermalPower now being treated as Megajoules or Megawatts by Rational Resources.
+  * Updated detection of CRP vs Classic Stock.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added SpaceTux Recycled Parts: FTmN Atomic Rockets to opt-in.
+  * Added SpaceTux Recycled Parts: LVN Clusters to opt-in.
+  * Moved CO propellant option to Reducing Agent side.
+
+## 1.49 To-Do
+* Update these in `RationalResourcesNuclearFamily`:
+  * Classic Stock integration
+  * SystemHeat integration?
+  * Increase burn time (Kerbalism reliability) to counter Kerbalism forcibly nerfing them as a balance mechanic
+
+## 1.48
+* Added BDB engines to opt-in on `RationalResourcesNuclearFamily`.
+
 ## 1.47
 * Housekeeping...
 * Added support for Kcalbeloh.
 * Added support for OWR.
-* Added ExoFire template for Io-like works. Partially placeholder.
+* Added ExoFire template for Io-like worlds. Partially placeholder.
 
 ## 1.46
 * Added Extra: `RationalResourcesELUtilities`.
@@ -436,7 +461,7 @@
 * Fixed missing outputs in Hydrates Splitter.
 * Fixed Alumina and Monazite drills consuming 5x ElectricCharge for their 5x efficiency.
 * Made Carbon output available in CO2 splitter.
-* Made BlackSmith patch only activate if RR Parts is installed.
+* Made Blacksmith patch only activate if RR Parts is installed.
 * Moved Carbon and CarbonDioxide tank types to be immediately beside each other for Ore tanks.
 * Renamed and rearranged some converters.
 
