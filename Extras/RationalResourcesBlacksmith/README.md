@@ -7,14 +7,14 @@ This modlet provides an upgrade-able pseudo industrial furnace in the unused cre
 
 The Blacksmith module is upgrade-able via B9 PartSwitch but the highest level requires supported tech tree mods as the stock tech tree is not tall enough.
 
-The input and output resources are per second and multiplied by crew capacity of the part. The outputs on each higher level are exactly 3x that of the lower level but the input of the higher level is roughly 40% that of 3x of the same part at the lower level.
+The input and output resources are per second and multiplied by crew capacity of the part. ElectricCharge input is roughly 111% (10/9) that of the ThermalPower output with respect to thermodynamics and how the System Heat mod works.
 
 | Level | Inputs | Outputs | TechRequired |
 | -- | -- | -- | -- |
-| 1 | 15 EC | 0.2 RRWork + 0.1 ThermalPower | N/A |
-| 2 | 20 EC | 0.6 RRWork + 0.3 ThermalPower | advMetalworks |
-| 3 | 25 EC | 1.8 RRWork + 0.9 ThermalPower | nanolathing |
-| 4 | 30 EC | 5.4 RRWork + 2.7 ThermalPower | exoticAlloys :small_blue_diamond: |
+| 1 | 11 EC | 0.2 RRWork + 0.01 ThermalPower | N/A |
+| 2 | 33 EC | 0.6 RRWork + 0.03 ThermalPower | advMetalworks |
+| 3 | 99 EC | 1.8 RRWork + 0.09 ThermalPower | nanolathing |
+| 4 | 299 EC | 5.4 RRWork + 0.27 ThermalPower | exoticAlloys :small_blue_diamond: |
 
 > :small_blue_diamond: This node does not exist in the stock tech tree. This upgrade currently only appears if Community Tech Tree is present.
 
@@ -47,10 +47,15 @@ In the absence of Near Future Electric (or alongside it. Feel free to mix these)
 * A refill converter which consumes Uraninite + ThermalPower + RRWork
 * A disposal converter which consumes Ore + DepletedFuel + RRWork (simulating a means of burying the waste. Please only use this while landed.)
 
-> :warning: Note that no ISRU option is provided by RR for recycling o re-enriching spent nuclear fuel.
+> :warning: Note that no ISRU option is provided by RR for recycling or re-enriching spent nuclear fuel.
 
 
 ## Rational Resources Blacksmith Family
 A secondary config produced by someone else. This adds a derivative of:
 * The Blacksmith "RRWork" function to any part that has EL Workshop productivity of at least 1, and scales the RRWork production rate with the EL Workshop rating.
 * The Blacksmith "ThermalPower" function to any part that has EL Smelter module, and scales  ThermalPower production with the EL Smelter's conversion rate.
+
+Blacksmith furnace stats
+| Inputs | Outputs |
+| -- | -- |
+| 1 | 22 EC | 0.02 ThermalPower |
