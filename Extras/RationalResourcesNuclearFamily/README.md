@@ -25,7 +25,6 @@ CRP:
 | -- | -- | -- | -- |
 | Water | 370 s | 107 kN | This is the more economical high thrust option, immediately superior in performance to the likes of the LV-303 and LV-909 LFO engines. |
 | Carbon Dioxide | 283 s | 130.8 kN | Impulse is as good as the average LiquidFuel rocket, and this is the most convenient option due to the great abundance of Carbon Dioxide in some planets' atmospheres. |
-| Carbon Monoxide | 253 s | 142.3 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
 
 Classic Stock:
 
@@ -47,6 +46,7 @@ CRP:
 | Methane | 606 s | 73.9 kN | This option trades a very modest portion of efficiency for thrust but makes use of the highly demanded alternative propellant for launchers and boosters. |
 | Ammonia | 400 s | 100.9 kN | This may be very niche but is made very available, the Ammonia option trades exactly half the baseline efficiency for double the thrust. |
 | Nitrogen | 253 s | 142.3 kN | Nitrogen as a propellant may be very niche and is poor in terms of Isp, but it is common in planetary crusts, atmospheres, oceans, and exospheres. |
+| Carbon Monoxide | 253 s | 142.3 kN | This is the highest thrust option among all RR NTR options and is fitting for use at inner rocky worlds with atmospheres. |
 
 Classic Stock:
 
