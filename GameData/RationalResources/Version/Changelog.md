@@ -1,5 +1,14 @@
 # Rational Resources
 
+## 1.49
+* Added **Konstruction** (Equipment, Minerals, Metals) storage template for WBI template system. This goes with RR Equipment formula.
+* Added RR MaterialKits option for Convert-O-Trons. (This currently only appears if Global Construction installed.)
+* Fixed ElectricCharge scaling issue in Convert-O-Trons.
+* Renamed some converter options (added "RR" prefix) to add distinction vs standard/other formulas.
+* Updated `RationalResourcesELUtilities`:
+  * Added EL-to-CRP handling for WBI template system. Written by **@ 0xE1E10** on GitHub.
+* Updated Kcalbeloh resource placement config: A planet was internally renamed.
+
 ## 1.48
 * Added (missing) Freeze Deuterium option to omniconverters.
 * Added Carbon Monoxide fuel tank options in `RationalResourcesSquad`.
@@ -247,7 +256,7 @@
 * Added Graviolium module to RR Scanner Green.
 * Adjusted CoreHeat curve for Stockalike Mining Expansion's 3.75m (RefineOre Y-3000) Convert-O-Tron.
 * Fixed Ore Tank patch problems. (Includes file-deletion.)
-* Fixed double-addition of modules to Squad convert-O-Trons.
+* Fixed double-addition of modules to Squad Convert-O-Trons.
 * Other adjustments to Squad and RR Convert-O-Trons.
 * Some of these fixes by forum user **@ flart**.
 
