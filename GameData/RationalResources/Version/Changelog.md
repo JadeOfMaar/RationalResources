@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.49.1
+* Updated `RationalResourcesNuclearFamily`:
+  * Removed BDB Nerva II from opt-in as it caused conflict with RealFuels Stockalike
+* Updated `RationalResourcesCompanion`:
+  * Allowed Ore tank patch when RealFuels installed. Answered request for Carbon storage when producing Kerosene under RealFuels.
+
 ## 1.49
 * Added **Konstruction** (Equipment, Minerals, Metals) storage template for WBI template system. This goes with RR Equipment formula.
 * Added RR MaterialKits option for Convert-O-Trons. (This currently only appears if Global Construction installed.)
