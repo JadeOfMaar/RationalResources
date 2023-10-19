@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 1.50
+* Rebalanced Uraninite conversion in `RationalResourcesBlacksmith`.
+* Renamed tank types and added FusionPellets to squad tanks via `RationalResourcesSquad`.
+* Minor tooltip fix in `RationalResourcesCompanion`.
+* Added engines to opt-in of `RationalResourcesNuclearFamily`:
+  * NF Aero's Project Eeloo.
+  * Sterling Systems' SULEU NTRs.
+
 ## 1.49.1
 * Updated `RationalResourcesNuclearFamily`:
   * Removed BDB Nerva II from opt-in as it caused conflict with RealFuels Stockalike
