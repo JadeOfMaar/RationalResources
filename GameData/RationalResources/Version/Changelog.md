@@ -4,9 +4,13 @@
 * Rebalanced Uraninite conversion in `RationalResourcesBlacksmith`.
 * Renamed tank types and added FusionPellets to squad tanks via `RationalResourcesSquad`.
 * Minor tooltip fix in `RationalResourcesCompanion`.
+* Added Minerals tank option to Ore tanks for use by RR's EL recipes.
 * Added engines to opt-in of `RationalResourcesNuclearFamily`:
   * NF Aero's Project Eeloo.
   * Sterling Systems' SULEU NTRs.
+* Updates to `RationalResourcesELUtilities`:
+  * Added config for SandCastle recipes.
+  * Changed some EL tanks to use B9 resource switching and hid the rest.
 
 ## 1.49.1
 * Updated `RationalResourcesNuclearFamily`:
