@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.51
+* Added engines to opt-in of `RationalResourcesNuclearFamily`:
+  * NF Aero's J-N160 'Fireflash.'
+* Localized Ore tank option titles.
+* Updated behaviors and balancing of `RationalResourcesNuclearFamily`.
+
 ## 1.50
 * Rebalanced Uraninite conversion in `RationalResourcesBlacksmith`.
 * Added FusionPellets to squad tanks via `RationalResourcesSquad`.
