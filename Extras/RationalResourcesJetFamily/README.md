@@ -1,3 +1,4 @@
+![image](https://i.imgur.com/9kHF4OH.png)
 # Rational Resources Jet Family
 This modlet enables all supported chemical jet engines to choose between LiquidFuel and some CRP fuels. The following engine scenarios are supported:
 - **Default**: Single-mode engines. Also covers dual-mode "afterburner" engines where both modes use LiquidFuel.
