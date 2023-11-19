@@ -3,6 +3,7 @@
 ## 1.60
 * Added extra: `RationalResourcesJetFamily`.
   * Please updates `RationalResourcesSquad` if you use it, to delete its SquadJets configs (or just delete these manually).
+  * Increases ElectricCharge demand on electric engines.
 * Added rebalance patches for Kerbalism reliability:
   * `RationalResourcesKerbalism` now provides this to ion engines, stock and mod. (Detection logic is currently basic: If the engine eats Xenon, Argon or Lithium, it is assumed to be an ion engine. Mis-catches may occur) Ion engines now have 3 years MTBF and a few years of burn time.
   * `RationalResourcesKerbalism` now provides this to Squad NERV and Restock+ Cherenkov. Atomic engines now have 1 year MTBF and 2+ days burn time.
