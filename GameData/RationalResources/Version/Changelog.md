@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 1.60.1
+* Added mods to the opt-in of `RationalResourcesJetFamily, RationalResourcesNuclearFamily, RationalResourcesRCSFamily` where appropriate:
+  * Mk2 Expansion, Mk3 Expansion, SXT, WaterDrinker.
+  * Excluding RCS parts that are also engines or have multiple RCS module.
+  * Excluding pure electric jet engines.
+* Updated `RationalResourcesKerbalism`:
+  * Added SolidFuel ion detection. This covers the Supplementary Electrical Engines mod.
+
 ## 1.60
 * Added extra: `RationalResourcesJetFamily`.
   * Please updates `RationalResourcesSquad` if you use it, to delete its SquadJets configs (or just delete these manually).
