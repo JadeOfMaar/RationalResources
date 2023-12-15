@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 1.61
+* Fix EL System Heat problems.
+* Replace Carbon Extractor process with Ore Splitter which outputs Oxygen and Carbon.
+* Split ion engine reliability buffs from `RationalResourcesKerbalism` into new modlet, `KerbalismSidePatches`.
+* Split nuke engine reliability buffs from `RationalResourcesNuclearFamily` into new modlet, `KerbalismSidePatches`.
+
 ## 1.60.1
 * Added mods to the opt-in of `RationalResourcesJetFamily, RationalResourcesNuclearFamily, RationalResourcesRCSFamily` where appropriate:
   * Mk2 Expansion, Mk3 Expansion, SXT, WaterDrinker.
