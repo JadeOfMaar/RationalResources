@@ -1,5 +1,27 @@
 # Rational Resources
 
+## 2.0
+* Added LqdHe3 to atmo scoops options.
+* Added patch that adds options to the stock drills: Alumina, CarbonDioxide, Hydrates, Monazite.
+* Added parts:
+  * "MISPLACED" series ram air harvesters for LACE type engines.
+  * "Chill-O-Tron" 2.5m freezer which replaces the boxed freezer.
+  * "Therm-O-Tron" 1.25m heater which replaces the boxed heater.
+  * 5m exosphere scoop with 100m funnel span.
+  * "Giga-Tron" 3.75m refinery which produces (only) FusionPellets.
+  * Gas Cache tanks (inline, 1.25m, 2.5m, 3.75m, 5m) for use with harvesters or refinery edge cases.
+  * Discount CryoTanks (inline, 1.25m, 2.5m, 3.75m, 5m) for use with RationalResourcesNuclearFamily and the Giga-Tron.
+  * Wrapper tanks, intake and Convert-O-Tron (1.25m ~ 2.5m size).
+* Changed some remaining atmosphere and exosphere resources from gas to liquid form for consistency.
+* Changed harvesters' options to follow suit.
+* Deprecated RR Parts: Hydroscoop beta, Boxed heater, Boxed freezer.
+* Removed integration of Squad radial intake.
+* Reduced atmospheric LqdHe3 presences as most Helium presence is the regular inert kind.
+* Updated parts integration to require WBI Pathfinder, not Classic Stock, for insertion of WBI OmniStorage, OmniConverter or "Omni-" harvester modules into parts. WBI integration on the whole is on the fence for now.
+* Updated Kerbalism integrations:
+  * Reduced drills' output and ElectricCharge demand to 1/5 previous values. this should be the proper scaling for them.
+  * Do not remove WBI custom harvester module from WBI Pathfinder's Lasso series parts.
+
 ## 1.61
 * Fix EL System Heat problems.
 * Replace Carbon Extractor process with Ore Splitter which outputs Oxygen and Carbon.
