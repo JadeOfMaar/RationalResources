@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 2.0.1
+* Added KerbalismSystemHeat detection to the Cryomat.
+
 ## 2.0
 * Added LqdHe3 to atmo scoops options.
 * Added patch that adds options to the stock drills: Alumina, CarbonDioxide, Hydrates, Monazite.
