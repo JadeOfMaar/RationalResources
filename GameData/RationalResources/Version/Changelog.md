@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 2.0.2
+* Updated RationalResourcesKerbalism:
+  * Deleted Squad nuke reliability patch. This should be in the `KerbalismSidePatches` mod.
+  * Fixed all B9PS problems.
+* Updated RationalResourcesNuclearFamily:
+  * Restored fix for B9PS warnings with BDB nuke engines and Skyhawk Science mod.
+* Updated RationalResourcesParts:
+  * Updated descriptions and stats (mass, cost, tech node). Thanks in part to @Vaskritaya.
+  * Added wrapper intake to opt-in as ocean harvester.
+  * Un-deprecated and un-nerfed boxed converters. Made these less heavy too.
+
 ## 2.0.1
 * Added KerbalismSystemHeat detection to the Cryomat.
 
