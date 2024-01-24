@@ -1,5 +1,23 @@
 # Rational Resources
 
+## 2.0.3
+* Updated RationalResources:
+  * Fixed atmo scanner not detecting "liquid" resources.
+* Updated RationalResourcesCompanion:
+  * Added missing LqdDeuterium output to RealFuels Water Splitter process.
+  * Doubled the resource flows (except for ElectricCharge) of Methalox, Hydrolox and Water Splitter processes.
+* Updated RationalResourcesKerbalism:
+  * Added missing Uraninite drill option.
+  * Doubled the resource flows of Water Splitter process.
+* Updated RationalResourcesNuclearFamily:
+  * Added `RRTN` key to opt-in for targeting thermal nozzle parts.
+  * Moved Sterling Systems' thermal nozzles under this.
+* Updated RationalResourcesParts:
+  * Adjusted part costs (thanks to @Vaskritaya).
+* Updated RationalResourcesSquad:
+  * Fixed CryoTanks detection: Do not add own switcher setup to stock tanks if CryoTanks installed.
+  * If CryoTanks not installed, ensure stock tanks have boiloff module.
+
 ## 2.0.2
 * Updated RationalResourcesKerbalism:
   * Deleted Squad nuke reliability patch. This should be in the `KerbalismSidePatches` mod.
