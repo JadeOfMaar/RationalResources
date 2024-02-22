@@ -1,5 +1,18 @@
 # Rational Resources
 
+## 2.0.4
+* Updated RationalResources:
+  * Added missing Spodumene scanner option.
+  * Updated exo templates' Rock resource provisions.
+* Updated RationalResourcesJetFamily:
+  * Added cryofuel switcher for rocket engines. (Required by OPT spaceplane and possible other mods.)
+  * Added provisions for air-breathing engines that run LFO + deoxygenated IntakeAtm. (Required by OPT spaceplane.)
+* Updated RationalResourcesNuclearFamily:
+  * Added provisions for dual-mode thermal nozzle engines (with toggle for fan-based or rocket-based air-breathing mode).
+  * Fixed thrust curve issue with thermal nozzle fuel options.
+* Updated RationalResourcesParts:
+  * Fixed patch problem with Wrapper Intake.
+
 ## 2.0.3
 * Updated RationalResources:
   * Fixed atmo scanner not detecting "liquid" resources.
