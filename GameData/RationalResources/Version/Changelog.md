@@ -1,5 +1,17 @@
 # Rational Resources
 
+## 2.0.6
+* Updated RationalResources:
+  * Added Kerbal Star Systems 2 support.
+  * Updated JNSQ support.
+  * Removed an odd need of RationalResourcesCompanion that resulted in B9PS fatal errors.
+* Updated RationalResourcesKerbalism:
+  * Added MaterialKits prcoess.
+* Updated RationalResourcesParts:
+  * Added boiloff configs to RR CryoTanks for a rather wide array of cryo resources.
+* Updated RationalResourcesNuclearFamily:
+  * Removed Sterling Engines. RRNF will be baked into Sterling Engines.
+
 ## 2.0.4
 * Updated RationalResources:
   * Added missing Spodumene scanner option.
