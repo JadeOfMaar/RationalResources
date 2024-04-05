@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 2.0.6.1
+* Updated RationalResources:
+  * Fixed JNSQ support.
+
 ## 2.0.6
 * Updated RationalResources:
   * Added Kerbal Star Systems 2 support.
