@@ -1,5 +1,17 @@
 # Rational Resources
 
+## 2.0.7
+* Updated RationalResources:
+  * Added missing hotspots for pure Water on Kerbin, Duna, Laythe, Moho.
+  * Updated biome templates (CRP only).
+* Updated RationalResourcesBlacksmith:
+  * Created/Fixed SystemHeat integration.
+* Updated RationalResourcesELUtilities:
+  * Added protection against possible duplicate SystemHeat module.
+  * Updated SystemHeat efficiency curves.
+* Updated RationalResourcesKerbalism:
+  * Fixed atmo scoops seeking gas form resources when liquid forms are placed.
+
 ## 2.0.6.1
 * Updated RationalResources:
   * Fixed JNSQ support.
