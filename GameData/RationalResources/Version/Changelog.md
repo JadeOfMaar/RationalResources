@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 2.0.7.1
+* Updated RationalResources:
+  * Added ExoticMinerals option to Ore tanks.
+* Updated RationalResourcesKerbalism:
+  * Hopefully fixed Chill-O-Tron issues of resource switching and KerbalismSystemHeat.
+
 ## 2.0.7
 * Updated RationalResources:
   * Added missing hotspots for pure Water on Kerbin, Duna, Laythe, Moho.
