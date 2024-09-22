@@ -1,7 +1,7 @@
 # Folders
 
 ## 000_RationalResources
-The greater of the core of this mod. Here are the resource distribution templates, B9 tank types and scanner modifications. Folders for any resource libraries and profiles based on them (hereby called "play modes") are here. These folders will overlap in a very bad way so ensure to keep only one of these in your install. Feel free to create your own play mode folder here.
+The greater of the core of this mod. Here are the resource distribution templates, B9 tank types and scanner modifications. Folders for any resource libraries and profiles based on them (hereby called "play modes") are here. Please see the README in there for more info.
 
 ## RationalResources
 The lesser of the core of this mod. In here is the planet pack support and the experiments.
