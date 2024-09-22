@@ -1,5 +1,25 @@
 # Rational Resources
 
+## 3.0.0
+* Created extra, `RationalResourcesSandcastle`. Still experimental. Classic Stock not yet fully supported.
+  * Removed placeholder config from `RationalResourcesELUtilities`.
+* Updated RationalResources:
+  * Added asteroid and comet resource configs.
+  * Added asteroid and comet analysis module to RR Ground Scanner.
+  * Fixed tank ratio for D+3He.
+* Updated RationalResourcesCompanion:
+  * Added Sterling Systems refinery tags to Omniconverter recipe configs.
+  * Updated Monazite Splitter process. Added Thorium to outputs.
+  * Updated processes that output Deuterium to dump Hydrogen when Deuterium is wanted more than Hydrogen.
+* Updated RationalResourcesNuclearFamily:
+  * Added System Heat compatibility.
+  * Fixed errors with thermal nozzles patch. Methane mode targeted wrong mode of dual mode engines and there was a very large inconsistency with air-breathing mode. Thanks @Velcroish
+* Updated RationalResourcesParts:
+  * Added missing Deuterium to gas tank options.
+  * Removed deploy/retract step for exo scoops since they do not animate.
+* Updated RationalResourcesSquad:
+  * Disabled Structural subtype on request (hopefully). Tanks should now always hold the original fuel mix.
+
 ## 2.0.7.1
 * Updated RationalResources:
   * Added ExoticMinerals option to Ore tanks.
