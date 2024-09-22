@@ -1,5 +1,3 @@
-"Play mode" system is decided here. Each folder's purpose is to reflect the resource library of your choice and each one contains a version of the resource templates.
+"Play mode" system is decided here. The purpose of each folder (other than `zShared` which is play mode agnostic) is to reflect the resource library of your choice and each one contains a version of the resource templates -- the collections of combinations of resource placements. Be sure to only have one of these play mode folders or they will cause overlap and quite a lot of needless work for ModuleManager.
 
-> :warning: Ensure only one of these folders exists in your install.
-
-> :star: Create your own if you like to use CRP or another resource library in your own way.
+> :star: Create your own play mode folder if you would like to use CRP or another resource library in your own way.
