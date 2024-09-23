@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 3.0.1
+* Updated 000_RationalResources:
+  * Removed non-optional folder to make less for the player to need to remember.
+* Updated RationalResourcesNuclearFamily:
+  * Fixed missing engineID issue with single-mode nukjet engines.
+
 ## 3.0.0
 * Created `000_RationalResources`. Split resource templates out of `RationalResources` folder and took a new approach to play modes. Allows for modders to easily change what the temapltes contain and are applied to planets.
 * Created extra, `RationalResourcesSandcastle`. Still experimental. Classic Stock not yet fully supported.
