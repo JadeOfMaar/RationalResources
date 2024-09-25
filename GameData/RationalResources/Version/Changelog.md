@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 3.0.2
+* Removed 000_RationalResources:
+  * Restored things as they were before.
+  * Introduced `:FOR[RationalResourcesTemplateCustom]`. Modders can use this to preclude all built-in templates so only their own will apply to planets.
+  * Introduced `:FOR[RationalResourcesNoCRP]`. Modders can use this to preclude just the CRP templates and the CRP functions in RationalResourcesCompanion. Classic Stock functions in RationalResourcesCompanion are now inactive without it.
+  * Introduced `:FOR[RationalResourcesAU]`. This will cause RationalResources to not attempt to apply resources to the stock planets. This is useful for system replacers, especially the re-skin kind like JNSQ or Techo's stock overhaul. (This was always around, though somewhat unused.)
+  * Introduced TemplateTag key in the resource placement configs. Modders may find it useful to be able to target these configs by their associated resource library.
+
 ## 3.0.1
 * Updated 000_RationalResources:
   * Removed non-optional folder to make less for the player to need to remember.
