@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 3.0.3
+* Updated RationalResources:
+  * Added Far Frontiers support. (Authored by 3rd party.)
+* Updated RationalResourcesCompanion, RationalResourcesKerbalism:
+  * Added recipe for FFT Orion's pulse units.
+  * Added recipe ExoticMinerals Splitter. Outputs are of value to certain other mods.
+  * Added recipe Minerals Splitter. 
+
 ## 3.0.2
 * Removed 000_RationalResources:
   * Restored things as they were before.
