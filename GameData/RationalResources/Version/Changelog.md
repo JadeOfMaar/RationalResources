@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 3.0.4
+* Fixed unbalanced brackets in Far Frontiers support config.
+
 ## 3.0.3
 * Updated RationalResources:
   * Added Far Frontiers support. (Authored by 3rd party.)
