@@ -1,9 +1,8 @@
 # Rational Resources
 
 ## 3.1.0
-* Added extra: `RationalResourcesOmniConverters`:
+* Added extra/empty folder toggle: `RationalResourcesOmniConverters`:
   * Makes refineries and fuel cells use WBI Omniconverter module vs PAW spam.
-  * Includes resource volume fix for stock propellants and Classic Stock Resources.
 * Updated `RationalResourcesCompanion` (Classic Stock):
   * Added Omniconverter recipe: Fizzy Boom. Produces Cider resource.
   * Added Omniconverter recipe: Water Splitter. Produces Propellium and Oxium.
