@@ -1,5 +1,24 @@
 # Rational Resources
 
+## 3.1.0
+* Added extra: `RationalResourcesOmniConverters`:
+  * Makes refineries and fuel cells use WBI Omniconverter module vs PAW spam.
+  * Includes resource volume fix for stock propellants and Classic Stock Resources.
+* Updated `RationalResourcesCompanion` (Classic Stock):
+  * Added Omniconverter recipe: Fizzy Boom. Produces Cider resource.
+  * Added Omniconverter recipe: Water Splitter. Produces Propellium and Oxium.
+  * Added Omniconverter recipe: Zeonium Splitter. Produces XenonGas and Metal.
+  * Added Sterling Systems template tags to Omniconverter recipes.
+  * Removed Zeonium from B9 subtypes injection. This is not a cryogen.
+* Updated `RationalResourcesNuclearFamily`:
+  * Removed Bluedog Design Bureau from opt-in. Conflicts with the affected engines' own B9 toggles.
+* Updated `RationalResourcesParts`:
+  * Added missing specular map to MISPLACED harvesters.
+  * Added CCK tags.
+* Updated `RationalResourcesParts` (Classic Stock Resources):
+  * Added missing CRP detection. Fixed major and fatal issues.
+  * Updated Gas Cache Tanks to become OmniStorage when CRP not installed.
+
 ## 3.0.4
 * Fixed unbalanced brackets in Far Frontiers support config.
 
