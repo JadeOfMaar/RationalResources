@@ -1,2 +1,4 @@
 # Rational Resources Omnistorage Tweaks
-This mod addresses a long standing issue of mine with Omnistorage (a fuel switch/tank partition plugin within Wild Blue Industries). It adjusts the `volume` keys of resource definitions (nearly all of the ones in the WBI mods and the stock propellants) to remove the savage tankage penalty that applies to them versus tanks that don't use the Omnistorage plugin. This would, by design, break the established balance of the existing Omnistorage tanks in the WBI mods themselves so this modlet is to forever be treated as optional. The creator of the WBI mods, @Angel-125, might even like this, but we'll see.
+This mod allows for compatible tanks to use the WBI OmniStorage module instead of B9PS. Currently this applies only to Ore tanks influenced by Rational Resources Companion but may extend to other tanks.
+
+It also seeks to (currently disabled and experimental) address the storage limit problems of the resources of Classic Stock (of the Wild Blue Industries mods).
