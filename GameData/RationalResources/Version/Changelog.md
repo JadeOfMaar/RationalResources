@@ -1,5 +1,8 @@
 # Rational Resources
 
+## 3.1.1
+* Removed mentions of Aurum resource. It caused unexpected problems for SSPXr users.
+
 ## 3.1.0
 * Added extra/empty folder toggle: `RationalResourcesOmniConverters`:
   * Makes refineries and fuel cells use WBI Omniconverter module vs PAW spam.
