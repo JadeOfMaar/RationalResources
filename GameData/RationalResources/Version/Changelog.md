@@ -1,5 +1,16 @@
 # Rational Resources
 
+## 3.1.2
+* Added/Updated detection of Classic Stock Resources vs Community Resource Pack in `RationalResourcesJetFamily`, `RationalResourcesNuclearFamily`.
+* Added System Heat integration for engines on Classic Stock Resources in `RationalResourcesNuclearFamily`.
+* Fixed texture path error with SolidFuel ramjet in the demo parts.
+* Fixed major issue with mass and volume of inline cryo tanks and inline gas cache tanks.
+* Fixed issues due to providing for Sterling Systems Kerbalism: Removed those things so they can be a modlet by themselves.
+* Fixed issues with engine detection in `RationalResourcesJetFamily`: 
+  * Should not care about engineID when ignoring multimode engines.
+  * Only respect ModuleEnginesFX and ignore other variants of this module.
+* Updated detection for Kerbal Star systems 2: Aethera system.
+
 ## 3.1.1
 * Removed mentions of Aurum resource. It caused unexpected problems for SSPXr users.
 
