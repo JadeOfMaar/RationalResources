@@ -1,5 +1,12 @@
 # Rational Resources
 
+## 3.1.3
+* Updated `RationalResourcesKerbalism`:
+  * Undid removal of stock fuel cell options.
+* Updated `RationalResourcesSquad`: 
+  * Fixed missing mesh name keys for the service tanks in Mk2 & Mk3 Expansion.
+  * Excluded service bays in Mk2 & Mk3 Expansion from getting tank options.
+
 ## 3.1.2
 * Added/Updated detection of Classic Stock Resources vs Community Resource Pack in `RationalResourcesJetFamily`, `RationalResourcesNuclearFamily`.
 * Added System Heat integration for engines on Classic Stock Resources in `RationalResourcesNuclearFamily`.
