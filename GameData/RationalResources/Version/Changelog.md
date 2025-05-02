@@ -1,5 +1,18 @@
 # Rational Resources
 
+## 3.2.0
+* Updated `RationalResources`:
+  * Added basic support for all intakes (so they will hold CRP's IntakeAtm or CSR's Atmosphere). Should have added this way back when CRP stopped placing resources.
+* Updated `RationalResourcesParts`:
+  * Added Configurable Containers support. Cannot be affected by B9PS so wrapper tank height variants are cosmetic only.
+  * Updated Main Coon NTJ to fit with RRNF overhaul below.
+  * Updated tanks to use System Heat Boiloff when System Heat installed.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added gas core NTR support;
+  * Added tweak config so player can choose to: Replace (or not) SH-specific reactor behavior with RR-specific reactor behavior. On by default.; Increase generator powers to make negines more usable as main reactors; Enable (or not) ThermalPower demand in the propellant options. Off by default due to dV calculator issues.
+  * Added known engines from mods: Kerbal Atomics; SpaceTux Recycled Parts: FTmN, FTmN Improved, LVN Clusters.
+  * Fully tested/developed Classic Stock Resources compatibility.
+
 ## 3.1.3
 * Updated `RationalResourcesKerbalism`:
   * Undid removal of stock fuel cell options.
