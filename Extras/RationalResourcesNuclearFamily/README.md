@@ -50,6 +50,45 @@ All affected engines which have a second engine mode are ensured to have Hydroge
 
 
 ## NTJ
-Rational Resources Nuclear Family operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm *(or Atmosphere)* + ThermalPower as its propellants. It is also given a stock converter module (the nuclear reactor) and capacity for EnrichedUranium + DepletedFuel *(or NuclearFuel + NuclearWaste)*.
+Rational Resources Nuclear Family operates on any atomic jet part that is given the tag `RRNTJ = Yes`. The part is changed to require IntakeAtm + ThermalPower *(or Atmosphere + CoreHeat)* as its propellants. It is also given a stock converter module (the nuclear reactor) and capacity for EnrichedUranium + DepletedFuel *(or NuclearFuel + NuclearWaste)*.
 
-This reactor is required for the production of the added propellant ThermalPower but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
+This reactor is required for the production of the added propellant ThermalPower *(or CoreHeat)* but will also produce ElectricCharge and serve as a useful secondary or tertiary power source.
+
+
+
+## Nerd Stuff
+
+The reactor configs added to parts in this mod are balanced as follows:
+- Reactor and generator capacities are scaled by [this engine's] thrust divided by 130 kN, the value given to the RR Main Coon demo nuclear turbojet.
+- Nuclear fuel capacity is scaled by [this engine's] mass divided by 1.8 tons, the value given to the RR Main Coon demo nuclear turbojet.
+- The difference (as a multplie) of [this engine's] Isp vs the baseline of 800 seconds is taken and applied to the ThermalPower ratios of the propellant options so that an engine with higher Isp asks for more ThermalPower, not less.
+- [This engine] is a gigawatt nuclear reactor so it must produce some thousands of ThermalPower per second but its own generator is very weak and will typically produce a few hundred ElectricCharge per second.
+- Every propellant option must require roughly 1/3 of the ThermalPower produced.
+
+
+The tables assume than an RR Fission Reactor (standard resource converter) produces 600 ThP/sec and each propellant asks for 200 ThP/sec:
+
+CRP:
+
+| Propellant | ThP ratio | Thrust multiplier | Isp |
+| -- | -- | -- | -- |
+| IntakeAtm | 113.153 | 1 | 1500 |
+| Hydrogen | 1.8527 | 1 | 800 |
+| Ammonia | 5.4644 | 1.68 | 400 |
+| Carbon Dioxide | 4.9787 | 2.18 | 283 |
+| Carbon Monoxide | 2.7567 | 2.37 | 253 |
+| Methane | 6.8545 | 1.23 | 606 |
+| Nitrogen | 2.8785 | 2.37 | 253 |
+| Water | 6.7948 | 1.78 | 370 |
+
+Classic Stock:
+
+| Propellant | ThP ratio | Thrust multiplier | Isp |
+| -- | -- | -- | -- |
+| Atmosphere | 113.153 | 1 | 1500 |
+| Propellium | 9.2574 | 1 | 800 |
+| Raptium | 34.2727 | 1.23 | 606 |
+| Water | 14.4598 | 1.78 | 370 |
+| Fresh Air | n/a | 2.37 | 253 |
+| CompressedAtmosphere | 21.2177 | 2.18 | 283 |
+| Stale Air | n/a | 2.18 | 283 |
