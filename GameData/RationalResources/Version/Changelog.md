@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 3.2.1
+* Updated `RationalResourcesParts`:
+  * Made System Heat Boiloff optional.
+  
 ## 3.2.0
 * Updated `RationalResources`:
   * Added basic support for all intakes (so they will hold CRP's IntakeAtm or CSR's Atmosphere). Should have added this way back when CRP stopped placing resources.
