@@ -66,7 +66,7 @@ The reactor configs added to parts in this mod are balanced as follows:
 - Every propellant option must require roughly 1/3 of the ThermalPower produced.
 
 
-The tables assume than an RR Fission Reactor (standard resource converter) produces 600 ThP/sec and each propellant asks for 200 ThP/sec:
+The tables assume an RR Fission Reactor (standard resource converter) produces 600 ThP/sec and each propellant asks for 200 ThP/sec:
 
 CRP:
 
