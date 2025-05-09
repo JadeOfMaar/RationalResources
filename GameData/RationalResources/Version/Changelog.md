@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 3.2.2
+* Updated `RationalResourcesCompanion`:
+  * Removed erroneous detection that hid FFT Orion pulse recipe from refineries.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed Atomic Age lightbulb not tagged as a gas core.
+
 ## 3.2.1
 * Updated `RationalResourcesParts`:
   * Made System Heat Boiloff optional.
