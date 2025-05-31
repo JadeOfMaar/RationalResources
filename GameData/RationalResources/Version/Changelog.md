@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 3.2.3
+* Updated `RationalResourcesKerbalism`:
+  * Restored (missing?) Minerals Splitter and ExoticMinerals Splitter recipe.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed engineID error with thermal nozzles.
+  * Ensured System Heat module wiring only interacts with Rational Resources' own instances and not instances of those modules placed by other patches.
+  * Re-added Sterling Engines. (Finally made up my mind with this one.)
+
 ## 3.2.2
 * Updated `RationalResourcesCompanion`:
   * Removed erroneous detection that hid FFT Orion pulse recipe from refineries.
