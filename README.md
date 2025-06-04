@@ -73,3 +73,8 @@ Easy and full compatibility is granted between a configured planet pack and the 
 * Near Future Tech suite
 * Cryogenic Engines
 * Kerbal Atomics
+
+Compatibility and customizability are further provided through the following ModuleManager passes:
+- `:FOR[RationalResourcesTemplateCustom]`. This will cause the built-in templates for Community Resource Pack and Classic Stock Resources to not load, allowing for another resource mod's templates to be applied onto planets.
+- `:FOR[RationalResourcesNoCRP]`. This will cause the built-in templates and ISRU integrations concerning Community Resource Pack to not run. It will activate the ISRU integrations for Classic Stock Resources.
+- `:FOR[RationalResourcesAU]`. This will cause Rational Resources to not attempt to place resources on the stock planets (including Sun). This is for use by system replacer planet packs.

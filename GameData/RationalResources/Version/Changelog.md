@@ -1,5 +1,121 @@
 # Rational Resources
 
+## 3.2.3
+* Updated `RationalResourcesKerbalism`:
+  * Restored (missing?) Minerals Splitter and ExoticMinerals Splitter recipe.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed engineID error with thermal nozzles.
+  * Ensured System Heat module wiring only interacts with Rational Resources' own instances and not instances of those modules placed by other patches.
+  * Re-added Sterling Engines. (Finally made up my mind with this one.)
+
+## 3.2.2
+* Updated `RationalResourcesCompanion`:
+  * Removed erroneous detection that hid FFT Orion pulse recipe from refineries.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed Atomic Age lightbulb not tagged as a gas core.
+
+## 3.2.1
+* Updated `RationalResourcesParts`:
+  * Made System Heat Boiloff optional.
+  
+## 3.2.0
+* Updated `RationalResources`:
+  * Added basic support for all intakes (so they will hold CRP's IntakeAtm or CSR's Atmosphere). Should have added this way back when CRP stopped placing resources.
+* Updated `RationalResourcesParts`:
+  * Added Configurable Containers support. Cannot be affected by B9PS so wrapper tank height variants are cosmetic only.
+  * Updated Main Coon NTJ to fit with RRNF overhaul below.
+  * Updated tanks to use System Heat Boiloff when System Heat installed.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added gas core NTR support;
+  * Added tweak config so player can choose to: Replace (or not) SH-specific reactor behavior with RR-specific reactor behavior. On by default.; Increase generator powers to make negines more usable as main reactors; Enable (or not) ThermalPower demand in the propellant options. Off by default due to dV calculator issues.
+  * Added known engines from mods: Kerbal Atomics; SpaceTux Recycled Parts: FTmN, FTmN Improved, LVN Clusters.
+  * Fully tested/developed Classic Stock Resources compatibility.
+
+## 3.1.3
+* Updated `RationalResourcesKerbalism`:
+  * Undid removal of stock fuel cell options.
+* Updated `RationalResourcesSquad`: 
+  * Fixed missing mesh name keys for the service tanks in Mk2 & Mk3 Expansion.
+  * Excluded service bays in Mk2 & Mk3 Expansion from getting tank options.
+
+## 3.1.2
+* Added/Updated detection of Classic Stock Resources vs Community Resource Pack in `RationalResourcesJetFamily`, `RationalResourcesNuclearFamily`.
+* Added System Heat integration for engines on Classic Stock Resources in `RationalResourcesNuclearFamily`.
+* Fixed texture path error with SolidFuel ramjet in the demo parts.
+* Fixed major issue with mass and volume of inline cryo tanks and inline gas cache tanks.
+* Fixed issues due to providing for Sterling Systems Kerbalism: Removed those things so they can be a modlet by themselves.
+* Fixed issues with engine detection in `RationalResourcesJetFamily`: 
+  * Should not care about engineID when ignoring multimode engines.
+  * Only respect ModuleEnginesFX and ignore other variants of this module.
+* Updated detection for Kerbal Star systems 2: Aethera system.
+
+## 3.1.1
+* Removed mentions of Aurum resource. It caused unexpected problems for SSPXr users.
+
+## 3.1.0
+* Added extra/empty folder toggle: `RationalResourcesOmniConverters`:
+  * Makes refineries and fuel cells use WBI Omniconverter module vs PAW spam.
+* Updated `RationalResourcesCompanion` (Classic Stock):
+  * Added Omniconverter recipe: Fizzy Boom. Produces Cider resource.
+  * Added Omniconverter recipe: Water Splitter. Produces Propellium and Oxium.
+  * Added Omniconverter recipe: Zeonium Splitter. Produces XenonGas and Metal.
+  * Added Sterling Systems template tags to Omniconverter recipes.
+  * Removed Zeonium from B9 subtypes injection. This is not a cryogen.
+* Updated `RationalResourcesNuclearFamily`:
+  * Removed Bluedog Design Bureau from opt-in. Conflicts with the affected engines' own B9 toggles.
+* Updated `RationalResourcesParts`:
+  * Added missing specular map to MISPLACED harvesters.
+  * Added CCK tags.
+* Updated `RationalResourcesParts` (Classic Stock Resources):
+  * Added missing CRP detection. Fixed major and fatal issues.
+  * Updated Gas Cache Tanks to become OmniStorage when CRP not installed.
+
+## 3.0.4
+* Fixed unbalanced brackets in Far Frontiers support config.
+
+## 3.0.3
+* Updated RationalResources:
+  * Added Far Frontiers support. (Authored by 3rd party.)
+* Updated RationalResourcesCompanion, RationalResourcesKerbalism:
+  * Added recipe for FFT Orion's pulse units.
+  * Added recipe ExoticMinerals Splitter. Outputs are of value to certain other mods.
+  * Added recipe Minerals Splitter. 
+
+## 3.0.2
+* Removed 000_RationalResources:
+  * Restored things as they were before.
+  * Introduced `:FOR[RationalResourcesTemplateCustom]`. Modders can use this to preclude all built-in templates so only their own will apply to planets.
+  * Introduced `:FOR[RationalResourcesNoCRP]`. Modders can use this to preclude just the CRP templates and the CRP functions in RationalResourcesCompanion. Classic Stock functions in RationalResourcesCompanion are now inactive without it.
+  * Introduced `:FOR[RationalResourcesAU]`. This will cause RationalResources to not attempt to apply resources to the stock planets. This is useful for system replacers, especially the re-skin kind like JNSQ or Techo's stock overhaul. (This was always around, though somewhat unused.)
+  * Introduced TemplateTag key in the resource placement configs. Modders may find it useful to be able to target these configs by their associated resource library.
+
+## 3.0.1
+* Updated 000_RationalResources:
+  * Removed non-optional folder to make less for the player to need to remember.
+* Updated RationalResourcesNuclearFamily:
+  * Fixed missing engineID issue with single-mode nukjet engines.
+
+## 3.0.0
+* Created `000_RationalResources`. Split resource templates out of `RationalResources` folder and took a new approach to play modes. Allows for modders to easily change what the temapltes contain and are applied to planets.
+* Created extra, `RationalResourcesSandcastle`. Still experimental. Classic Stock not yet fully supported.
+  * Removed placeholder config from `RationalResourcesELUtilities`.
+* Updated RationalResources:
+  * Added asteroid and comet resource configs.
+  * Added asteroid and comet analysis module to RR Ground Scanner.
+  * Fixed tank ratio for D+3He.
+* Updated RationalResourcesCompanion:
+  * Added Sterling Systems refinery tags to Omniconverter recipe configs.
+  * Updated Monazite Splitter process. Added Thorium to outputs.
+  * Updated processes that output Deuterium to dump Hydrogen when Deuterium is wanted more than Hydrogen.
+* Updated RationalResourcesNuclearFamily:
+  * Added System Heat compatibility.
+  * Fixed errors with thermal nozzles patch. Methane mode targeted wrong mode of dual mode engines and there was a very large inconsistency with air-breathing mode. Thanks @Velcroish
+* Updated RationalResourcesParts:
+  * Added missing Deuterium to gas tank options.
+  * Removed deploy/retract step for exo scoops since they do not animate.
+* Updated RationalResourcesSquad:
+  * Disabled Structural subtype on request (hopefully). Tanks should now always hold the original fuel mix.
+
 ## 2.0.7.1
 * Updated RationalResources:
   * Added ExoticMinerals option to Ore tanks.
