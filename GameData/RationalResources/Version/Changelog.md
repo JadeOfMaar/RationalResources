@@ -1,5 +1,17 @@
 # Rational Resources
 
+## 3.3.0
+* Updated `RationalResources`:
+  * Added and sorted/renamed gas tank types for RR gas tanks.
+  * Fixed previous storage density problems with gas tanks.
+* Updated `RationalResourcesCompanion`:
+  * Fixed actually terribly bugged recipe for FFT Orion Pulses.
+  * Removed old config that was no longer needed but excessively de-powered stock 1.25m refinery. It should now be 4x what it erroneously was.
+  * Updated boxed ISRU, nerfed power scaling to better fit 2.5m stock refinery.
+* Updated `RationalResourcesParts`:
+  * Fixed dry masses of gas and cryo tanks. (Finally??? I really hope so.) They now compare very well with Procedural Parts' gas tank.
+  * Updated boxed ISRU, added missing mass to boxed ISRU to better fit/compare with 2.5m stock refinery.
+
 ## 3.2.3
 * Updated `RationalResourcesKerbalism`:
   * Restored (missing?) Minerals Splitter and ExoticMinerals Splitter recipe.
