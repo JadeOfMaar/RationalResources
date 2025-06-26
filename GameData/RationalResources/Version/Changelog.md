@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 3.3.1
+* Updated `RationalResources`:
+  * Added missing buff to Methane (gas) storage density.
+* Updated `RationalResourcesCompanion, RationalResourcesSSPXRTanks`:
+  * Fixed broken Ore tank config due to renaming gas tank types.
+
 ## 3.3.0
 * Updated `RationalResources`:
   * Added and sorted/renamed gas tank types for RR gas tanks.
