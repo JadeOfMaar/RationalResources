@@ -1,5 +1,13 @@
 # Rational Resources
 
+## 3.3.2
+* Updated `RationalResources`:
+  * Adjusted Xenon storage density. It seemed excessive.
+* Updated `RationalResourcesCompanion`:
+  * Fixed broken configs for Argon and Xenon (primarily affecting NF Propulsion installs) due to renaming gas tank types.
+* Updated `RationalResourcesParts`:
+  * Added Argon and Xenon to gas tanks.
+  
 ## 3.3.1
 * Updated `RationalResources`:
   * Added missing buff to Methane (gas) storage density.
