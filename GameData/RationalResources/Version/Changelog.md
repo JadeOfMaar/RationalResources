@@ -1,5 +1,62 @@
 # Rational Resources
 
+## 3.3.2
+* Updated `RationalResources`:
+  * Adjusted Xenon storage density. It seemed excessive.
+* Updated `RationalResourcesCompanion`:
+  * Fixed broken configs for Argon and Xenon (primarily affecting NF Propulsion installs) due to renaming gas tank types.
+* Updated `RationalResourcesParts`:
+  * Added Argon and Xenon to gas tanks.
+  
+## 3.3.1
+* Updated `RationalResources`:
+  * Added missing buff to Methane (gas) storage density.
+* Updated `RationalResourcesCompanion, RationalResourcesSSPXRTanks`:
+  * Fixed broken Ore tank config due to renaming gas tank types.
+
+## 3.3.0
+* Updated `RationalResources`:
+  * Added and sorted/renamed gas tank types for RR gas tanks.
+  * Fixed previous storage density problems with gas tanks.
+* Updated `RationalResourcesCompanion`:
+  * Fixed actually terribly bugged recipe for FFT Orion Pulses.
+  * Removed old config that was no longer needed but excessively de-powered stock 1.25m refinery. It should now be 4x what it erroneously was.
+  * Updated boxed ISRU, nerfed power scaling to better fit 2.5m stock refinery.
+* Updated `RationalResourcesParts`:
+  * Fixed dry masses of gas and cryo tanks. (Finally??? I really hope so.) They now compare very well with Procedural Parts' gas tank.
+  * Updated boxed ISRU, added missing mass to boxed ISRU to better fit/compare with 2.5m stock refinery.
+
+## 3.2.3
+* Updated `RationalResourcesKerbalism`:
+  * Restored (missing?) Minerals Splitter and ExoticMinerals Splitter recipe.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed engineID error with thermal nozzles.
+  * Ensured System Heat module wiring only interacts with Rational Resources' own instances and not instances of those modules placed by other patches.
+  * Re-added Sterling Engines. (Finally made up my mind with this one.)
+
+## 3.2.2
+* Updated `RationalResourcesCompanion`:
+  * Removed erroneous detection that hid FFT Orion pulse recipe from refineries.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed Atomic Age lightbulb not tagged as a gas core.
+
+## 3.2.1
+* Updated `RationalResourcesParts`:
+  * Made System Heat Boiloff optional.
+  
+## 3.2.0
+* Updated `RationalResources`:
+  * Added basic support for all intakes (so they will hold CRP's IntakeAtm or CSR's Atmosphere). Should have added this way back when CRP stopped placing resources.
+* Updated `RationalResourcesParts`:
+  * Added Configurable Containers support. Cannot be affected by B9PS so wrapper tank height variants are cosmetic only.
+  * Updated Main Coon NTJ to fit with RRNF overhaul below.
+  * Updated tanks to use System Heat Boiloff when System Heat installed.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added gas core NTR support;
+  * Added tweak config so player can choose to: Replace (or not) SH-specific reactor behavior with RR-specific reactor behavior. On by default.; Increase generator powers to make negines more usable as main reactors; Enable (or not) ThermalPower demand in the propellant options. Off by default due to dV calculator issues.
+  * Added known engines from mods: Kerbal Atomics; SpaceTux Recycled Parts: FTmN, FTmN Improved, LVN Clusters.
+  * Fully tested/developed Classic Stock Resources compatibility.
+
 ## 3.1.3
 * Updated `RationalResourcesKerbalism`:
   * Undid removal of stock fuel cell options.
