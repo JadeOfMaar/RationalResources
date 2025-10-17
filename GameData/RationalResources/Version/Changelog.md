@@ -1,5 +1,27 @@
 # Rational Resources
 
+## 3.4
+* Updated `RationalResources`:
+  * Added EL ScrapMetal resource and fixed density and cost of EL Metal.
+* Updated `RationalResourcesCompanion`:
+  * Added Omniconverter recipe for RocketParts production.
+  * Added System Heat boiloff config for Procedural Parts.
+  * Fixed edge case issue of duplicate LqdMethane tank option for Procedural Parts (+ SMURFF + CryoTanks).
+* Updated `RationalResourcesKerbalism`:
+  * Added missing Uraninite SETUP node. The lack of this caused drills to break.
+  * Added tag for RR Chill-O-Tron to receive heater slots.
+  * Adjusted balancing for crustal drills and atmo scoops. Lowered minimum required resource abundance and scaled throughput by 10x.
+  * Adjusted balancing for exo scoops. Scaled throughput by 10x. Added missing resource options.
+  * Adjusted balancing for ocean pumps. Lowered minimum required resource abundance and scaled efficiency by 100x.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added Fusion Family. Engines opted in can use B9PS to accept increasing ratios of Hydrogen or Water and trade Isp and waste heat for thrust.
+  * Added condition: solid core rockets and thermal nozzles don't ask for ThermalPower when System Heat installed.
+  * Changed gas core rockets to hold 3x EnrU and always sip on EnrU. The mass flow should be constant across propellant selection.
+  * Changed solid core rockets and thermal nozzles to remove heat, not add it.
+  * Fixed thermal nozzles ignoring the Require ThermalPower toggle.
+  * Fixed thermal nozzles thrust curves following the propellant fill rate.
+  * Revised formulas and heat curves for System Heat engines.
+
 ## 3.3.2
 * Updated `RationalResources`:
   * Adjusted Xenon storage density. It seemed excessive.
