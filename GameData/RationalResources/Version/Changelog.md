@@ -4,9 +4,12 @@
 * Updated `RationalResources`:
   * Added EL ScrapMetal resource and fixed density and cost of EL Metal.
 * Updated `RationalResourcesCompanion`:
-  * Added Omniconverter recipe for RocketParts production.
+  * Added Fluorine tank options.
   * Added System Heat boiloff config for Procedural Parts.
+  * Added Omniconverter recipe for RocketParts production.
   * Fixed edge case issue of duplicate LqdMethane tank option for Procedural Parts (+ SMURFF + CryoTanks).
+  * Made stock drills always have MetalOre option.
+  * Moved MetalOre resource placement to Template Agnostic.
 * Updated `RationalResourcesKerbalism`:
   * Added missing Uraninite SETUP node. The lack of this caused drills to break.
   * Added tag for RR Chill-O-Tron to receive heater slots.
