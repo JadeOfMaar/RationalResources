@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 3.4.1
+* Updated `RationalResourcesCompanion`:
+  * Fixed broken tank type links (CarbonMonoxide, Fluorine).
+* Updated `RationalResourcesNuclearFamily`:
+  * Changed propellant flow mode in all configs. Apparently it did not respect decouplers and should do so now.
+* Updated `RationalResourcesParts`:
+  * Fixed broken Fluorine tank type link.
+* Updated `RationalResourcesSquad`:
+  * Fixed broken Fluorine tank type link.
+
 ## 3.4
 * Updated `RationalResources`:
   * Added EL ScrapMetal resource and fixed density and cost of EL Metal.
