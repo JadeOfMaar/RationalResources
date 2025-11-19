@@ -4,6 +4,8 @@
 * Updated `RationalResources`:
   * Added EL ScrapMetal resource and fixed density and cost of EL Metal.
 * Updated `RationalResourcesCompanion`:
+  * Added config from forum user jcxl233: Configurable Containers
+  * Added config from forum user jcxl233: USI WOLF LqdOxygen to Oxygen conversion.
   * Added Fluorine tank options.
   * Added System Heat boiloff config for Procedural Parts.
   * Added Omniconverter recipe for RocketParts production.
