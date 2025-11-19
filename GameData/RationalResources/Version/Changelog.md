@@ -10,6 +10,7 @@
   * Fixed edge case issue of duplicate LqdMethane tank option for Procedural Parts (+ SMURFF + CryoTanks).
   * Made stock drills always have MetalOre option.
   * Moved MetalOre resource placement to Template Agnostic.
+  * Updated resource flow modes in OmniConverter recipes. Apparently they did not respect crossfeed and should do so now.
 * Updated `RationalResourcesKerbalism`:
   * Added missing Uraninite SETUP node. The lack of this caused drills to break.
   * Added tag for RR Chill-O-Tron to receive heater slots.
@@ -17,7 +18,7 @@
   * Adjusted balancing for exo scoops. Scaled throughput by 10x. Added missing resource options.
   * Adjusted balancing for ocean pumps. Lowered minimum required resource abundance and scaled efficiency by 100x.
 * Updated `RationalResourcesNuclearFamily`:
-  * Added Fusion Family. Engines opted in can use B9PS to accept increasing ratios of Hydrogen or Water and trade Isp and waste heat for thrust.
+  * Added Plasma Family. Fusion engines opted in can use B9PS to accept increasing ratios of Hydrogen or Water and trade Isp and waste heat for thrust.
   * Added condition: solid core rockets and thermal nozzles don't ask for ThermalPower when System Heat installed.
   * Changed gas core rockets to hold 3x EnrU and always sip on EnrU. The mass flow should be constant across propellant selection.
   * Changed solid core rockets and thermal nozzles to remove heat, not add it.
