@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 3.4.2
+* Updated `RationalResourcesCompanion`:
+  * Fixed broken CryoHF2 tank type link. This should have popped up for fixing for 3.4.1.
+
 ## 3.4.1
 * Updated `RationalResourcesCompanion`:
   * Fixed broken tank type links (CarbonMonoxide, Fluorine).
