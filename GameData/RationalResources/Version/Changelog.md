@@ -1,5 +1,35 @@
 # Rational Resources
 
+## 3.5
+* Updated `RationalResources`:
+  * Added Ammonialox tank types.
+  * Added Fluorine and Fluorine-related tank types.
+  * Fixed to biomes config for FFT + JNSQ He-3 placment. Thanks to user @Louis Bach.
+  * Nerfed Hydrogen storage density. It has been 2x what it would be in CryoTanks.
+  * Updated detections from WildBlueTools to WBIResources.
+* Updated `RationalResourcesBlacksmith`:
+  * Blacksmith converters now have 100% unmanned efficiency and 125% efficiency with 5 star kerbals.
+  * Blacksmith converters do not overflow when producing RR Work.
+* Updated `RationalResourcesCompanion`:
+  * Added missing Glykerol production recipe (Omniconverter).
+  * Fixed error in name of NFE nuclear recycler. Thanks to user @Louis Bach.
+  * Updated resource name and ratios for (WBI) ElectroPlasma.
+* Updated `RationalResourcesNuclearFamily`:
+  * Adjusted afterburner ratios.
+  * Fixed "Always LFO" condition with 2nd mode of LANTRs. Made it Hydrolox by default and added bi-propellant options to other propellants where applicable.
+  * Fixed Isp scaling in plasma family engines. They are no longer excessively nerfed.
+  * Made MCF engines in plasma family keep their original stats in 4th gear and in 1st gear, have 1/4 thrust, 4x Isp and 4x waste heat.
+  * Updated Restock+ Cherenkov opt-in to not run if Kerbal Atomics' Other Mod Support installed.
+* Updated `RationalResourcesParts`:
+  * Added Fluorine engines.
+  * Added Waterfall configs for 'Main Coon' thermal jet and the NERV clones.
+  * Allowed in-flight switching on the Chill-O-Tron.
+  * Changed 'Main Coon' thermal turbojet to remove heat (as a thermal nozzle) rather than produce heat.
+  * Fixed CoM offset issue haunting the giant exoscoop. It was a model bug.
+* Updated `RationalResourcesSquad`:
+  * Made MonoPropellant pre-selected (B9PS) in tanks that are found as MonoPropellant.
+
+
 ## 3.4.2
 * Updated `RationalResourcesCompanion`:
   * Fixed broken CryoHF2 tank type link. This should have popped up for fixing for 3.4.1.
