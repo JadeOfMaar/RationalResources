@@ -1,9 +1,23 @@
 # Rational Resources
 
+## 3.6
+* Updated `RationalResources`:
+  * Added Sol (by ballisticfox) support.
+  * Added templates: SrfSnowball, SrfIceNitroCarbon, ExoIceC.
+  * Renamed and updated some templates.
+* Updated `RationalResourcesELUtilities`:
+  * Fixed EL resource link UDMHNTO.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added detection for System Heat Fission Engines (Resolve conflict situation).
+* Updated `RationalResourcesParts`:
+  * Made SolidFuel Ramjet conditionally not appear. It causes fatal B9PS issue with the Chemical Propulsion mod.
+  * Separated fuel switch (of the Fluorine engines) into its own config and added detection for Chemical Propulsion so that mod can cleanly patch them if it wants.
+
+
 ## 3.5
 * Updated `RationalResources`:
   * Added Ammonialox tank types.
-  * Added Fluorine and Fluorine-related tank types.
+  * Added Fluorine and Fluorine-related tank types. With much motivation from user @DareMightyThingsJPL.
   * Fixed to biomes config for FFT + JNSQ He-3 placment. Thanks to user @Louis Bach.
   * Nerfed Hydrogen storage density. It has been 2x what it would be in CryoTanks.
   * Updated detections from WildBlueTools to WBIResources.
