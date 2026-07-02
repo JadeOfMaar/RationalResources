@@ -1,5 +1,18 @@
 # Rational Resources
 
+## 3.6.1
+* Updated `RationalResources`:
+  * Made tank types have non-zero mass and cost. This fixes a Methane specific problem.
+* Updated `RationalResourcesELUtilities`:
+  * Fixed ScrapMetal recycle imbalance
+* Updated `RationalResourcesCompanion`:
+  * Recalibrate Water Splitter and Hydrolox recipes.
+* Updated `RationalResourcesKerbalism`:
+  * Recalibrate Water Splitter and Hydrolox recipes.
+  * Added missing virtual resource for Methane Splitter process.
+* Updated `RationalResourcesParts`:
+  * Lowered LqdFluorine boiloff temperature.
+
 ## 3.6
 * Updated `RationalResources`:
   * Added Sol (by ballisticfox) support.
