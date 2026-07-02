@@ -4,7 +4,7 @@
 * Updated `RationalResources`:
   * Made tank types have non-zero mass and cost. This fixes a Methane specific problem.
 * Updated `RationalResourcesELUtilities`:
-  * Fixed ScrapMetal recycle imbalance
+  * Fixed ScrapMetal recycle imbalance.
 * Updated `RationalResourcesCompanion`:
   * Recalibrate Water Splitter and Hydrolox recipes.
 * Updated `RationalResourcesKerbalism`:
