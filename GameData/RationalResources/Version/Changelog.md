@@ -1,5 +1,41 @@
 # Rational Resources
 
+## 3.7
+* Updated `RationalResources`:
+  * Added Ethanol tank types.
+  * Made tank types have non-zero mass and cost. This fixes a Methane specific problem.
+* Updated `RationalResourcesELUtilities`:
+  * Fixed ScrapMetal recycle imbalance.
+* Updated `RationalResourcesCompanion`:
+  * Added/Revised fuel cell recipes: Hydrogen, Methane, Ammonia, Carbon Monoxide, Ethanol.
+  * Removed Hydrolox recipe and gave its emphasis to the Water Splitter recipe.
+  * Updated fuel cell recipes based on the logic of the EL fuel cell buff.
+  * Recalibrated all recipes.
+  * Recalibrated - As much as possible, all resources that would be cryo are liquid and none should remain as gaseous.
+  * Recalibrated - Fixed ElectricCharge demands and rendered some sort of normalization on mass flows. 
+  * Recalibrated - Stock Oxidizer is now fully treated as HTP. Removed recipes for freeze/thaw Oxidizer, MMH C.
+* Updated `RationalResourcesKerbalism`:
+  * Added Methalox recipe.
+  * Added freeze and thaw recipes for Deuterium and Fluorine.
+  * Added fuel cell recipes: Hydrogen, Methane, Ammonia, Carbon Monoxide, Ethanol.
+  * Added missing virtual resource for Methane Splitter process.
+  * Removed Hydrolox recipe and gave its emphasis to the Water Splitter recipe.
+  * Recalibrated all recipes:
+  * Recalibrated - As much as possible, all input resources that would be cryo are liquid and all output resources that could be cryo are gaseous. This means more use for phase changer ISRU like the Chill-O-Tron.
+  * Recalibrated - Fixed ElectricCharge demands and rendered some sort of normalization on mass flows. 
+  * Recalibrated - Stock Oxidizer is now fully treated as HTP. Removed recipes for freeze/thaw Oxidizer, MMH C.
+* Updated `RationalResourcesNuclearFamily`:
+  * Added Sterling Systems' thermal nozzle aerospikes.
+  * Added Thermal Nozzle RCS handling.
+  * Updated patch timings and detection of CRP vs Classic Stock.
+* Updated `RationalResourcesParts`:
+  * Added freeze and thaw recipes for Deuterium and Fluorine.
+  * Lowered LqdFluorine boiloff temperature.
+  * Stock Oxidizer is now fully treated as HTP. Removed recipes for freeze/thaw Oxidizer.
+* Updated `RationalResourcesSquad`:
+  * Added patch that adds apparently missing fusion pellets selection to FFT fusion fuel tanks.
+  
+
 ## 3.6
 * Updated `RationalResources`:
   * Added Sol (by ballisticfox) support.
