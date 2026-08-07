@@ -27,6 +27,7 @@
 * Updated `RationalResourcesNuclearFamily`:
   * Added Sterling Systems' thermal nozzle aerospikes.
   * Added Thermal Nozzle RCS handling.
+  * Updated patch timings and detection of CRP vs Classic Stock.
 * Updated `RationalResourcesParts`:
   * Added freeze and thaw recipes for Deuterium and Fluorine.
   * Lowered LqdFluorine boiloff temperature.
