@@ -1,5 +1,32 @@
 # Rational Resources
 
+## 3.8
+**Chemical Technologies support**
+
+* Deprecated `RationalResourcesAluminium`.
+* Updated `RationalResources`:
+  * Added (USI) Chemicals tank type. This resource is now used as a major input in SolidFuel and similar kinds of resources.
+  * Fixed precision on Ethanol fuel ratio.
+* Updated `RationalResourcesCompanion`:
+  * Added missing Fluorine options for Procedural Parts.
+  * Added Chemicals recipe.
+  * Added Chem Tech detection to Methalox, NTO, Water Splitter.
+  * Added Chem Tech detection: If these mods are installed, production for LF, LFO and MonoProp will disappear.
+  * Added Chem Tech recipes: Aniline, Diborane, IWNFA, N2F4, Pentaborane.
+  * Disabled Kerosene production.
+  * Revised ExoticMinerals, Minerals, Ore, Spodumene Splitter recipes. Boron output has been moved, not removed.
+  * Removed RR Aluminium detection and distinctions.
+  * Removed RareMetals as an output.
+  * Fixed MM patch timings. (Can't have :NEEDS + :FOR and expect the :NEEDS to work.)
+* Updated `RationalResourcesKerbalism`:
+  * Paralleled the changes to `RationalResourcesCompanion`. (As many as are applicable.)
+* Updated `RationalResourcesParts`:
+  * CRP: Show Fluorine gauge on FOOF engines in flight.
+  * CSR: Create FumingButterscotch resource, Omniconverter recipe and fuel mixes for FOOF engines.
+* Updated `RationalResourcesSquad`:
+  * CSR: Adjusted some B9 fuel storage densities and resource colors.
+  * CRP: Added missing catch-all boiloff config. Ensured all mod tanks that have the boiloff module(s) get boiloff config for added resources.
+
 ## 3.7
 * Updated `RationalResources`:
   * Added Ethanol tank types.
