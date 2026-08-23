@@ -1,5 +1,15 @@
 # Rational Resources
 
+## 3.8.1
+* Updated `RationalResourcesCompanion`:
+  * Aded missed change to MaterialKits recipe.
+* Updated `RationalResourcesKerbalism`:
+  * Aded missed change to MaterialKits recipe.
+  * Fixed fatal errors. Hopefully.
+  * Semantic changes to recipes.
+* Updated `RationalResourcesNuclearFamily`:
+  * Fixed missing patch timing that caused missing module problem for gear-shifting fusion engines.
+
 ## 3.8
 **Chemical Technologies support**
 
