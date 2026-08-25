@@ -1,5 +1,10 @@
 # Rational Resources
 
+## 3.8.2
+* Updated `RationalResourcesKerbalism`:
+  * Added missing Deuterium and Fluorine Heater.
+  * Fixed broken Deuterium Frezzer.
+
 ## 3.8.1
 * Updated `RationalResourcesCompanion`:
   * Aded missed change to MaterialKits recipe.
