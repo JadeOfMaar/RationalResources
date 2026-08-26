@@ -1,5 +1,9 @@
 # Rational Resources
 
+## 3.8.3
+* Updated `RationalResourcesCompanion`:
+  * Fixed fuel cell patch errors.
+  
 ## 3.8.2
 * Updated `RationalResourcesKerbalism`:
   * Added missing Deuterium and Fluorine Heater.
