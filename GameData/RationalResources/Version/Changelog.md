@@ -1,5 +1,11 @@
 # Rational Resources
 
+## 3.8.4
+* Updated `RationalResourcesParts`:
+  * Changed FOOF engines mount size selection to depend on stack node used, not B9PS. Minor aesthetic upset may happen to craft files.
+  * Fixed FOOF engines Waterfall config.
+  * Updated FOOF engines throttle emissive to match.
+
 ## 3.8.3
 * Updated `RationalResourcesCompanion`:
   * Fixed fuel cell patch errors.
