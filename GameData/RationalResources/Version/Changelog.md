@@ -9,7 +9,6 @@
 * Updated `RationalResourcesNuclearFamily`:
   * Fixed thermal nozzles not patching after patch timing update in earlier release.
   * Set ThermalPower requirement to on by default in `01_Tweak_NuclearFamily.cfg`
-  
 * Updated `RationalResourcesKerbalism`:
   * Updated Beryllium stats.
   * Updated Beryllium ratio in ExoticMinerals Splitter recipe.
