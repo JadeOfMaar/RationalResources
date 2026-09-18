@@ -1,5 +1,17 @@
 # Rational Resources
 
+## 3.8.5
+* Updated `RationalResources`:
+  * Added Boron tank type.
+* Updated `RationalResourcesCompanion`:
+  * Sorted Ore tank subtypes alphabetically.
+* Updated `RationalResourcesNuclearFamily`:
+  * Updated Beryllium ratio in ExoticMinerals Splitter.
+* Updated `RationalResourcesKerbalism`:
+  * Updated Beryllium stats.
+  * Updated Beryllium ratio in ExoticMinerals Splitter recipe.
+  * Fixed big typo in Minerals input in Material Kitting recipe.
+  
 ## 3.8.4
 * Updated `RationalResourcesParts`:
   * Changed FOOF engines mount size selection to depend on stack node used, not B9PS. Minor aesthetic upset may happen to craft files.
